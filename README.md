@@ -4,7 +4,7 @@ Réplique frontend locale du site [Veepee](https://www.veepee.fr/), avec donnée
 
 ## Prérequis
 
-- Node.js 18+ (recommandé : 20 ou 24)
+- Node.js 18.18+（推荐使用 24；仓库已提供 `.nvmrc` / `.node-version`）
 - npm
 
 ## Installation
@@ -20,6 +20,16 @@ npm run dev
 ```
 
 Ouvrir [http://localhost:3000](http://localhost:3000) — redirection automatique vers `/gr/home`.
+
+### 如果你看到 `Unexpected token '??='`
+
+说明你正在用 **Node 14**（或过低版本）启动 Next.js 16。请先切到 Node 24 再启动：
+
+```bash
+eval "$(fnm env)"
+fnm use 24.13.0
+npm run dev
+```
 
 ## Compte démo
 
