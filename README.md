@@ -81,6 +81,10 @@ Si une image locale manque, repli automatique vers `/mock/image` (SVG).
 
 Les bannières mock SVG restent disponibles via `/mock/image` en secours.
 
+## 演示操作文档
+
+中文演示与验收步骤见 **[docs/DEMO.md](./docs/DEMO.md)**（账号、推荐流程、Sale Room 加购、常见问题）。
+
 ## Parcours de test
 
 1. Visiter `/gr/home` en invité → 1 vente visible, le reste flouté
