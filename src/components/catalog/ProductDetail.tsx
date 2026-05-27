@@ -42,8 +42,8 @@ export function ProductDetail({ productId, category }: ProductDetailProps) {
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8">
-      <nav className="mb-6 text-sm text-veepee-muted">
+    <div className="mx-auto max-w-6xl px-6 py-10">
+      <nav className="mb-6 text-xs text-veepee-muted">
         <Link href={`/gr/h/${category}`} className="hover:text-veepee-pink">
           {category.charAt(0).toUpperCase() + category.slice(1)}
         </Link>
@@ -70,7 +70,7 @@ export function ProductDetail({ productId, category }: ProductDetailProps) {
           </p>
           <h1 className="mt-2 text-2xl font-bold md:text-3xl">{product.title}</h1>
 
-          <div className="mt-4 flex items-baseline gap-3">
+          <div className="mt-4 flex flex-wrap items-baseline gap-3">
             <span className="text-2xl font-bold">{formatPrice(product.price)}</span>
             <span className="text-lg text-veepee-muted line-through">
               {formatPrice(product.originalPrice)}
@@ -126,26 +126,28 @@ export function ProductDetail({ productId, category }: ProductDetailProps) {
 
           <p className="mt-4 text-sm text-orange-600">Plus que quelques articles disponibles</p>
 
-          <button
-            type="button"
-            onClick={handleAddToCart}
-            className="mt-6 w-full bg-veepee-pink py-4 text-sm font-semibold text-white hover:opacity-90 md:w-auto md:px-12"
-          >
-            Ajouter au panier
-          </button>
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <button
+              type="button"
+              onClick={handleAddToCart}
+              className="bg-veepee-pink px-10 py-4 text-sm font-semibold text-white hover:opacity-90"
+            >
+              Ajouter au panier
+            </button>
+            <button
+              type="button"
+              onClick={() => router.push("/gr/cart")}
+              className="text-sm font-medium text-veepee-pink hover:underline"
+            >
+              Voir le panier
+            </button>
+          </div>
 
-          <button
-            type="button"
-            onClick={() => router.push("/gr/cart")}
-            className="mt-3 block text-sm font-medium text-veepee-pink hover:underline"
-          >
-            Voir le panier
-          </button>
         </div>
       </div>
 
       {showToast && (
-        <div className="fixed bottom-24 left-1/2 z-50 -translate-x-1/2 rounded-full bg-black px-6 py-3 text-sm text-white shadow-lg">
+        <div className="fixed bottom-10 left-1/2 z-50 -translate-x-1/2 rounded-full bg-black px-6 py-3 text-sm text-white shadow-lg">
           Produit ajouté au panier
         </div>
       )}

@@ -144,8 +144,8 @@ export function PlpContent({ category }: { category: string }) {
   const hasMore = visibleProducts.length < filteredProducts.length;
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8">
-      <nav className="mb-6 text-sm text-veepee-muted">
+    <div className="mx-auto max-w-6xl px-6 py-10">
+      <nav className="mb-6 text-xs text-veepee-muted">
         <Link href={`/gr/h/${category}`} className="hover:text-veepee-pink">
           {category.charAt(0).toUpperCase() + category.slice(1)}
         </Link>
@@ -153,42 +153,55 @@ export function PlpContent({ category }: { category: string }) {
         <span>Mobilier</span>
       </nav>
 
-      <h1 className="text-2xl font-bold">Mobilier & décoration</h1>
-      <p className="mt-2 text-sm text-veepee-muted">
-        Flânez parmi notre sélection d&apos;articles maison à prix doux.
-      </p>
+      <div className="grid gap-8 lg:grid-cols-[260px_1fr]">
+        <aside>
+          <div className="sticky top-28 rounded border border-veepee-border bg-white p-5 shadow-sm">
+            <h2 className="text-sm font-bold">Filtres</h2>
+            <div className="mt-4">
+              <FilterBar
+                filters={filters}
+                brands={brands}
+                colors={colors}
+                onChange={(next) => {
+                  setFilters(next);
+                  setPage(1);
+                }}
+              />
+            </div>
+          </div>
+        </aside>
 
-      <div className="mt-6">
-        <FilterBar
-          filters={filters}
-          brands={brands}
-          colors={colors}
-          onChange={(next) => {
-            setFilters(next);
-            setPage(1);
-          }}
-        />
+        <section className="min-w-0">
+          <h1 className="text-2xl font-bold">Mobilier & décoration</h1>
+          <p className="mt-2 text-sm text-veepee-muted">
+            Flânez parmi notre sélection d&apos;articles maison à prix doux.
+          </p>
+
+          <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+            {visibleProducts.map((product) => (
+              <ProductCard
+                key={product.id}
+                product={product}
+                categorySlug={category}
+              />
+            ))}
+          </div>
+
+          {visibleProducts.length === 0 && (
+            <p className="py-12 text-center text-veepee-muted">
+              Aucun produit ne correspond à vos filtres.
+            </p>
+          )}
+
+          <Pagination
+            currentCount={visibleProducts.length}
+            totalCount={PLP_TOTAL_COUNT}
+            pageSize={PLP_PAGE_SIZE}
+            hasMore={hasMore}
+            onLoadMore={() => setPage((current) => current + 1)}
+          />
+        </section>
       </div>
-
-      <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
-        {visibleProducts.map((product) => (
-          <ProductCard key={product.id} product={product} categorySlug={category} />
-        ))}
-      </div>
-
-      {visibleProducts.length === 0 && (
-        <p className="py-12 text-center text-veepee-muted">
-          Aucun produit ne correspond à vos filtres.
-        </p>
-      )}
-
-      <Pagination
-        currentCount={visibleProducts.length}
-        totalCount={PLP_TOTAL_COUNT}
-        pageSize={PLP_PAGE_SIZE}
-        hasMore={hasMore}
-        onLoadMore={() => setPage((current) => current + 1)}
-      />
     </div>
   );
 }
