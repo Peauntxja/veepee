@@ -14,7 +14,7 @@ export function SaleCard({ sale, blurred = false, onLockedClick }: SaleCardProps
   const href = sale.href ?? "/gr/h/maison";
   const content = (
     <article
-      className={`group relative overflow-hidden bg-gray-100 ${
+      className={`group relative overflow-hidden bg-black/20 shadow-lg ${
         blurred ? "pointer-events-none" : ""
       }`}
     >
@@ -38,13 +38,14 @@ export function SaleCard({ sale, blurred = false, onLockedClick }: SaleCardProps
             Bientôt · 19h
           </span>
         )}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
       </div>
-      <div className={`p-4 ${blurred ? "blur-sm" : ""}`}>
-        <p className="text-xs font-semibold uppercase tracking-wide text-veepee-pink">
+      <div className={`p-4 text-white ${blurred ? "blur-sm" : ""}`}>
+        <p className="text-xs font-semibold uppercase tracking-wide">
           {sale.discountLabel}
         </p>
         <h3 className="mt-1 text-lg font-bold">{sale.brand}</h3>
-        <p className="text-sm text-veepee-muted">{sale.title}</p>
+        <p className="text-sm opacity-90">{sale.title}</p>
       </div>
     </article>
   );

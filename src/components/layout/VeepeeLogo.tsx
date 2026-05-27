@@ -3,7 +3,7 @@ import Link from "next/link";
 export function VeepeeLogo({ className = "" }: { className?: string }) {
   return (
     <Link href="/gr/home" className={`inline-flex items-center gap-2 ${className}`}>
-      <span className="text-2xl font-bold tracking-tight text-black">Veepee</span>
+      <span className="text-2xl font-bold tracking-tight text-current">Veepee</span>
       <svg
         width="28"
         height="28"

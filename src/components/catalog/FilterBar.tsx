@@ -20,6 +20,28 @@ export function FilterBar({ filters, brands, colors, onChange }: FilterBarProps)
   return (
     <div className="flex flex-wrap items-center gap-3 border-b border-veepee-border pb-4">
       <label className="flex items-center gap-2 text-sm">
+        <span className="font-medium">Genre</span>
+        <select
+          value=""
+          disabled
+          className="border border-veepee-border bg-gray-50 px-3 py-1.5 text-sm text-veepee-muted"
+        >
+          <option value="">Tous</option>
+        </select>
+      </label>
+
+      <label className="flex items-center gap-2 text-sm">
+        <span className="font-medium">Catégorie</span>
+        <select
+          value=""
+          disabled
+          className="border border-veepee-border bg-gray-50 px-3 py-1.5 text-sm text-veepee-muted"
+        >
+          <option value="">Toutes</option>
+        </select>
+      </label>
+
+      <label className="flex items-center gap-2 text-sm">
         <span className="font-medium">Trier par</span>
         <select
           value={filters.sort}

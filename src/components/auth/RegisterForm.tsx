@@ -46,7 +46,7 @@ export function RegisterForm() {
       <div>
         <h1 className="text-2xl font-bold">Devenez membre de Veepee</h1>
         <p className="mt-2 text-sm text-veepee-muted">
-          Inscription gratuite — accédez à toutes les ventes privées.
+          Inscrivez-vous gratuitement pour accéder aux ventes
         </p>
         <form onSubmit={handleSubmit} className="mt-8 space-y-5">
           <div>
@@ -112,11 +112,16 @@ export function RegisterForm() {
             J&apos;accepte les Conditions Générales d&apos;Utilisation
           </label>
           {error && <p className="text-sm text-red-600">{error}</p>}
+          <p className="text-xs leading-relaxed text-veepee-muted">
+            En validant ce formulaire, je déclare avoir lu et accepté les Conditions
+            Générales d&apos;Utilisation, pris connaissance de la politique de confidentialité
+            et je certifie être âgé(e) d&apos;au moins 18 ans.
+          </p>
           <button
             type="submit"
             className="w-full bg-veepee-pink py-3 text-sm font-semibold text-white hover:opacity-90"
           >
-            S&apos;inscrire
+            Je m&apos;inscris
           </button>
         </form>
         <p className="mt-6 text-sm">

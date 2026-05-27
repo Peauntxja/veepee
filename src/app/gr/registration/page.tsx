@@ -1,10 +1,10 @@
-import { SiteShell } from "@/components/layout/SiteShell";
 import { RegisterForm } from "@/components/auth/RegisterForm";
+import { AuthShell } from "@/components/auth/AuthShell";
 
 export default function RegistrationPage() {
   return (
-    <SiteShell>
+    <AuthShell mode="register">
       <RegisterForm />
-    </SiteShell>
+    </AuthShell>
   );
 }

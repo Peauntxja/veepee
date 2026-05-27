@@ -1,10 +1,10 @@
-import { SiteShell } from "@/components/layout/SiteShell";
 import { LoginForm } from "@/components/auth/LoginForm";
+import { AuthShell } from "@/components/auth/AuthShell";
 
 export default function AuthenticationPage() {
   return (
-    <SiteShell>
+    <AuthShell mode="login">
       <LoginForm />
-    </SiteShell>
+    </AuthShell>
   );
 }

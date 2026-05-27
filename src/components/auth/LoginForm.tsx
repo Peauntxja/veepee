@@ -26,28 +26,46 @@ export function LoginForm() {
   };
 
   return (
-    <div className="mx-auto grid max-w-5xl gap-8 px-4 py-12 lg:grid-cols-2">
-      <div>
-        <h1 className="text-2xl font-bold">DÉJÀ MEMBRE VEEPEE ?</h1>
-        <form onSubmit={handleSubmit} className="mt-8 space-y-5">
-          <div>
-            <label htmlFor="email" className="mb-1 block text-sm font-medium">
-              Email*
-            </label>
-            <input
-              id="email"
-              type="email"
-              required
-              value={email}
-              onChange={(event) => setEmail(event.target.value)}
-              className="w-full border border-veepee-border px-4 py-3 text-sm outline-none focus:border-veepee-pink"
-              placeholder="demo@veepee.fr"
-            />
-          </div>
-          <div>
-            <label htmlFor="password" className="mb-1 block text-sm font-medium">
-              Mot de passe*
-            </label>
+    <div className="mx-auto flex max-w-xl flex-col gap-8">
+      <section className="bg-white px-10 py-8 shadow-2xl">
+        <h1 className="text-center text-xs font-bold uppercase tracking-widest text-veepee-muted">
+          DÉJÀ MEMBRE VEEPEE ?
+        </h1>
+
+        <div className="mt-4 flex items-center justify-center gap-4">
+          <button
+            type="button"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-veepee-border"
+            aria-label="Google"
+          >
+            G
+          </button>
+          <button
+            type="button"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-veepee-border"
+            aria-label="Apple"
+          >
+            
+          </button>
+        </div>
+
+        <div className="mt-4 flex items-center gap-3 text-xs text-veepee-muted">
+          <div className="h-px flex-1 bg-veepee-border" />
+          OU
+          <div className="h-px flex-1 bg-veepee-border" />
+        </div>
+
+        <form onSubmit={handleSubmit} className="mt-5 space-y-4">
+          <input
+            id="email"
+            type="email"
+            required
+            value={email}
+            onChange={(event) => setEmail(event.target.value)}
+            className="w-full border border-veepee-border px-4 py-3 text-sm outline-none focus:border-veepee-pink"
+            placeholder="Email*"
+          />
+          <div className="relative">
             <input
               id="password"
               type="password"
@@ -55,10 +73,10 @@ export function LoginForm() {
               value={password}
               onChange={(event) => setPassword(event.target.value)}
               className="w-full border border-veepee-border px-4 py-3 text-sm outline-none focus:border-veepee-pink"
-              placeholder="demo123"
+              placeholder="Mot de passe*"
             />
           </div>
-          <div className="flex items-center justify-between text-sm">
+          <div className="flex items-center justify-between text-xs text-veepee-muted">
             <label className="flex items-center gap-2">
               <input
                 type="checkbox"
@@ -67,9 +85,9 @@ export function LoginForm() {
               />
               Rester connecté
             </label>
-            <span className="text-veepee-pink">Mot de passe oublié ?</span>
+            <span>Mot de passe oublié ?</span>
           </div>
-          {error && <p className="text-sm text-red-600">{error}</p>}
+          {error && <p className="text-xs text-red-600">{error}</p>}
           <button
             type="submit"
             className="w-full bg-veepee-pink py-3 text-sm font-semibold text-white hover:opacity-90"
@@ -77,17 +95,30 @@ export function LoginForm() {
             Se connecter
           </button>
         </form>
-        <div className="mt-8 border-t border-veepee-border pt-8">
-          <h2 className="text-lg font-bold">Devenez membre de Veepee</h2>
-          <Link
-            href="/gr/registration"
-            className="mt-4 inline-block border border-black px-8 py-3 text-sm font-semibold hover:bg-gray-50"
-          >
-            S&apos;inscrire
-          </Link>
+      </section>
+
+      <section className="bg-white px-10 py-8 shadow-2xl">
+        <div className="flex items-center justify-between gap-4">
+          <h2 className="text-sm font-semibold">Devenez membre de Veepee</h2>
+          <div className="flex gap-2">
+            <Link
+              href="/gr/registration"
+              className="border border-veepee-pink px-6 py-2 text-xs font-semibold text-veepee-pink hover:bg-pink-50"
+            >
+              S&apos;inscrire
+            </Link>
+            <button
+              type="button"
+              className="border border-veepee-border px-6 py-2 text-xs font-semibold text-veepee-muted hover:bg-gray-50"
+            >
+              Qui sommes nous ?
+            </button>
+          </div>
         </div>
-      </div>
-      <AuthPromoPanel />
+        <div className="mt-6">
+          <AuthPromoPanel />
+        </div>
+      </section>
     </div>
   );
 }

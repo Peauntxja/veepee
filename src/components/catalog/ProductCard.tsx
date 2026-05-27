@@ -35,6 +35,7 @@ export function ProductCard({
           <p className="text-xs font-semibold uppercase tracking-wide">
             {product.brand}
           </p>
+          <p className="mt-1 text-xs text-veepee-muted">À partir de</p>
           <h3 className="mt-1 line-clamp-2 text-sm">{product.title}</h3>
           <div className="mt-2 flex items-baseline gap-2">
             <span className="font-bold">{formatPrice(product.price)}</span>

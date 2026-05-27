@@ -1,10 +1,10 @@
 import { SiteShell } from "@/components/layout/SiteShell";
-import { CartContent } from "@/components/cart/CartContent";
+import { CartGate } from "@/components/cart/CartGate";
 
 export default function CartPage() {
   return (
     <SiteShell>
-      <CartContent />
+      <CartGate />
     </SiteShell>
   );
 }
