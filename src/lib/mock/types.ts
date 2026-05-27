@@ -16,6 +16,12 @@ export type SaleEvent = {
   href?: string;
 };
 
+export type ProductSizeOption = {
+  name: string;
+  stockLabel?: string;
+  quantity?: number;
+};
+
 export type Product = {
   id: string;
   slug: string;
@@ -24,9 +30,17 @@ export type Product = {
   price: number;
   originalPrice: number;
   imageUrl: string;
+  imageUrls?: string[];
   categoryId: string;
   colors?: string[];
   sizes?: string[];
+  sizeOptions?: ProductSizeOption[];
+  saleId?: string;
+  catalogId?: string;
+  retailPriceTooltip?: string;
+  discountPercent?: number;
+  sourceUrl?: string;
+  isLocked?: boolean;
 };
 
 export type CategoryTab = {

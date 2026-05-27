@@ -1,0 +1,550 @@
+{
+  "meta": {
+    "title": "Ça va vous plaire",
+    "subtitle": "Coup de foudre inévitable.",
+    "guestVisibleRatio": 0.1,
+    "guestVisibleMin": 2,
+    "source": "playwright capture-home-media.mjs",
+    "fetchedAt": "2026-05-27T05:41:33.570Z",
+    "memberOperationCount": 47
+  },
+  "operations": [
+    {
+      "operationId": "19534",
+      "brandName": "Operation 19534",
+      "subtitle": "",
+      "bannerImageUrl": "https://media.veepee.com/v1/media/fd156fd7-2d29-4f51-ad6c-9f44de45e98b",
+      "bannerLocalId": "sale-op-19534",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "903484",
+      "brandName": "Tommy",
+      "subtitle": "Hilfiger",
+      "bannerImageUrl": "https://media.veepee.com/v1/media/0b10be85-ff92-42ac-8110-ccde86b52a97",
+      "bannerLocalId": "sale-op-903484",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "880049",
+      "brandName": "Figaret",
+      "subtitle": "Prêt-à-porter pour homme et femme",
+      "bannerImageUrl": "https://media.veepee.com/v1/media/06b21c75-bf36-4afe-8149-fd1f528000f5",
+      "bannerLocalId": "sale-op-880049",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "905843",
+      "brandName": "Maison",
+      "subtitle": "Lejaby Lingerie femme...",
+      "bannerImageUrl": "https://media.veepee.com/v1/media/40ebd63f-e60f-4046-95b6-a83e9c4a823b",
+      "bannerLocalId": "sale-op-905843",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "905795",
+      "brandName": "United",
+      "subtitle": "Colors of Benetton",
+      "bannerImageUrl": "https://media.veepee.com/v1/media/19fe7444-7b8e-4e29-801b-7d890c1503c5",
+      "bannerLocalId": "sale-op-905795",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "901391",
+      "brandName": "Staub",
+      "subtitle": "",
+      "bannerImageUrl": "https://media.veepee.com/v1/media/09c0bdba-4f87-42aa-ad4a-bdfb6f734d2d",
+      "bannerLocalId": "sale-op-901391",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "907731",
+      "brandName": "Accor",
+      "subtitle": "| Hôtels en France",
+      "bannerImageUrl": "https://media.veepee.com/v1/media/6145e999-b61b-47b6-ba1f-585afee48581",
+      "bannerLocalId": "sale-op-907731",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "20738",
+      "brandName": "Operation 20738",
+      "subtitle": "",
+      "bannerImageUrl": "https://media.veepee.com/v1/media/1da51fd3-5939-4b30-a1b9-9c56ee9d1ccb",
+      "bannerLocalId": "sale-op-20738",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "20526",
+      "brandName": "Operation 20526",
+      "subtitle": "",
+      "bannerImageUrl": "https://media.veepee.com/v1/media/7aa094c0-b14e-48a0-8412-4244404edeba",
+      "bannerLocalId": "sale-op-20526",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "20651",
+      "brandName": "Operation 20651",
+      "subtitle": "",
+      "bannerImageUrl": "https://media.veepee.com/v1/media/d12d82ab-3724-4b09-974f-2a510913a9a1",
+      "bannerLocalId": "sale-op-20651",
+      "categoryTab": "home",
+      "status": "live"
+    }
+  ],
+  "valuePropositions": [
+    {
+      "title": "On s'habitue vite aux prix doux",
+      "description": "Chez Veepee, les plus grandes marques affichent jusqu'à -70% toute l'année."
+    },
+    {
+      "title": "Les surprises, c'est notre quotidien",
+      "description": "Et la toute première vous attend après votre inscription chez nous."
+    },
+    {
+      "title": "Plutôt du soir ou du matin ?",
+      "description": "Tous les jours, de nouvelles ventes à 7 h et à 19 h."
+    }
+  ],
+  "memberOperations": [
+    {
+      "operationId": "19534",
+      "brandName": "Operation 19534",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-19534.jpg",
+      "bannerLocalId": "sale-op-19534",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "903484",
+      "brandName": "Tommy",
+      "subtitle": "Hilfiger",
+      "bannerImageUrl": "/assets/images/sales/tommy.jpg",
+      "bannerLocalId": "sale-tommy",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "907320",
+      "brandName": "Happy Hours",
+      "subtitle": "Femme, homme et enfant",
+      "bannerImageUrl": "/assets/images/sales/happy-hours.jpg",
+      "bannerLocalId": "sale-happy-hours",
+      "categoryTab": "home",
+      "status": "live",
+      "discountLabel": "-80%"
+    },
+    {
+      "operationId": "900361",
+      "brandName": "Backsun",
+      "subtitle": "Des chaussures pour profiter de vos vacances",
+      "bannerImageUrl": "/assets/images/sales/backsun.jpg",
+      "bannerLocalId": "sale-backsun",
+      "categoryTab": "home",
+      "status": "live",
+      "tags": [
+        {
+          "type": "SHIPPING",
+          "label": "Expédié en 72h",
+          "position": "topRight"
+        }
+      ]
+    },
+    {
+      "operationId": "907343",
+      "brandName": "Les Tropeziennes par M.Belarbi",
+      "subtitle": "Une référence intemporelle depuis plus de 40 ans",
+      "bannerImageUrl": "/assets/images/sales/les-tropeziennes-par-m-belarbi.jpg",
+      "bannerLocalId": "sale-les-tropeziennes-par-m-belarbi",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "901391",
+      "brandName": "Staub",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/staub.jpg",
+      "bannerLocalId": "sale-staub",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "896263",
+      "brandName": "Triumph",
+      "subtitle": "Lingerie féminine",
+      "bannerImageUrl": "/assets/images/sales/triumph.jpg",
+      "bannerLocalId": "sale-triumph",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "905864",
+      "brandName": "¡Buenos",
+      "subtitle": "días L'Espagne! - L'offre du moment",
+      "bannerImageUrl": "/assets/images/sales/buenos.jpg",
+      "bannerLocalId": "sale-buenos",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "905843",
+      "brandName": "Maison",
+      "subtitle": "Lejaby Lingerie femme...",
+      "bannerImageUrl": "/assets/images/sales/maison.jpg",
+      "bannerLocalId": "sale-maison",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "20683",
+      "brandName": "Operation 20683",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-20683.jpg",
+      "bannerLocalId": "sale-op-20683",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "880049",
+      "brandName": "Figaret",
+      "subtitle": "Prêt-à-porter pour homme et femme",
+      "bannerImageUrl": "/assets/images/sales/figaret.jpg",
+      "bannerLocalId": "sale-figaret",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "20345",
+      "brandName": "Operation 20345",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-20345.jpg",
+      "bannerLocalId": "sale-op-20345",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "901361",
+      "brandName": "Lou",
+      "subtitle": "Laguiole",
+      "bannerImageUrl": "/assets/images/sales/lou.jpg",
+      "bannerLocalId": "sale-lou",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "898890",
+      "brandName": "Shots",
+      "subtitle": "Toys, Satisfyer",
+      "bannerImageUrl": "/assets/images/sales/shots.jpg",
+      "bannerLocalId": "sale-shots",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "902138",
+      "brandName": "Italian",
+      "subtitle": "bags Maroquinerie Made in Italy",
+      "bannerImageUrl": "/assets/images/sales/italian.jpg",
+      "bannerLocalId": "sale-italian",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "212209",
+      "brandName": "Operation 212209",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-212209.jpg",
+      "bannerLocalId": "sale-op-212209",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "902625",
+      "brandName": "Cornilleau",
+      "subtitle": "Tables de ping pong et accessoires",
+      "bannerImageUrl": "/assets/images/sales/cornilleau.jpg",
+      "bannerLocalId": "sale-cornilleau",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "193370",
+      "brandName": "Operation 193370",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-193370.jpg",
+      "bannerLocalId": "sale-op-193370",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "906182",
+      "brandName": "Swiss",
+      "subtitle": "Kopper Bagagerie de qualité",
+      "bannerImageUrl": "/assets/images/sales/swiss.jpg",
+      "bannerLocalId": "sale-swiss",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "905795",
+      "brandName": "United",
+      "subtitle": "Colors of Benetton",
+      "bannerImageUrl": "/assets/images/sales/united.jpg",
+      "bannerLocalId": "sale-united",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "212559",
+      "brandName": "Operation 212559",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-212559.jpg",
+      "bannerLocalId": "sale-op-212559",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "212421",
+      "brandName": "Operation 212421",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-212421.jpg",
+      "bannerLocalId": "sale-op-212421",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "19945",
+      "brandName": "Operation 19945",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-19945.jpg",
+      "bannerLocalId": "sale-op-19945",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "901359",
+      "brandName": "Bjorg",
+      "subtitle": "Epicerie salée, sucrée et asiatique, thé, café",
+      "bannerImageUrl": "/assets/images/sales/bjorg.jpg",
+      "bannerLocalId": "sale-bjorg",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "903592",
+      "brandName": "Parks",
+      "subtitle": "London Bougies parfumées, diffuseurs et parfums d'ambiance 100% naturels",
+      "bannerImageUrl": "/assets/images/sales/parks.jpg",
+      "bannerLocalId": "sale-parks",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "211539",
+      "brandName": "Operation 211539",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-211539.jpg",
+      "bannerLocalId": "sale-op-211539",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "212229",
+      "brandName": "Operation 212229",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-212229.jpg",
+      "bannerLocalId": "sale-op-212229",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "211813",
+      "brandName": "Operation 211813",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-211813.jpg",
+      "bannerLocalId": "sale-op-211813",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "900822",
+      "brandName": "Wenko",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/wenko.jpg",
+      "bannerLocalId": "sale-wenko",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "905828",
+      "brandName": "Marciano",
+      "subtitle": "by Guess",
+      "bannerImageUrl": "/assets/images/sales/marciano.jpg",
+      "bannerLocalId": "sale-marciano",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "901379",
+      "brandName": "NILFISK",
+      "subtitle": "Equipements de nettoyage professionnel",
+      "bannerImageUrl": "/assets/images/sales/nilfisk.jpg",
+      "bannerLocalId": "sale-nilfisk",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "211913",
+      "brandName": "Operation 211913",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-211913.jpg",
+      "bannerLocalId": "sale-op-211913",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "211915",
+      "brandName": "Operation 211915",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-211915.jpg",
+      "bannerLocalId": "sale-op-211915",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "905617",
+      "brandName": "Egypte",
+      "subtitle": "best of",
+      "bannerImageUrl": "/assets/images/sales/egypte.jpg",
+      "bannerLocalId": "sale-egypte",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "905786",
+      "brandName": "Plages",
+      "subtitle": "de Turquie",
+      "bannerImageUrl": "/assets/images/sales/plages.jpg",
+      "bannerLocalId": "sale-plages",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "902934",
+      "brandName": "Île",
+      "subtitle": "Maurice",
+      "bannerImageUrl": "/assets/images/sales/ile.jpg",
+      "bannerLocalId": "sale-ile",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "907165",
+      "brandName": "Canopia",
+      "subtitle": "Serres, pergolas et tonnelles",
+      "bannerImageUrl": "/assets/images/sales/canopia.jpg",
+      "bannerLocalId": "sale-canopia",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "905633",
+      "brandName": "Tunisie",
+      "subtitle": "- Avantages offerts",
+      "bannerImageUrl": "/assets/images/sales/tunisie.jpg",
+      "bannerLocalId": "sale-tunisie",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "212562",
+      "brandName": "Operation 212562",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-212562.jpg",
+      "bannerLocalId": "sale-op-212562",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "902978",
+      "brandName": "Chervo'",
+      "subtitle": "Vêtements techniques et sportifs pour femme et homme",
+      "bannerImageUrl": "/assets/images/sales/chervo.jpg",
+      "bannerLocalId": "sale-chervo",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "211729",
+      "brandName": "Operation 211729",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-211729.jpg",
+      "bannerLocalId": "sale-op-211729",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "907515",
+      "brandName": "France",
+      "subtitle": "Billet Ce printemps, vivez des émotions théâtrales",
+      "bannerImageUrl": "/assets/images/sales/france.jpg",
+      "bannerLocalId": "sale-france",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "907731",
+      "brandName": "Accor",
+      "subtitle": "| Hôtels en France",
+      "bannerImageUrl": "/assets/images/sales/accor.jpg",
+      "bannerLocalId": "sale-accor",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "906323",
+      "brandName": "Salvatore",
+      "subtitle": "Ferragamo",
+      "bannerImageUrl": "/assets/images/sales/salvatore.jpg",
+      "bannerLocalId": "sale-salvatore",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "20738",
+      "brandName": "Operation 20738",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-20738.jpg",
+      "bannerLocalId": "sale-op-20738",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "20526",
+      "brandName": "Operation 20526",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-20526.jpg",
+      "bannerLocalId": "sale-op-20526",
+      "categoryTab": "home",
+      "status": "live"
+    },
+    {
+      "operationId": "20651",
+      "brandName": "Operation 20651",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-20651.jpg",
+      "bannerLocalId": "sale-op-20651",
+      "categoryTab": "home",
+      "status": "live"
+    }
+  ]
+}

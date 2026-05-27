@@ -1,0 +1,53 @@
+{
+  "description": "Contrat observé sur veepee.fr — sale room + mini-panier (Achat express). À compléter via HAR après login membre.",
+  "meta": {
+    "source": "capture-cart-api.mjs + screenshot utilisateur",
+    "catalogUrlPattern": "/gr/catalog/{operationId}/{catalogId}",
+    "example": {
+      "operationId": "903484",
+      "catalogId": "24707502",
+      "brand": "Tommy Hilfiger",
+      "url": "https://www.veepee.fr/gr/catalog/903484/24707502"
+    },
+    "miniCartUi": {
+      "title": "Conservé dans le panier",
+      "cta": "Accéder au panier",
+      "reservationTimer": "14:57 sur icône panier (réservation stock)"
+    },
+    "captureInstructions": [
+      "1. Se connecter sur veepee.fr dans Chrome",
+      "2. DevTools → Network → cocher Preserve log → filtrer Fetch/XHR",
+      "3. Ouvrir /gr/catalog/903484/24707502",
+      "4. Cliquer « Achat express » sur un produit",
+      "5. Clic droit sur requête POST → Copy → Copy as cURL, ou Export HAR",
+      "6. npm run crawl:import-har -- ~/Downloads/export.har"
+    ],
+    "automatedCapture": [
+      "npm run crawl:capture-cart -- --headed --login",
+      "npm run crawl:capture-cart -- --storage .veepee-auth.json"
+    ]
+  },
+  "expectedRequestShape": {
+    "note": "Orderpipe team — APIs internes vpgrp, non documentées publiquement",
+    "likelyDomains": [
+      "*.front.vpgrp.net",
+      "*.veepee.com",
+      "orderpipe (interne)"
+    ],
+    "likelyPayloadFields": [
+      "operationId",
+      "catalogId",
+      "productId / itemId",
+      "size / variant",
+      "quantity"
+    ],
+    "likelyResponseFields": [
+      "cartId / basketId",
+      "lines[]",
+      "reservationExpiresAt",
+      "promotionMessage",
+      "subtotal"
+    ]
+  },
+  "requests": []
+}

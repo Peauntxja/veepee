@@ -1,0 +1,693 @@
+{
+  "meta": {
+    "source": "capture-cart-api.mjs (playwright + chrome)",
+    "capturedAt": "2026-05-27T05:39:59.300Z",
+    "catalogUrl": "https://www.veepee.fr/gr/catalog/903484/24707502",
+    "clickResult": {
+      "clicked": false,
+      "reason": "Achat express button not found (login or Cloudflare?)"
+    },
+    "miniCart": {
+      "hasConservé": false,
+      "hasAccederPanier": false,
+      "snippet": null
+    },
+    "pageState": {
+      "title": "Connectez-vous à votre compte Veepee",
+      "url": "https://www.veepee.fr/gr/authentication?ReturnUrl=/gr/catalog/903484/24707502",
+      "h1": "",
+      "expressButtons": [],
+      "productCards": 0
+    },
+    "apiHosts": [
+      "www.veepee.fr",
+      "sentry.veepee.com",
+      "api-js.datadome.co"
+    ],
+    "requestCount": 16
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://accounts.google.com/gsi/button?type=icon&theme=outline&size=large&text=undefined&shape=circle&logo_alignment=undefined&width=undefined&locale=undefined&click_listener=undefined&is_fedcm_supported=true&client_id=182906691991-ks77qgqe8tq88jhgff26qc2387h6akd5.apps.googleusercontent.com&iframe_id=gsi_395378_489461&cas=lX6MLGU0dbmeTYaCJbozxzgiSF5NsLoKQc5DdwuYag0",
+      "status": 200,
+      "resourceType": "document",
+      "postData": null,
+      "responseBody": "<!DOCTYPE html><html lang=\"fr\"><head><title>Sign In - Google Accounts</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><meta name=\"referrer\" content=\"no-referrer\"><style nonce=\"0c_t-5fXQ1zFXsonUEOPZg\">@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-stretch:100%;src:url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBHMdazTgWw.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-stretch:100%;src:url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBHMdazTgWw.woff2)format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-stretch:100%;src:url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBHMdazTgWw.woff2)format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-stretch:100%;src:url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBHMdazTgWw.woff2)format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-stretch:100%;src:url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBHMdazTgWw.woff2)format('woff2');unicode-range:U+0302-0303,U+0305,U+0307-0308,U+0310,U+0312,U+0315,U+031A,U+0326-0327,U+032C,U+032F-0330,U+0332-0333,U+0338,U+033A,U+0346,U+034D,U+0391-03A1,U+03A3-03A9,U+03B1-03C9,U+03D1,U+03D5-03D6,U+03F0-03F1,U+03F4-03F5,U+2016-2017,U+2034-2038,U+203C,U+2040,U+2043,U+2047,U+2050,U+2057,U+205F,U+2070-2071,U+2074-208E,U+2090-209C,U+20D0-20DC,U+20E1,U+20E5-20EF,U+2100-2112,U+2114-2115,U+2117-2121,U+2123-214F,U+2190,U+2192,U+2194-21AE,U+21B0-21E5,U+21F1-21F2,U+21F4-2211,U+2213-2214,U+2216-22FF,U+2308-230B,U+2310,U+2319,U+231C-2321,U+2336-237A,U+237C,U+2395,U+239B-23B7,U+23D0,U+23DC-23E1,U+2474-2475,U+25AF,U+25B3,U+25B7,U+25BD,U+25C1,U+25CA,U+25CC,U+25FB,U+266D-266F,U+27C0-27FF,U+2900-2AFF,U+2B0E-2B11,U+2B30-2B4C,U+2BFE,U+3030,U+FF5B,U+FF5D,U+1D400-1D7FF,U+1EE00-1EEFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-stretch:100%;src:url(//fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBHMdazTgWw.woff2)format('woff2');unicode-range:U+0001-000C,U+000E-001F,U+007F-009F,U+20DD-20E0,U+20E2-20E4,U+2150-218F,U+2190,U+2192,U+2194-2199,U+21AF,U+21E6-21F0,U+21F3,U+2218-2219,U+2299,U+22C4-22C6,U+2300-243F,U+2440-244A,U+2460-24FF,U+25A0-27BF,U+2800-28FF,U+2921-2922,U+2981,U+29BF,U+29EB,U+2B00-2BFF,U+4DC0-4DFF,U+FFF9-FFFB,U+10140-1018E,U+10190-1019C,U+101A0,U+101D0-101FD,U+102E0-102FB,U+10E60-10E7E,U+1D2C0-1D2D3,U+1D2E0-1D37F,U+1F000-1F0FF,U+1F100-1F1AD,U+1F1E6-1F1FF,U+1F30D-1F30F,U+1F315,U+1F31C,U+1F31E,U+1F320-1F32C,U+1F336,U+1F378,U+1F37D,U+1F382,U+1F393-1F39F,U+1F3A7-1F3A8,U+1F3AC-1F3AF,U+1F3C2,U+1F3C4-1F3C6,U+1F3CA-1F3CE,U+1F3D4-1F3E0,U+1F3ED,U+1F3F1-1F3F3,U+1F3F5-1F3F7,U+1F408,U+1F415,U+1F41F,U+1F426,U+1F43F,U+1F441-1F442,U+1F444,U+1F446-1F449,U+1F44C-1F44E,U+1F453,U+1F46A,U+1F47D,U+1F4A3,U+1F4B0,U+1F4B3,U+1F4B9,U+1F4BB,U+1F4BF,U+1F4C8-1F4CB,U+1F4D6,U+1F4DA,U+1F4DF,U+1F4E3-1F4E6,U+1F4EA-1F4ED,U+1F4F7,U+1F4F9-1F4FB,U+1F4FD-1F4FE,U+1F503,U+1F507-1F50B,U+1F50D,U+1F512-1F513,U+1F53E-1F54A,U+1F54F-1F5FA,U+1F610,U+1F650-1F67F,U+1F687,U+1F68D,U+1F691,U+1F694,U+1F698,U+1F6AD,U+1F6B2,U+1F6B9-1F6BA,U+1F6BC,U+1F6C6-1F6CF,U+1F6D3-1F6D7,U+1F6E0-1F6EA,U+1F6F0-1F6F3,U+1F6F7-1F6FC,U+1F700-1F7FF,U+1F800-1F80B,U+1F810-1F847,U+1F850-1F859,U+1F860-1F887,U+1F890-1F8AD,U+1F8B0-1F8BB,U+1F8C0-1F8C1,U+1F900-1F90B,U+1F93B,U+1F946,U+1F984,U+1F996,U+1F9E9,U+1FA00-1FA6F,U+1FA70-1FA7C,U+1FA80-1FA89,U+1FA8F-1FAC6,U+1FACE-1FADC,U+1FADF-1FAE9,U+1FAF0-1FAF8,U+1FB00-1FBFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-stretch:100%;src:url(//fonts.gstatic.com/s/roboto/v48/KFO7Cn",
+      "timestamp": "2026-05-27T05:39:57.274Z"
+    },
+    {
+      "method": "POST",
+      "url": "https://api-js.datadome.co/js/",
+      "status": 200,
+      "resourceType": "xhr",
+      "postData": "jspl=Z-DTaNYSCLXYJHc4hRsBpFARaXvSRN3nYxH7bypyT1nZ-y7XWMuAUIiZ5OeJT912z9GHgLgKOlGsdHg1CMPff2ADN8jgB2rjkRDUQgpsq8_FpHA-Mz_3AMMkQ8j0eiH4-tjx_vs2m9I2GuueUKSHZwPeqCxmk7iqBLSiOqbLBiPjN_YGZg0bkG6xsQDcJjhNgfcGdMFdXxlLvP6OlH8HWvsQlO_T8V-08RnYiLELI_domxhF7w3Icjm7iCVaMj012LxDdvDJafMaeTy4CsQjC9w__Rc44wzcSicygd7XiPopa21s9sSSSpaZ-tWY2yHWov2JTytBnEmkCsXUhaHh1RBTo3XZFPspHKPY_Kggmvoklyw-2d1uIk5NZh_CQj-7rKfXCXh675ljq2DG3vXSz1kW8t68CZ7rAXKycQXYHy8lJxfhWtJVAYgKwUBzH2_yvpARn6RS6xsg6_lz0o0DiEW1R0kMKsaYRPiuIZQPr-s2OJi1mkr-Kru1MpCGzgfqDbYA6_qwQPJuPDHLni9hptt4vNscV3pVN8LIqD9kYdYbCQK5Gg7o4uL_QgVEHNaOdqX0R6uvEcBtnkUkrwLpGyqH1I1qAdMU2HyKjVGd3tMiUzOoenxVY0Ur_EHf6yEm0-pnCVOTtmmcCx56-okMJGFkPW2z5gTRv-Sv_f31Sb75PB2ddVpx0p5dkA3DjomKwhd_vq91LLCemxjbTOnZBqYxUhoxXgMNnq3ijrFH_LTZ3eB6g9mxR0vWaEFq3-6xrWVzBbnVsM4-WN4Kex2DTTJcmeKplrwzyEENGsBvXKonor-awwzjcEbC7OkD1jW-hXy0EjChwjmAta6LF9CCQ8In7S7yMIFIHU0m7i6B4EmO7nPkBnN7TY-kKJrOWjbv69-lVWeIOoUEL-BkAl5kOT96x0kCtNytgpjJpsKyN2o15xvnr-5d6ePqZ0rCKh6oloziF8TtMo8T2SsjebJ2grQOZRmAJvuE4CO7M4a0deoDmElbA0ICS_JLzg6C88_ZEhtMKcbPQ_0iJXqONfDRnhS4ZxX8SikWcyvTJSHyNcCKg2rIiTYx2ULtJJ7gCB2RDsjmjOK_B2OxhEWUCR2B89DjAopGZt7ctvh9ZF79OF7mYw9h_tP3Ehm5jQwSaCUlmqibOoV8swjUdmoxI2aP3YjntXm2W0KYKsJF1gmg4NDat6rWqdskVvNmRV9JHn6DyxYjZkjwAIkY6tL25-DYF5eqWxshqsxySkqT33NcQad3vIXY_K2wJXLr5DXlWzX2ILXNC89b8XqC7C1Fdi07FzVlLlGDw8RuSNZTG91gES54Vvi_oLPRZvrgUEEq3ZTF6vk0xjRkdrH3OUHi0UrzdFhXIFdqD9PIVWHTrUTmENW49Y886iDFkSNgqnn16nQLGQKKSj4MQ4IaRxKHWQAbXWsbq6wvTgQXpe09QfyVtXtoO77TTgCwSGvMnJW7T40DXuSa68jE62orCHCpjezl3Neo1TzqvRCifJQYANM2Cr9PbPPhO_VFQVZnPaTXjbVvcVLlG1AZBe4bGVt5ZNCcPkoZml1SqE5VzN1K9yeCUdZEis4XpzBw5H_b1YRFukE2M-loqk6lIxdiIg8pWDdqG9vPQaGjNZP0PZUegM3OtNpwAPAsVFVIqYJXyQZrOYx0ZyBzqj43vbYhPpgnpZNMbK2gUWpe28krhonTONMiNUczF3BK3AtIoT7tPkfrQ9sjmqVoRSPo8rtiiP_e5pya7JgKY38SWRXSpkrEOTCrQWzS50__SbD8GvWDouHUTKvUsipmELC-BPopMiwLbfLMCOAI-rdg0EAa2-J7YPQ-di7AT-wjMZKZUuduItwxM7CkEldZ6KFHyabF99a2ezAxWjgkvIphzgtb4mncin4rX0y_p_2hESrsRpN6_yJVVYQgIi1fN5SXFNjceG-EPlrtng8m45XTSXAwGrGR2gpoA0Vx3wKUTMBI0wNNg1LgJGJgXwI0la39Xul58v8s3wDvUr-A7skIlFnHbM2PqCzMcCrNahZ4xEkJIFB2G377U5ILvEYWgNp57p-rlKsglBguYtdmNJ_AWPa7K8YewdeLBIxP7IPwavQ-YQDdGuLuIabthCjKQIW0Ni6HdvXj2Dgh3-c7xoRUlYaF6YMCnTFwZWiqcH7Jr_FcfYQAw7QC3og0oN6ran-1Ar891idnBp7yQeKvSRoSh7Y9PuxZ12G1EiZ17GWan8XvVEvPwnmtyljBfkapUkN_PPDUm-fDhVX7YaEzaWEKeQNbqw2LiP5mJEyODPRK1HCiDnG34FraYDqbjbadxmJzLSPNWmVMu00yiG10gZFd1WLcCqgWK3TeMHI6bE6v54YyUbkK3SWQQoG-U429-grq_imfGFITebGK7_TS9gVxpM4_3evKPkZo8EZu2XNozjH4y4wmt-jr3r3sKQ70XX9fEtehP6DsXKVUju6uyFXSXppKXuQQD88-MppiGmAHjvBjfuTFH9WUG-skBIz62HsSfb2oRWj6LAZo7vXivbN9LHnPrF4NKLS1WS2f-N10DnyAUZ7mpDo9K5wFjPBVdxENxtttUHlgFulRHCEL3CachY3okTeAXEZl00N18hooP1mJ-AYfxIkEB9c_lUG48HTJM4_LIBrTqU7qhZDef5QWjUt68jejrncXh3RNNqrdHhFn48rPK7P9zNRHlB8Frz_pckQ6-pT3BbAhTt4FgXe_SPeA2OS3t1TWtAYRdeUItf7lFHSmzKWmo4MGA642Zavbjke4eCy4woZWwiKudjjzwyzFvk40b3BKjpPRrFi2Y9MDf-f305ltoFc5SKtQOmbsYecKAC-R9Yua4ubjfJBsNdODVOiGF03mMWwXdm74OdkKmDkdhsTfzTktt7nvQC4R9JZqqfZpojYyqREXkf84rXQekdK0dMUwmH_kPYaKxbvE949VJ9ZEcudC89BPh-FRtz0aiid3z-S-_o2VN5IM78Xc9s9KJpO9OkHf4Ih9vG1HKPUgBCPb57PLt8hRD6vZo4Y1egdwmsQkHmFYr_w103_BR5JcTfNkcLJW_SGSqol-jHFLBuaxyHsZuYIhVjY50L4p6oObb4lvzp9YD_dAK-WqM3g7TNa0SD71NGO99oJyLCndMFeSy6XMrlsDqCMIoKPKzK-J_KDZcESZzczfiwnW7Py6Tsr51j4E7PeZDX0_rkJSgyrsvOKuKPt3RHX7wRZ7y3_GquIOLTBfPBrAkeZuWAXXIhYJn7eVuErD1_r03GTPrjehxNpi36i4_5w40b1ySzfFCCguTDwCyd8HBILtAmUrR6Bd66v_XUWh_0lrQCPrNBY_rRAgSj2oY4KTTZI4EufvCAks-zf0_jhCIE4e0kr8x4cowJus_I6l12nmHnzTenAVblieTaiNPefqrzG99EeT_6FSgkVevb28SpYnAb1P0ylfYryUkLYcqU-y4wH-3vL_idSn-V_uPWns2r7VpjK4l2jrZW0iMELdGdTbdJosyJpftqVsBTg5-nwsxWIilw7YyQn2TPygT257V6voTi4xU-T4_zVwZJQPgMJnAIyWrs331TVpJPE5YOhRAzcAeNIl38vliFH1M8agmWXsRIyMwHxqNh3tqG9grU7_PCaJs9fAnj8jm-C9dDX7Lv3jCFhnlKqkmWT-DQawOMtDzg9Zj6NLyoEFXo_XvlhvmgXT4gjkKFzQw0wl3TpzokXfMtP_lECWRM5FYEixMwClb8HzP2ez0xiKVBIoUXOq95hPkc1TwgNGD4TuW9lXqUx3W2vv2CB_KMWvJxtIKyQUPZQTDOZsJ3toSjglI3RRejGaIapwb9mE_tKd07z109MQnyjyhQrXScZDtkheV9e8F38Yfc_eXN1k_kTh7Ptsfr5m2LpeRqpv-fmvO_WI_wlBunmAw0ZVrpw5xtvtxlDPWkagkgc13li9MLRh2mi_e-YF03D4vTYhmOk9lqXROOnMx5my7B79qYUCobSWNNvtowD30tS45YS8ckL8aUuaEXCXY78S-pXU2Esa8qZtPp9ju0xSP3TUDlbsN3lvcA_3x5kCxicE8P09QzaPX9UdSc_68F3M68Mo9AEPjjInhNxymAdz6tHt_mg1BWVqf5FgzMO6Au0qahXvXvm7LrNYBoj_sarXg946m33i41wZD562pQVG1erOpr_l-GqlNhG5OyzrYBYveNld-6Jdh9d5ZFSz0nSXvTevHaWIR1qC6im1hLzftcdJKrJpwuqtWddhKam9olt3BwpqhOrCY73hmSJFRN749pyjH2XTQF3qnYLTPSmXzqIckbEbysgWk-7xm_UwOTU2RyKGOprZ20hRLUzT866PGmVCQrUqZ34no-EIL09lG4yqieV9cspo_0_IH6pYByOK8kz05jAkG6PqW9MOjAt0QiJssRo0EUt835KxZIxqHkCVR-qFWhwMANIBUWNx5TGaw5ZAre3HveXRPbWUAYg-Dp2p35SZAcwFajd7Xse2PBgMA8jwghYiMAlsHJraXVG3r_oN65npMmaFDZhVFcD29ukB2e7VENcgTETjtIxgPSC-RfQQk8XePJuoKN4OQnv917FtAoTKXIu3kwx8F7uGz0uZrS22aid6daOlcuZCle-cFMr3zFhfof2td0KB039gUn1H3fFy2al0Y_sTeHCgFmf5pAh1HEwJJzkSZmzIvm5Zwzud-54_uKe3jRBpFP5E7N0HkyKj0-9gWIcWDpEUP3qNh6w5Vg459KP3vgHjITKn-TaHL_-QEMqZclxw2UeyEfHeOCkTNRLJ9ad6A0BlB8PtIludh_rz2xH9ONHZaO5cjr4GohxmsH6Vt15jBB7a6zwtLySVHoTvQMWRDgUBUyqxJoITdGg7nwMneR7uK0vFKTKNKPi1PyrcXxNfggDyvsL4_8IVwfMI4dbQanJf84Fm1_ObScjPVqUlT39HWKzaPsoh7vZvkdQRPD69ByD4fVnfWNokgd_Vkls3JZ0itfDhYCO4ugk5hukBPGiu3fOGRUyXqm0astvXe5vOifDtICAr7YvwPs6hqcC8rrje5muV-cRTCJj77z0GlpaFPugHyseJAJjU7yKmEKHM2idTUEs9IJntK-XEa0DMmv4z9IHXI6Col9a_uXlQfYz71961wXg4mQF6JbCeky_bgis&eventCounters=%5B%5D&jsType=ch&cid=.keep&ddk=4F986DF6FB3EDDAB07E12D9B6617D0&Referer=https%253A%252F%252Fwww.veepee.fr%252Fgr%252Fauthentication%253FReturnUrl%253D%252Fgr%252Fcatalog%252F903484%252F24707502&request=%252Fgr%252Fauthentication%253FReturnUrl%253D%252Fgr%252Fcatalog%252F903484%252F24707502&responsePage=origin&ddv=5.6.6",
+      "responseBody": {
+        "status": 400,
+        "body": "Invalid or blocked API key"
+      },
+      "timestamp": "2026-05-27T05:39:55.753Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js",
+      "status": 200,
+      "resourceType": "script",
+      "postData": null,
+      "responseBody": null,
+      "timestamp": "2026-05-27T05:39:49.878Z"
+    },
+    {
+      "method": "POST",
+      "url": "https://core-api-frontendlogger.front.vpgrp.net/v1/metric",
+      "status": 200,
+      "resourceType": "fetch",
+      "postData": "{\"metrics\":[{\"name\":\"web-vital\",\"value\":4780,\"type\":\"timing\",\"tags\":{\"name\":\"FCP\"}}],\"tags\":{\"appName\":\"groot\",\"version\":\"8.19.1\"}}",
+      "responseBody": null,
+      "timestamp": "2026-05-27T05:39:57.354Z"
+    },
+    {
+      "method": "POST",
+      "url": "https://core-api-frontendlogger.front.vpgrp.net/v1/metric",
+      "status": 200,
+      "resourceType": "fetch",
+      "postData": "{\"metrics\":[{\"name\":\"custom\",\"value\":25.799999997019768,\"type\":\"timing\",\"tags\":{\"name\":\"Next.js-hydration\"}},{\"name\":\"page_render\",\"value\":1,\"type\":\"count\",\"tags\":{\"pageName\":\"authentication\"}},{\"name\":\"web-vital\",\"value\":4780,\"type\":\"timing\",\"tags\":{\"name\":\"FCP\"}},{\"name\":\"web-vital\",\"value\":4780,\"type\":\"timing\",\"tags\":{\"name\":\"FCP\"}}],\"tags\":{\"appName\":\"groot\",\"version\":\"8.19.1\"}}",
+      "responseBody": null,
+      "timestamp": "2026-05-27T05:39:57.357Z"
+    },
+    {
+      "method": "POST",
+      "url": "https://core-api-frontendlogger.front.vpgrp.net/v1/metric",
+      "status": 200,
+      "resourceType": "fetch",
+      "postData": "{\"metrics\":[{\"name\":\"web-vital\",\"value\":3146.3,\"type\":\"timing\",\"tags\":{\"name\":\"TTFB\"}},{\"name\":\"web-vital\",\"value\":3146.3,\"type\":\"timing\",\"tags\":{\"name\":\"TTFB\"}},{\"name\":\"web-vital\",\"value\":3146.3,\"type\":\"timing\",\"tags\":{\"name\":\"TTFB\"}}],\"tags\":{\"appName\":\"groot\",\"version\":\"8.19.1\"}}",
+      "responseBody": null,
+      "timestamp": "2026-05-27T05:39:58.968Z"
+    },
+    {
+      "method": "POST",
+      "url": "https://sentry.veepee.com/api/93/envelope/?sentry_version=7&sentry_key=8bde1b0a42884129bc8dbcb8156e6e63&sentry_client=sentry.javascript.nextjs%2F10.48.0",
+      "status": 200,
+      "resourceType": "fetch",
+      "postData": "{\"sent_at\":\"2026-05-27T05:39:50.465Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.48.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"535a5dda386a4496a53940ce2d62ac1a\",\"init\":true,\"started\":\"2026-05-27T05:39:50.465Z\",\"timestamp\":\"2026-05-27T05:39:50.465Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"8.19.1\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36\"}}",
+      "responseBody": {},
+      "timestamp": "2026-05-27T05:39:52.950Z"
+    },
+    {
+      "method": "POST",
+      "url": "https://sentry.veepee.com/api/93/envelope/?sentry_version=7&sentry_key=8bde1b0a42884129bc8dbcb8156e6e63&sentry_client=sentry.javascript.nextjs%2F10.48.0",
+      "status": 200,
+      "resourceType": "fetch",
+      "postData": "{\"sent_at\":\"2026-05-27T05:39:53.050Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.48.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"535a5dda386a4496a53940ce2d62ac1a\",\"init\":false,\"started\":\"2026-05-27T05:39:50.465Z\",\"timestamp\":\"2026-05-27T05:39:53.050Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"8.19.1\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36\"}}",
+      "responseBody": {},
+      "timestamp": "2026-05-27T05:39:53.493Z"
+    },
+    {
+      "method": "POST",
+      "url": "https://sentry.veepee.com/api/93/envelope/?sentry_version=7&sentry_key=8bde1b0a42884129bc8dbcb8156e6e63&sentry_client=sentry.javascript.nextjs%2F10.48.0",
+      "status": 200,
+      "resourceType": "fetch",
+      "postData": "{\"sent_at\":\"2026-05-27T05:39:53.051Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.48.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"6047156aef604a4bbc1c0abf77882bf9\",\"init\":true,\"started\":\"2026-05-27T05:39:53.050Z\",\"timestamp\":\"2026-05-27T05:39:53.050Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"8.19.1\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36\"}}",
+      "responseBody": {},
+      "timestamp": "2026-05-27T05:39:53.524Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://static.vente-privee.com/vp5/_web/site/vp/_common/footer/ecommerce-eu.svg",
+      "status": 200,
+      "resourceType": "image",
+      "postData": null,
+      "responseBody": null,
+      "timestamp": "2026-05-27T05:39:56.052Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://static.vente-privee.com/vp5/_web/site/vp/_common/footer/sourdline.svg",
+      "status": 200,
+      "resourceType": "image",
+      "postData": null,
+      "responseBody": null,
+      "timestamp": "2026-05-27T05:39:54.176Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://www.veepee.fr/api/navigation/1/footer",
+      "status": 200,
+      "resourceType": "fetch",
+      "postData": null,
+      "responseBody": {
+        "listColumnFooterHeaderLink": [
+          {
+            "listBlocFooterLink": [
+              {
+                "blockFooterLinkTitle": null,
+                "icon": false,
+                "listFooterLink": [
+                  {
+                    "footerLinkRedirection": "https://www.instagram.com/veepee_fr/",
+                    "footerLinkTitle": "Instagram",
+                    "footerLinkText": "Instagram",
+                    "icon": true,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://www.facebook.com/Veepeeofficial",
+                    "footerLinkTitle": "Facebook",
+                    "footerLinkText": "Facebook",
+                    "icon": true,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "http://www.youtube.com/user/VENTEPRIVEE?feature=mhum",
+                    "footerLinkTitle": "Youtube",
+                    "footerLinkText": "Youtube",
+                    "icon": true,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  }
+                ],
+                "paymentIcons": [],
+                "deliveryIcons": [],
+                "countryBlock": {
+                  "countriesMainList": null,
+                  "selectedCountry": null,
+                  "countryListTitle": null
+                }
+              }
+            ]
+          },
+          {
+            "listBlocFooterLink": [
+              {
+                "blockFooterLinkTitle": "Nos applications",
+                "icon": false,
+                "listFooterLink": [
+                  {
+                    "footerLinkRedirection": "https://apps.apple.com/fr/app/veepee-by-vente-privee/id906681058",
+                    "footerLinkTitle": "iOS",
+                    "footerLinkText": "iOS",
+                    "icon": true,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://play.google.com/store/apps/details?id=com.venteprivee",
+                    "footerLinkTitle": "Android",
+                    "footerLinkText": "Android",
+                    "icon": true,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  }
+                ],
+                "paymentIcons": [],
+                "deliveryIcons": [],
+                "countryBlock": {
+                  "countriesMainList": null,
+                  "selectedCountry": null,
+                  "countryListTitle": null
+                }
+              }
+            ]
+          }
+        ],
+        "listColumnFooterLink": [
+          {
+            "listBlocFooterLink": [
+              {
+                "blockFooterLinkTitle": "Aide & Contact",
+                "icon": false,
+                "listFooterLink": [
+                  {
+                    "footerLinkRedirection": "/gr/aboutus",
+                    "footerLinkTitle": "Qui sommes-nous ? ",
+                    "footerLinkText": "Qui sommes-nous ? ",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://aide.veepee.fr/article/389-mentions-legales",
+                    "footerLinkTitle": "Mentions légales",
+                    "footerLinkText": "Mentions légales",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://aide.veepee.fr/article/1630-informations-reglementaires",
+                    "footerLinkTitle": "Informations réglementaires",
+                    "footerLinkText": "Informations réglementaires",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://aide.veepee.fr/category/20-livraison",
+                    "footerLinkTitle": "Livraison",
+                    "footerLinkText": "Livraison",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://aide.veepee.fr/category/12-retours-remboursements",
+                    "footerLinkTitle": "Les retours et remboursements",
+                    "footerLinkText": "Les retours et remboursements",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://aide.veepee.fr/article/1360-les-modalites-de-garantie",
+                    "footerLinkTitle": "Les Garanties",
+                    "footerLinkText": "Les Garanties",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://aide.veepee.fr/article/42-comment-payer-ma-commande",
+                    "footerLinkTitle": "Le paiement",
+                    "footerLinkText": "Le paiement",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://aide.veepee.fr/article/984-securite-et-paiement",
+                    "footerLinkTitle": "Sécurité",
+                    "footerLinkText": "Sécurité",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": false,
+                    "clickAction": null
+                  }
+                ],
+                "paymentIcons": null,
+                "deliveryIcons": [],
+                "countryBlock": null
+              }
+            ]
+          },
+          {
+            "listBlocFooterLink": [
+              {
+                "blockFooterLinkTitle": "Conditions générales",
+                "icon": false,
+                "listFooterLink": [
+                  {
+                    "footerLinkRedirection": "/cgv/fr-FR/Conditions_Generales_de_Vente.pdf",
+                    "footerLinkTitle": "CGV Veepee",
+                    "footerLinkText": "CGV Veepee",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "/cgu/fr-FR/cgu.pdf",
+                    "footerLinkTitle": " CGU Veepee",
+                    "footerLinkText": " CGU Veepee",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://www.veepee.fr/cguvoyage/fr-fr/static/index.html",
+                    "footerLinkTitle": "CGU Veepee Voyage",
+                    "footerLinkText": "CGU Veepee Voyage",
+                    "icon": false,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "/marketplace/CGU.pdf",
+                    "footerLinkTitle": "CGU Ventes partenaires",
+                    "footerLinkText": "CGU Ventes partenaires",
+                    "icon": false,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "/marketplace/classement_referencement_marketplace.pdf",
+                    "footerLinkTitle": "Classement/Référencement",
+                    "footerLinkText": "Classement/Référencement",
+                    "icon": false,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://www.veepee.fr/PrivacyPolicy/fr-FR/PP_Veepee_FR.pdf",
+                    "footerLinkTitle": "Politique de confidentialité",
+                    "footerLinkText": "Politique de confidentialité",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "/gr/registration/privacypolicy",
+                    "footerLinkTitle": "Gérer mes cookies",
+                    "footerLinkText": "Gérer mes cookies",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": false,
+                    "clickAction": "ONETRUST"
+                  },
+                  {
+                    "footerLinkRedirection": "https://aide.veepee.fr/article/1364-mediation",
+                    "footerLinkTitle": "Mediation",
+                    "footerLinkText": "Mediation",
+                    "icon": false,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://aide.veepee.fr/article/763-declaration-daccessibilite-numerique",
+                    "footerLinkTitle": "Accessibilité : Partiellement conforme",
+                    "footerLinkText": "Accessibilité : Partiellement conforme",
+                    "icon": false,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "javascript:void((function(){ window.open(&#39;/registration/affiliation&#39;)})())",
+                    "footerLinkTitle": "",
+                    "footerLinkText": "",
+                    "icon": false,
+                    "target": null,
+                    "loggedIn": true,
+                    "clickAction": null
+                  }
+                ],
+                "paymentIcons": null,
+                "deliveryIcons": [],
+                "countryBlock": null
+              }
+            ]
+          },
+          {
+            "listBlocFooterLink": [
+              {
+                "blockFooterLinkTitle": "Rejoignez-nous",
+                "icon": false,
+                "listFooterLink": [
+                  {
+                    "footerLinkRedirection": "https://careers.veepee.com/veepee-tech/",
+                    "footerLinkTitle": "VeepeeTech",
+                    "footerLinkText": "VeepeeTech",
+                    "icon": false,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://careers.veepee.com/",
+                    "footerLinkTitle": "Veepee",
+                    "footerLinkText": "Veepee",
+                    "icon": false,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  }
+                ],
+                "paymentIcons": null,
+                "deliveryIcons": [],
+                "countryBlock": null
+              },
+              {
+                "blockFooterLinkTitle": "Découvrez nos univers",
+                "icon": false,
+                "listFooterLink": [
+                  {
+                    "footerLinkRedirection": "/gr/h/default",
+                    "footerLinkTitle": "Les univers Veepee",
+                    "footerLinkText": "Les univers Veepee",
+                    "icon": false,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  },
+                  {
+                    "footerLinkRedirection": "https://www.veepee.fr/gr/voyage/default",
+                    "footerLinkTitle": "Veepee Voyage",
+                    "footerLinkText": "Veepee Voyage",
+                    "icon": false,
+                    "target": "_blank",
+                    "loggedIn": false,
+                    "clickAction": null
+                  }
+                ],
+                "paymentIcons": null,
+                "deliveryIcons": [],
+                "countryBlock": null
+              }
+            ]
+          },
+          {
+            "listBlocFooterLink": [
+              {
+                "blockFooterLinkTitle": "Paiement sécurisé",
+                "icon": false,
+                "listFooterLink": null,
+                "paymentIcons": [
+                  "credit_card",
+                  "visa",
+                  "mastercard",
+                  "amex",
+                  "pay",
+                  "paypal",
+                  "klarna",
+                  "applepay",
+                  "floa"
+                ],
+                "deliveryIcons": [],
+                "countryBlock": null
+              }
+            ]
+          }
+        ],
+        "insuranceServices": [
+          {
+            "linkRedirection": "http://veepee.sourdline.com",
+            "linkTitle": null,
+            "image": {
+              "src": "//static.vente-privee.com/vp5/_web/site/vp/fr/img/footer_sourdLine.png",
+              "alt": "SourdLine - Contact sourd"
+            },
+            "info": "Espace dédié à nos membres sourds et malentendants.",
+            "infoBulle": "&nbsp;",
+            "target": "_blank",
+            "id": "sourdline"
+          },
+          {
+            "linkRedirection": null,
+            "linkTitle": null,
+            "image": {
+              "src": "//static.vente-privee.com/vp5/_web/site/vp/fr/img/footer_hallmark.png",
+              "alt": "Ecommerce Europe member"
+            },
+            "info": null,
+            "infoBulle": null,
+            "target": null,
+            "id": "ecommerce-eu"
+          },
+          {
+            "linkRedirection": null,
+            "linkTitle": null,
+            "image": {
+              "src": "//static.vente-privee.com/vp5/_web/site/vp/fr/img/footer_fevad.png",
+              "alt": "Fevad"
+            },
+            "info": "vente-privee.com s'engage à respecter la charte de qualité et les principes du code professionnel de la Fédération des Entreprises de Vente À Distance.",
+            "infoBulle": "&nbsp;",
+            "target": null,
+            "id": "fevad"
+          }
+        ],
+        "servicesAndRewards": [
+          {
+            "linkRedirection": "http://veepee.sourdline.com",
+            "linkTitle": null,
+            "image": {
+              "src": "//static.vente-privee.com/vp5/_web/site/vp/_common/footer/sourdline.svg",
+              "alt": "SourdLine - Contact sourd"
+            },
+            "info": "Espace dédié à nos membres sourds et malentendants.",
+            "infoBulle": "&nbsp;",
+            "target": "_blank",
+            "id": "sourdline"
+          },
+          {
+            "linkRedirection": "http://ws.facil-iti.com/",
+            "linkTitle": null,
+            "image": {
+              "src": "//static.vente-privee.com/vp5/_web/site/vp/_common/logos/footer/faciliti.svg",
+              "alt": "FACIL'iti"
+            },
+            "info": null,
+            "infoBulle": "&nbsp;",
+            "target": "_blank",
+            "id": "facil-iti"
+          },
+          {
+            "linkRedirection": null,
+            "linkTitle": null,
+            "image": {
+              "src": "//static.vente-privee.com/vp5/_web/site/vp/_common/footer/ecommerce-eu.svg",
+              "alt": "Ecommerce Europe member"
+            },
+            "info": null,
+            "infoBulle": null,
+            "target": null,
+            "id": "ecommerce-eu"
+          },
+          {
+            "linkRedirection": null,
+            "linkTitle": null,
+            "image": {
+              "src": "//static.vente-privee.com/vp5/_web/site/vp/_common/footer/fevad.svg",
+              "alt": "Fevad"
+            },
+            "info": "vente-privee.com s'engage à respecter la charte de qualité et les principes du code professionnel de la Fédération des Entreprises de Vente À Distance.",
+            "infoBulle": "&nbsp;",
+            "target": null,
+            "id": "fevad"
+          }
+        ],
+        "countryBlock": {
+          "countriesMainList": [
+            {
+              "countryTitleMain": "Vente-privee.com",
+              "countriesList": [
+                {
+                  "flagUrl": null,
+                  "countryCode": "FR",
+                  "flagText": "France"
+                },
+                {
+                  "flagUrl": "/authentication/logout/?geositeId=2",
+                  "countryCode": "DE",
+                  "flagText": "Deutschland"
+                },
+                {
+                  "flagUrl": "/authentication/logout/?geositeId=3",
+                  "countryCode": "ES",
+                  "flagText": "España"
+                },
+                {
+                  "flagUrl": "/authentication/logout/?geositeId=4",
+                  "countryCode": "IT",
+                  "flagText": "Italia"
+                },
+                {
+                  "flagUrl": "/authentication/logout/?geositeId=7",
+                  "countryCode": "AT",
+                  "flagText": "Österreich"
+                }
+              ]
+            },
+            {
+              "countryTitleMain": "Vente-Exclusive.com",
+              "countriesList": [
+                {
+                  "flagUrl": "/authentication/logout/?geositeId=70",
+                  "countryCode": "BE",
+                  "flagText": "Belgique"
+                },
+                {
+                  "flagUrl": "/authentication/logout/?geositeId=76",
+                  "countryCode": "NL",
+                  "flagText": "Nederland"
+                }
+              ]
+            },
+            {
+              "countryTitleMain": " Eboutic.ch",
+              "countriesList": [
+                {
+                  "flagUrl": "https://www.veepee.ch/fr",
+                  "countryCode": "CH",
+                  "flagText": "Suisse"
+                }
+              ]
+            }
+          ],
+          "selectedCountry": "FR",
+          "countryListTitle": "Accès aux autres sites"
+        },
+        "scripts": {
+          "sources": [
+            "//radar.cedexis.com/1/19816/radar.js",
+            "https://static.vente-privee.com/vp5/_web/site/vp/_common/js/footerScript-1.js"
+          ],
+          "noScripts": [
+            {
+              "src": "https://www.facebook.com/tr?id=1583473678563761&amp;ev=PixelInitialized",
+              "alt": ""
+            }
+          ]
+        },
+        "localizedLogo": "https://static.vente-privee.com/vp5/_web/site/vp/_common/logos/footer/veepee-legacy-fr.svg",
+        "siteId": 1
+      },
+      "timestamp": "2026-05-27T05:39:53.513Z"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.veepee.fr/cdn-cgi/rum?",
+      "status": 204,
+      "resourceType": "xhr",
+      "postData": "{\"memory\":{\"totalJSHeapSize\":29663715,\"usedJSHeapSize\":21202995,\"jsHeapSizeLimit\":4294967296},\"resources\":[],\"referrer\":\"\",\"eventType\":1,\"firstPaint\":4780,\"firstContentfulPaint\":4780,\"startTime\":1779860385323.4,\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.5.0\",\"timings\":2},\"pageloadId\":\"5f0e3b88-5aa5-4925-8a0f-4733bcb5d46b\",\"location\":\"https://www.veepee.fr/gr/authentication\",\"nt\":\"navigate\",\"timingsV2\":{\"nextHopProtocol\":\"h2\",\"domainLookupStart\":2504.5,\"domainLookupEnd\":2504.5,\"connectStart\":2504.5,\"connectEnd\":2504.5,\"requestStart\":2505.4000000059605,\"responseStart\":3146.2999999970198,\"responseEnd\":3646.7999999970198,\"domInteractive\":4699.4000000059605,\"domComplete\":12223.59999999404,\"loadEventStart\":12224.40000000596,\"loadEventEnd\":12224.5,\"finalResponseHeadersStart\":3146.2999999970198,\"firstInterimResponseStart\":0,\"transferSize\":106683,\"decodedBodySize\":419021},\"dt\":\"\",\"siteToken\":\"0a0f7bd0683d4fb5a1ac3a17257d2cdc\",\"st\":2}",
+      "responseBody": "",
+      "timestamp": "2026-05-27T05:39:57.781Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://www.veepee.fr/gr/authentication?ReturnUrl=/gr/catalog/903484/24707502",
+      "status": 200,
+      "resourceType": "document",
+      "postData": null,
+      "responseBody": "<!DOCTYPE html><html data-app-version=\"8.19.1\" data-app-name=\"gr\" data-site-id=\"1\" data-theme=\"pink\" lang=\"fr-fr\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" data-next-head=\"\"/><meta name=\"app-version\" content=\"8.19.1\" data-next-head=\"\"/><meta name=\"robots\" content=\"index,follow\" data-next-head=\"\"/><meta name=\"theme-color\" content=\"#ffffff\" data-next-head=\"\"/><link rel=\"manifest\" href=\"/gr/veepee.webmanifest\" data-next-head=\"\"/><link rel=\"shortcut icon\" href=\"/gr/icons/veepee/favicon.ico\" sizes=\"32x32\" data-next-head=\"\"/><link rel=\"apple-touch-icon\" href=\"/gr/icons/veepee/apple-touch-icon.png\" data-next-head=\"\"/><link rel=\"preconnect\" href=\"https://static.vente-privee.com\" crossorigin=\"\" data-next-head=\"\"/><link rel=\"preconnect\" href=\"https://webarchive.vente-privee.com\" crossorigin=\"\" data-next-head=\"\"/><link rel=\"dns-prefetch\" href=\"https://static.vente-privee.com\" data-next-head=\"\"/><link rel=\"dns-prefetch\" href=\"https://webarchive.vente-privee.com\" data-next-head=\"\"/><link rel=\"dns-prefetch\" href=\"https://media.veepee.com/\" data-next-head=\"\"/><meta name=\"author\" data-testid=\"meta-author\" content=\"Veepee\" data-next-head=\"\"/><title data-next-head=\"\">Connectez-vous à votre compte Veepee</title><meta name=\"description\" content=\"Connectez-vous à votre compte Veepee pour accéder à des ventes exclusives de grandes marques. Ne manquez pas nos offres exceptionnelles, connectez-vous dès maintenant !\" data-testid=\"description\" data-next-head=\"\"/><link rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.veepee.fr/gr/authentication\" data-next-head=\"\"/><link rel=\"alternate\" hrefLang=\"es\" href=\"https://www.veepee.es/gr/authentication\" data-next-head=\"\"/><link rel=\"alternate\" hrefLang=\"it\" href=\"https://www.veepee.it/gr/authentication\" data-next-head=\"\"/><link rel=\"alternate\" hrefLang=\"nl\" href=\"https://www.veepee.nl/gr/authentication\" data-next-head=\"\"/><link rel=\"alternate\" hrefLang=\"de\" href=\"https://www.veepee.de/gr/authentication\" data-next-head=\"\"/><link rel=\"alternate\" hrefLang=\"de-AT\" href=\"https://www.veepee.at/gr/authentication\" data-next-head=\"\"/><link rel=\"alternate\" hrefLang=\"fr-BE\" href=\"https://fr.veepee.be/gr/authentication\" data-next-head=\"\"/><link rel=\"alternate\" hrefLang=\"nl-BE\" href=\"https://nl.veepee.be/gr/authentication\" data-next-head=\"\"/><meta property=\"og:title\" content=\"Rejoins-moi sur Veepee\" data-next-head=\"\"/><meta property=\"og:description\" content=\"Rejoins-moi sur Veepee ! Les bons plans shopping sur tes marques préférées, c&#x27;est par ici que ça se passe !\" data-next-head=\"\"/><meta property=\"og:image\" content=\"https://media.veepee.com/v1/media/7e881882-26a7-4b8e-b69d-985ab4770a4f\" data-next-head=\"\"/><meta property=\"og:image:type\" content=\"image/png\" data-next-head=\"\"/><meta property=\"og:image:width\" content=\"200\" data-next-head=\"\"/><meta property=\"og:image:height\" content=\"200\" data-next-head=\"\"/><meta property=\"twitter:image:width\" content=\"200\" data-next-head=\"\"/><meta property=\"twitter:image:height\" content=\"200\" data-next-head=\"\"/><meta property=\"fb:app_id\" content=\"136039606441715\" data-next-head=\"\"/><link href=\"https://www.veepee.fr/gr/authentication\" rel=\"canonical\" data-next-head=\"\"/><script type=\"text/javascript\" src=\"https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js\" data-next-head=\"\"></script><link rel=\"preload\" as=\"script\" href=\"https://cdn.cookielaw.org/scripttemplates/otSDKStub.js\"/><script crossorigin=\"anonymous\" src=\"https://cdn.cookielaw.org/scripttemplates/otSDKStub.js\" data-language=\"fr\" type=\"text/javascript\" data-domain-script=\"96033a43-b4a6-42a7-acd0-c1fa033e95cc\"></script><script type=\"text/javascript\">\n  function OptanonWrapper() {\n    const event = new CustomEvent('groot.event:optanon')\n    window.dispatchEvent(event)\n\n    const tagsH2 = [...document.querySelectorAll('#onetrust-consent-sdk h2')];\n    tagsH2.forEach(tag => otreplace(tag,\"ot-h2\"));\n    const tagsH3 = [...document.q",
+      "timestamp": "2026-05-27T05:39:48.981Z"
+    },
+    {
+      "method": "GET",
+      "url": "https://www.veepee.fr/gr/catalog/903484/24707502",
+      "status": 302,
+      "resourceType": "document",
+      "postData": null,
+      "responseBody": null,
+      "timestamp": "2026-05-27T05:39:47.829Z"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.veepee.fr/tr/track/?ip=1&_=1779860394266",
+      "status": 200,
+      "resourceType": "xhr",
+      "postData": "data=eyJldmVudCI6IiRvcHRfaW4iLCJwcm9wZXJ0aWVzIjp7IiRvcyI6Ik1hYyBPUyBYIiwiJGJyb3dzZXIiOiJDaHJvbWUiLCIkY3VycmVudF91cmwiOiJodHRwczovL3d3dy52ZWVwZWUuZnIvZ3IvYXV0aGVudGljYXRpb24%2FUmV0dXJuVXJsPS9nci9jYXRhbG9nLzkwMzQ4NC8yNDcwNzUwMiIsIiRicm93c2VyX3ZlcnNpb24iOjEyMiwiJHNjcmVlbl9oZWlnaHQiOjcyMCwiJHNjcmVlbl93aWR0aCI6MTI4MCwibXBfbGliIjoid2ViIiwiJGxpYl92ZXJzaW9uIjoiMi43OC4wIiwiJGluc2VydF9pZCI6Ing4Zmh0MzM3Z3ZqZjlvMTAiLCJ0aW1lIjoxNzc5ODYwMzk0LjI2NSwiZGlzdGluY3RfaWQiOiIkZGV2aWNlOjgyMDVmMmFlLTJhZTMtNDc4Zi1hYjI5LTNkODE2NmZlMzc2NCIsIiRkZXZpY2VfaWQiOiI4MjA1ZjJhZS0yYWUzLTQ3OGYtYWIyOS0zZDgxNjZmZTM3NjQiLCIkaW5pdGlhbF9yZWZlcnJlciI6IiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjoiJGRpcmVjdCIsIlBhcnRuZXIgSUQiOjE0NDc2LCJJbnRlcmZhY2UiOiJXZWJzaXRlIiwiT3BlbiBEb29yIjpmYWxzZSwiVVRNIENhbXBhaWduIFtMYXN0IFRvdWNoXSI6Ik9yZ2FuaWMiLCJVVE0gQ29udGVudCBbTGFzdCBUb3VjaF0iOiJPcmdhbmljIiwiVVRNIE1lZGl1bSBbTGFzdCBUb3VjaF0iOiJPcmdhbmljIiwiVVRNIFNvdXJjZSBbTGFzdCBUb3VjaF0iOiJPcmdhbmljIiwiVVRNIFRlcm0gW0xhc3QgVG91Y2hdIjoiT3JnYW5pYyIsIlJlZHVjZSBNb3Rpb24iOmZhbHNlLCJ0b2tlbiI6ImEzY2I4YmIyNTU0OWI0OGU3NDA5ZjEyMTFmYzA0OTc2In19",
+      "responseBody": 1,
+      "timestamp": "2026-05-27T05:39:54.694Z"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Endpoints à tenter depuis un réseau non bloqué (DevTools → Network → copier l'URL). Les réponses sont sauvées dans data/api-snapshots/raw/",
+  "defaultHeaders": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "fr-FR,fr;q=0.9",
+    "Referer": "https://www.veepee.fr/gr/home"
+  },
+  "endpoints": [
+    {
+      "name": "home-html",
+      "url": "https://www.veepee.fr/gr/home",
+      "accept": "text/html",
+      "note": "Page publique — souvent bloquée en datacenter"
+    },
+    {
+      "name": "home-default",
+      "url": "https://www.veepee.fr/gr/home/default",
+      "accept": "text/html"
+    },
+    {
+      "name": "find-search",
+      "url": "https://www.veepee.fr/gr/find",
+      "accept": "text/html",
+      "note": "Page recherche catalogue"
+    }
+  ],
+  "importHints": [
+    "Dans Chrome: Network → filtrer Fetch/XHR → clic droit sur la requête home/catalog → Copy response",
+    "Coller dans data/api-snapshots/raw/home-api.json puis: npm run api:import",
+    "Ou exporter HAR complet puis: npm run api:import -- --har export.har"
+  ]
+}

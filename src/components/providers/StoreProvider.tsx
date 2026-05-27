@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { CookieConsent } from "@/components/layout/CookieConsent";
+import { CartMiniHost } from "@/components/cart/CartMiniHost";
 
 export function StoreProvider({ children }: { children: React.ReactNode }) {
   const [hydrated, setHydrated] = useState(false);
@@ -18,5 +20,11 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     );
   }
 
-  return children;
+  return (
+    <>
+      {children}
+      <CartMiniHost />
+      <CookieConsent />
+    </>
+  );
 }

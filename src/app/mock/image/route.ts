@@ -28,6 +28,25 @@ function buildHsl(hash: number, offset: number): string {
   return `hsl(${hue} ${sat}% ${light}%)`;
 }
 
+const BRAND_PALETTES: Record<string, [string, string, string]> = {
+  fortuneo: ["hsl(45 85% 42%)", "hsl(38 70% 28%)", "hsl(50 60% 18%)"],
+  backsun: ["hsl(35 55% 78%)", "hsl(28 45% 62%)", "hsl(22 40% 48%)"],
+  billowy: ["hsl(200 35% 88%)", "hsl(205 30% 72%)", "hsl(210 25% 55%)"],
+  villages: ["hsl(195 70% 55%)", "hsl(200 60% 42%)", "hsl(205 50% 30%)"],
+  geox: ["hsl(0 0% 18%)", "hsl(0 0% 28%)", "hsl(0 0% 12%)"],
+  ooni: ["hsl(15 75% 52%)", "hsl(8 65% 38%)", "hsl(0 55% 22%)"],
+};
+
+function resolvePalette(seed: string, hash: number): [string, string, string] {
+  const key = Object.keys(BRAND_PALETTES).find((brand) =>
+    seed.toLowerCase().includes(brand),
+  );
+  if (key) {
+    return BRAND_PALETTES[key];
+  }
+  return [buildHsl(hash, 10), buildHsl(hash, 140), buildHsl(hash, 260)];
+}
+
 export function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const seed = (searchParams.get("seed") ?? "veepee").slice(0, 80);
@@ -37,9 +56,7 @@ export function GET(request: NextRequest) {
   const variant = (searchParams.get("variant") ?? "default").slice(0, 20);
 
   const hash = hashSeed(seed);
-  const c1 = buildHsl(hash, 10);
-  const c2 = buildHsl(hash, 140);
-  const c3 = buildHsl(hash, 260);
+  const [c1, c2, c3] = resolvePalette(seed, hash);
 
   const safeLabel = escapeXml(label);
   const isJungle = variant === "jungle";
@@ -102,6 +119,8 @@ export function GET(request: NextRequest) {
         height - 48,
       )}" fill="rgba(0,0,0,0.12)"/>`;
 
+  const showMockHint = variant !== "banner";
+
   const svg = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
   ${bg}
@@ -111,11 +130,15 @@ export function GET(request: NextRequest) {
         font-size="${Math.max(18, Math.round(Math.min(width, height) * 0.06))}"
         fill="rgba(255,255,255,0.92)"
         font-weight="700">${safeLabel}</text>
-  <text x="40" y="${Math.max(80, Math.round(height * 0.72) + 28)}"
+  ${
+    showMockHint
+      ? `<text x="40" y="${Math.max(80, Math.round(height * 0.72) + 28)}"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
         font-size="${Math.max(12, Math.round(Math.min(width, height) * 0.03))}"
         fill="rgba(255,255,255,0.78)"
-        font-weight="500">mock image · ${escapeXml(seed)}</text>
+        font-weight="500">mock · ${escapeXml(seed)}</text>`
+      : ""
+  }
 </svg>`;
 
   return new Response(svg, {
@@ -126,4 +149,3 @@ export function GET(request: NextRequest) {
     },
   });
 }
-

@@ -1,0 +1,1849 @@
+{
+  "images": [
+    {
+      "id": "veepee-favicon",
+      "url": "https://static.vente-privee.com/vp5/favicon.ico",
+      "path": "brand/favicon.ico"
+    },
+    {
+      "id": "veepee-black",
+      "url": "https://static.vente-privee.com/vp5/_web/site/vp/_common/logos/veepee-black.svg",
+      "path": "brand/veepee-black.svg"
+    },
+    {
+      "id": "veepee-white",
+      "url": "https://static.vente-privee.com/vp5/_web/site/vp/_common/logos/veepee-white.svg",
+      "path": "brand/veepee-white.svg"
+    },
+    {
+      "id": "home-jungle",
+      "url": "https://media.veepee.com/v1/media/736aa90b-9435-481b-a490-0e2263a19437",
+      "path": "backgrounds/home-jungle.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Captured via Playwright session"
+    },
+    {
+      "id": "auth-bg",
+      "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1920&q=85",
+      "path": "backgrounds/auth-bg.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "cart-404",
+      "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80",
+      "path": "backgrounds/cart-404.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "not-found",
+      "url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1920&q=80",
+      "path": "backgrounds/not-found.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-happy-hours",
+      "url": "https://media.veepee.com/v1/media/16cd0c5d-b270-40a3-acfd-a54f480a4af2",
+      "path": "sales/happy-hours.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-triumph",
+      "url": "https://media.veepee.com/v1/media/2df47b8e-59dc-4c1d-ad50-e60ec442b6ea",
+      "path": "sales/triumph.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-marco-bonelli",
+      "url": "https://picsum.photos/seed/marco-bonelli-shoes/1200/600",
+      "path": "sales/marco-bonelli.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-fortuneo",
+      "url": "https://media.veepee.com/v1/media/8efd0e99-9aaa-4287-bf3d-39b5d099a5f5",
+      "path": "sales/fortuneo.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Browser session export"
+    },
+    {
+      "id": "sale-backsun",
+      "url": "https://media.veepee.com/v1/media/6d1da7e3-87f4-4856-aba8-35d86686ee6b",
+      "path": "sales/backsun.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-billowy",
+      "url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1400&q=85",
+      "path": "sales/billowy.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-villages",
+      "url": "https://media.veepee.com/v1/media/3c23eb22-d552-4597-a0fa-92653d84ff9e",
+      "path": "sales/villages.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Browser session export"
+    },
+    {
+      "id": "sale-geox",
+      "url": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=1400&q=85",
+      "path": "sales/geox.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-ooni",
+      "url": "https://media.veepee.com/v1/media/270c0ae3-2af7-4f02-8a0c-0470890fb03b",
+      "path": "sales/ooni.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-retturn",
+      "url": "https://picsum.photos/seed/veepee-retturn/1400/520",
+      "path": "sales/retturn.jpg"
+    },
+    {
+      "id": "sale-nazar",
+      "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=85",
+      "path": "sales/nazar.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-camp",
+      "url": "https://picsum.photos/seed/veepee-camp/1200/600",
+      "path": "sales/camp.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-clubmed",
+      "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85",
+      "path": "sales/clubmed.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-oxybul",
+      "url": "https://picsum.photos/seed/veepee-oxybul/1200/600",
+      "path": "sales/oxybul.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-lancome",
+      "url": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1200&q=85",
+      "path": "sales/lancome.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-nike",
+      "url": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=1200&q=85",
+      "path": "sales/nike.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-maje",
+      "url": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=85",
+      "path": "sales/maje.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-dyson",
+      "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=85",
+      "path": "sales/dyson.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-clarks",
+      "url": "https://picsum.photos/seed/veepee-clarks/1200/600",
+      "path": "sales/clarks.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-rosedeals",
+      "url": "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=1200&q=85",
+      "path": "sales/rosedeals.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-the-place",
+      "url": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1200&q=85",
+      "path": "sales/the-place.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "account-empty",
+      "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80",
+      "path": "ui/account-empty.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "product-api-massimo",
+      "url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=700&q=85",
+      "path": "products/product-api-massimo.jpg",
+      "referer": "https://unsplash.com/",
+      "note": "Stand-in offline pour media.veepee.com (Apify sample Massimo Dutti Pull gris)"
+    },
+    {
+      "id": "product-01",
+      "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=85",
+      "path": "products/product-01.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "product-02",
+      "url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=85",
+      "path": "products/product-02.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "product-03",
+      "url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=85",
+      "path": "products/product-03.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "product-04",
+      "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=800&q=85",
+      "path": "products/product-04.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "product-05",
+      "url": "https://picsum.photos/seed/veepee-product-05/800/1000",
+      "path": "products/product-05.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "product-06",
+      "url": "https://images.unsplash.com/photo-1615529328331-f8917597711f?auto=format&fit=crop&w=800&q=85",
+      "path": "products/product-06.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "product-07",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=85",
+      "path": "products/product-07.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "product-08",
+      "url": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=800&q=85",
+      "path": "products/product-08.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "product-09",
+      "url": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=85",
+      "path": "products/product-09.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "product-10",
+      "url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=800&q=85",
+      "path": "products/product-10.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "product-11",
+      "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=85",
+      "path": "products/product-11.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "product-12",
+      "url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=85",
+      "path": "products/product-12.jpg",
+      "referer": "https://unsplash.com/"
+    },
+    {
+      "id": "sale-petit-bateau",
+      "url": "https://media.veepee.com/v1/media/9b485bcf-f86d-4eff-9429-b311688368da",
+      "path": "sales/petit-bateau.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Browser session export"
+    },
+    {
+      "id": "sale-fortuneo-banque",
+      "url": "https://media.veepee.com/v1/media/6ac616e8-acc9-4a7c-8290-5d672dccf95b",
+      "path": "sales/fortuneo-banque.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-happy",
+      "url": "https://media.veepee.com/v1/media/16cd0c5d-b270-40a3-acfd-a54f480a4af2",
+      "path": "sales/happy.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-villages-clubs-du-soleil",
+      "url": "https://media.veepee.com/v1/media/06fb4adc-0eab-40ee-9d57-c69e8d03c750",
+      "path": "sales/villages-clubs-du-soleil.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-les",
+      "url": "https://media.veepee.com/v1/media/354ead95-a940-42b7-8129-2723c033eadc",
+      "path": "sales/les.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-4e280789",
+      "url": "https://media.veepee.com/v1/media/4e280789-ea11-4502-9de3-48be2af3204b",
+      "path": "sales/media-4e280789.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-1656113a",
+      "url": "https://media.veepee.com/v1/media/1656113a-a386-43b2-a1cc-b952f28cb77e",
+      "path": "backgrounds/media-1656113a.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-petit",
+      "url": "https://media.veepee.com/v1/media/66362d50-96b9-4956-aea8-5d4deef87091",
+      "path": "sales/petit.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-e185f253",
+      "url": "https://media.veepee.com/v1/media/e185f253-ee05-476e-842d-1f04d4050603",
+      "path": "backgrounds/media-e185f253.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-operation-211987",
+      "url": "https://media.veepee.com/v1/media/e5912d1c-0678-4c87-8855-0f36a105c0d1",
+      "path": "sales/operation-211987.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-operation-211988",
+      "url": "https://media.veepee.com/v1/media/7e8f9a16-c601-4ca1-a6a9-d1ca8747cad2",
+      "path": "sales/operation-211988.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-79bce96a",
+      "url": "https://media.veepee.com/v1/media/79bce96a-36b8-4cb0-9297-e553bd095df3",
+      "path": "sales/media-79bce96a.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-95f9fb94",
+      "url": "https://media.veepee.com/v1/media/95f9fb94-c6a1-4828-9f81-7e9f5edb190b",
+      "path": "sales/media-95f9fb94.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-1bf57ba9",
+      "url": "https://media.veepee.com/v1/media/1bf57ba9-98b2-403e-9bca-850cabf29618",
+      "path": "sales/media-1bf57ba9.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-8ca6be01",
+      "url": "https://media.veepee.com/v1/media/8ca6be01-2d49-4dae-8e3d-4e75b6c84e61",
+      "path": "sales/media-8ca6be01.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-9507d8ab",
+      "url": "https://media.veepee.com/v1/media/9507d8ab-09ef-4e88-bca6-f19e670a4472",
+      "path": "sales/media-9507d8ab.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-0b14a5b9",
+      "url": "https://media.veepee.com/v1/media/0b14a5b9-957c-43ab-9547-5a4ca4044a5e",
+      "path": "sales/media-0b14a5b9.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-a3393cec",
+      "url": "https://media.veepee.com/v1/media/a3393cec-9fa1-4674-b9df-6686e7620758",
+      "path": "sales/media-a3393cec.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-5c07d79b",
+      "url": "https://media.veepee.com/v1/media/5c07d79b-3ff2-4419-ab3c-6c9eadc5bc8d",
+      "path": "sales/media-5c07d79b.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-0cf2e68f",
+      "url": "https://media.veepee.com/v1/media/0cf2e68f-bdd8-49ce-9dae-ba1608696f46",
+      "path": "sales/media-0cf2e68f.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-5737b7b3",
+      "url": "https://media.veepee.com/v1/media/5737b7b3-5d55-4ec5-94f3-ce0b1f551927",
+      "path": "sales/media-5737b7b3.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-596bfbed",
+      "url": "https://media.veepee.com/v1/media/596bfbed-5ae8-4f8e-8ab5-dc527f923c8c",
+      "path": "sales/media-596bfbed.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-db192d4a",
+      "url": "https://media.veepee.com/v1/media/db192d4a-407b-44c8-b235-77eaa4c308c1",
+      "path": "sales/media-db192d4a.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-e74a617a",
+      "url": "https://media.veepee.com/v1/media/e74a617a-3897-4202-8860-9cdd6b903147",
+      "path": "sales/media-e74a617a.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-6be634c7",
+      "url": "https://media.veepee.com/v1/media/6be634c7-1c93-4bf1-abc2-377d8a3a33f0",
+      "path": "sales/media-6be634c7.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-30950160",
+      "url": "https://media.veepee.com/v1/media/30950160-be05-434e-99d3-47ee237b17e2",
+      "path": "sales/media-30950160.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-68f0e995",
+      "url": "https://media.veepee.com/v1/media/68f0e995-1c37-421f-b103-8db0321cd4ce",
+      "path": "sales/media-68f0e995.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-dd070523",
+      "url": "https://media.veepee.com/v1/media/dd070523-df00-4c48-8cd2-b795d7b176fd",
+      "path": "sales/media-dd070523.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-276ca9d2",
+      "url": "https://media.veepee.com/v1/media/276ca9d2-a3da-4e5e-bb55-73be1e278837",
+      "path": "sales/media-276ca9d2.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-f7777785",
+      "url": "https://media.veepee.com/v1/media/f7777785-3c55-4a62-a50b-f6ba01563167",
+      "path": "backgrounds/media-f7777785.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-kid",
+      "url": "https://media.veepee.com/v1/media/950c4fb7-5503-4895-9a0e-1ab90037c674",
+      "path": "sales/kid.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-operation-191617",
+      "url": "https://media.veepee.com/v1/media/5db6b481-e9c4-467a-af21-e1d63054ff41",
+      "path": "sales/operation-191617.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-sejours",
+      "url": "https://media.veepee.com/v1/media/47a80c54-92fc-4327-912b-43932c2075ec",
+      "path": "sales/sejours.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-adult",
+      "url": "https://media.veepee.com/v1/media/c40f8930-8c70-4f4c-9822-015d02723ca6",
+      "path": "sales/adult.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-cd708971",
+      "url": "https://media.veepee.com/v1/media/cd708971-ea6a-48f6-9e70-a15ef8572acd",
+      "path": "backgrounds/media-cd708971.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-tartine",
+      "url": "https://media.veepee.com/v1/media/41953d65-cf04-4d39-8d0a-1225aa36380b",
+      "path": "sales/tartine.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-carryboo",
+      "url": "https://media.veepee.com/v1/media/d04a7689-1a2c-440e-bb12-64fd85b1d5f9",
+      "path": "sales/carryboo.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-bebe",
+      "url": "https://media.veepee.com/v1/media/8ea6d658-2218-40ba-8a11-5249cc489d0e",
+      "path": "sales/bebe.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-operation-162057",
+      "url": "https://media.veepee.com/v1/media/134e9e1c-df5f-406a-ae8b-67836ba1641a",
+      "path": "sales/operation-162057.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-ccac9786",
+      "url": "https://media.veepee.com/v1/media/ccac9786-9d5e-4a12-9213-df3c81dde007",
+      "path": "backgrounds/media-ccac9786.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-redskins",
+      "url": "https://media.veepee.com/v1/media/cba2e840-e2af-4af9-95a8-b585229dc7ed",
+      "path": "sales/redskins.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-marco",
+      "url": "https://media.veepee.com/v1/media/be31fd24-b920-436c-9e3e-8f23959adbef",
+      "path": "sales/marco.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-fb323349",
+      "url": "https://media.veepee.com/v1/media/fb323349-02d6-42ba-aa21-3535ac09707a",
+      "path": "backgrounds/media-fb323349.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-cattier",
+      "url": "https://media.veepee.com/v1/media/caa9da17-d6d0-469e-a2be-1b594dcced04",
+      "path": "sales/cattier.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-cosmetique",
+      "url": "https://media.veepee.com/v1/media/b2c040a7-19f0-4435-b777-dd17cae71dde",
+      "path": "sales/cosmetique.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-ff086772",
+      "url": "https://media.veepee.com/v1/media/ff086772-a828-43ba-bd28-01813a75e39b",
+      "path": "sales/media-ff086772.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-38d97b2a",
+      "url": "https://media.veepee.com/v1/media/38d97b2a-f3ff-40bf-81d4-b2878b3e58ce",
+      "path": "sales/media-38d97b2a.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-d72bd671",
+      "url": "https://media.veepee.com/v1/media/d72bd671-f5a4-4063-bb83-f68e1312604c",
+      "path": "sales/media-d72bd671.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-be56921e",
+      "url": "https://media.veepee.com/v1/media/be56921e-a19f-4b56-94eb-4543b2003667",
+      "path": "sales/media-be56921e.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-d3745769",
+      "url": "https://media.veepee.com/v1/media/d3745769-6f1e-4a9b-98f0-f854957018e5",
+      "path": "sales/media-d3745769.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-d0f93a03",
+      "url": "https://media.veepee.com/v1/media/d0f93a03-b1be-44ab-b81d-f8082e2a5939",
+      "path": "sales/media-d0f93a03.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-d81caf90",
+      "url": "https://media.veepee.com/v1/media/d81caf90-8299-47d9-b46b-cab073ce8ddf",
+      "path": "sales/media-d81caf90.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-8a4b8142",
+      "url": "https://media.veepee.com/v1/media/8a4b8142-258d-4536-9937-7577adbcc8f6",
+      "path": "sales/media-8a4b8142.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-2d745851",
+      "url": "https://media.veepee.com/v1/media/2d745851-0e8d-4afe-8387-494a60715d10",
+      "path": "sales/media-2d745851.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-8744a071",
+      "url": "https://media.veepee.com/v1/media/8744a071-9d35-4356-b85f-01d8c4be8e15",
+      "path": "sales/media-8744a071.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-65ee8ac6",
+      "url": "https://media.veepee.com/v1/media/65ee8ac6-df68-4039-8b04-cd97d5ace07f",
+      "path": "sales/media-65ee8ac6.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-960eafbf",
+      "url": "https://media.veepee.com/v1/media/960eafbf-d389-4a4c-9e79-419415e752ba",
+      "path": "sales/media-960eafbf.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-525670e8",
+      "url": "https://media.veepee.com/v1/media/525670e8-921b-485a-bca4-a766eb2f3f5f",
+      "path": "backgrounds/media-525670e8.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-siroko",
+      "url": "https://media.veepee.com/v1/media/08f3fae8-e56f-4c98-8bb3-d618903e1624",
+      "path": "sales/siroko.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-arena",
+      "url": "https://media.veepee.com/v1/media/aaa6210d-ad4c-4557-a438-3b642cdc9d6d",
+      "path": "sales/arena.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-hurley",
+      "url": "https://media.veepee.com/v1/media/3ccec3f8-2125-4a26-ad82-63d1b24828f9",
+      "path": "sales/hurley.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-hot",
+      "url": "https://media.veepee.com/v1/media/ab997d2c-b7c2-476b-9a99-f2377d760eec",
+      "path": "sales/hot.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-174177c0",
+      "url": "https://media.veepee.com/v1/media/174177c0-97bb-4fcd-bedb-9440b659e1a0",
+      "path": "backgrounds/media-174177c0.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-f5c2a012",
+      "url": "https://media.veepee.com/v1/media/f5c2a012-b065-4140-aa71-1bc7cac1535c",
+      "path": "sales/media-f5c2a012.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-3739d77f",
+      "url": "https://media.veepee.com/v1/media/3739d77f-4486-4fdb-9464-37e3ec42f1ba",
+      "path": "sales/media-3739d77f.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-120bf5cb",
+      "url": "https://media.veepee.com/v1/media/120bf5cb-de04-4e49-9367-c836c3d2d67e",
+      "path": "sales/media-120bf5cb.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-f73fe2e0",
+      "url": "https://media.veepee.com/v1/media/f73fe2e0-e444-4e75-a4d5-77309b919e31",
+      "path": "sales/media-f73fe2e0.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-9fe972bb",
+      "url": "https://media.veepee.com/v1/media/9fe972bb-334e-4b27-8c27-ff595cf97a7e",
+      "path": "sales/media-9fe972bb.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-7afe942b",
+      "url": "https://media.veepee.com/v1/media/7afe942b-3c68-4a2f-8fe0-caa407d9e717",
+      "path": "sales/media-7afe942b.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-85975ed5",
+      "url": "https://media.veepee.com/v1/media/85975ed5-ef64-4589-ab25-4b3e947d77b7",
+      "path": "sales/media-85975ed5.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-de885671",
+      "url": "https://media.veepee.com/v1/media/de885671-fb74-4258-8f20-567c38106b12",
+      "path": "sales/media-de885671.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-97c2719d",
+      "url": "https://media.veepee.com/v1/media/97c2719d-38f0-441b-ba0f-7047b28b49dc",
+      "path": "sales/media-97c2719d.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-72eaa804",
+      "url": "https://media.veepee.com/v1/media/72eaa804-197b-41e9-980f-488d5d4456d1",
+      "path": "sales/media-72eaa804.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-4521be87",
+      "url": "https://media.veepee.com/v1/media/4521be87-4109-4f66-8cbf-6f9e695fd050",
+      "path": "sales/media-4521be87.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-d7faf352",
+      "url": "https://media.veepee.com/v1/media/d7faf352-4354-4eff-bac0-438dc750d4ae",
+      "path": "sales/media-d7faf352.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-514ccde9",
+      "url": "https://media.veepee.com/v1/media/514ccde9-5f7c-48b0-94c5-dd8616a4c998",
+      "path": "sales/media-514ccde9.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-33ef5e18",
+      "url": "https://media.veepee.com/v1/media/33ef5e18-fcf4-4fea-a69e-99e940ea9cbb",
+      "path": "sales/media-33ef5e18.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-c232c4d1",
+      "url": "https://media.veepee.com/v1/media/c232c4d1-b072-4bf4-abcc-4e917e2421dd",
+      "path": "sales/media-c232c4d1.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-afe8ae5a",
+      "url": "https://media.veepee.com/v1/media/afe8ae5a-3316-421b-9776-e21920194eca",
+      "path": "sales/media-afe8ae5a.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-500601c6",
+      "url": "https://media.veepee.com/v1/media/500601c6-8b65-4e5e-a4ca-5cdc3deab616",
+      "path": "sales/media-500601c6.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-26102255",
+      "url": "https://media.veepee.com/v1/media/26102255-8a79-4cc2-aef6-74dcb72632a3",
+      "path": "sales/media-26102255.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-4960de0e",
+      "url": "https://media.veepee.com/v1/media/4960de0e-1fae-4c5d-9ef1-3e4e3c874189",
+      "path": "sales/media-4960de0e.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-c82566e7",
+      "url": "https://media.veepee.com/v1/media/c82566e7-a281-4ea3-9786-ae01bbf223c4",
+      "path": "sales/media-c82566e7.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-d1ddeeae",
+      "url": "https://media.veepee.com/v1/media/d1ddeeae-2bd5-4fde-8f59-9c34042ac252",
+      "path": "sales/media-d1ddeeae.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-d6c646ee",
+      "url": "https://media.veepee.com/v1/media/d6c646ee-0c2b-489c-a4bb-94b450700f9a",
+      "path": "sales/media-d6c646ee.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-beb9362d",
+      "url": "https://media.veepee.com/v1/media/beb9362d-437e-4601-9074-c0ca42d5ac48",
+      "path": "sales/media-beb9362d.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-b34636d5",
+      "url": "https://media.veepee.com/v1/media/b34636d5-8a72-4dab-ac42-fd729af49a2d",
+      "path": "sales/media-b34636d5.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-d89efca7",
+      "url": "https://media.veepee.com/v1/media/d89efca7-24a7-4c85-9881-0747a3e8cd3a",
+      "path": "sales/media-d89efca7.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-0d6c2d40",
+      "url": "https://media.veepee.com/v1/media/0d6c2d40-8ee5-41a1-9c29-264851bba886",
+      "path": "sales/media-0d6c2d40.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-d355ab31",
+      "url": "https://media.veepee.com/v1/media/d355ab31-0133-487e-9e5a-045f67d07468",
+      "path": "sales/media-d355ab31.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-9284f455",
+      "url": "https://media.veepee.com/v1/media/9284f455-412c-4aa9-915e-707a12220fd2",
+      "path": "sales/media-9284f455.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-f4476607",
+      "url": "https://media.veepee.com/v1/media/f4476607-79b8-45c0-8c14-a559d1bfe756",
+      "path": "sales/media-f4476607.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-a5f56bbc",
+      "url": "https://media.veepee.com/v1/media/a5f56bbc-4305-4e25-ba5e-647eb344e05f",
+      "path": "sales/media-a5f56bbc.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-b0441671",
+      "url": "https://media.veepee.com/v1/media/b0441671-7e9b-465d-bcb1-4660f744ae81",
+      "path": "sales/media-b0441671.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-50fba64d",
+      "url": "https://media.veepee.com/v1/media/50fba64d-e7e2-47f5-b4ee-05472c3018c0",
+      "path": "sales/media-50fba64d.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-ec04145f",
+      "url": "https://media.veepee.com/v1/media/ec04145f-4f02-4b35-8b54-936a15ba7fa0",
+      "path": "sales/media-ec04145f.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-ce420f35",
+      "url": "https://media.veepee.com/v1/media/ce420f35-fac3-4f24-bc4e-9296352d5bc2",
+      "path": "sales/media-ce420f35.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-8e6003c7",
+      "url": "https://media.veepee.com/v1/media/8e6003c7-7b5a-4b9c-9e71-ee7b8280d5ed",
+      "path": "sales/media-8e6003c7.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-e582c27d",
+      "url": "https://media.veepee.com/v1/media/e582c27d-3dee-456c-8d4a-0d82109cae2b",
+      "path": "sales/media-e582c27d.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-9000a621",
+      "url": "https://media.veepee.com/v1/media/9000a621-2013-4bb1-a620-0bef5cddd459",
+      "path": "sales/media-9000a621.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-a361cd6f",
+      "url": "https://media.veepee.com/v1/media/a361cd6f-ad14-4b3f-9ef2-1e9d98d29051",
+      "path": "sales/media-a361cd6f.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-9b7b8380",
+      "url": "https://media.veepee.com/v1/media/9b7b8380-395f-4f1f-9bdd-8450dcc8e070",
+      "path": "sales/media-9b7b8380.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-235a4763",
+      "url": "https://media.veepee.com/v1/media/235a4763-7db9-4d72-bf60-21e831c81767",
+      "path": "sales/media-235a4763.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-4f4cc94a",
+      "url": "https://media.veepee.com/v1/media/4f4cc94a-3818-4c76-9c42-02c6366449af",
+      "path": "sales/media-4f4cc94a.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-d5240761",
+      "url": "https://media.veepee.com/v1/media/d5240761-2a62-4d09-9df7-742f61d31c33",
+      "path": "backgrounds/media-d5240761.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-3772d064",
+      "url": "https://media.veepee.com/v1/media/3772d064-23ec-4441-aecf-47bcc2099c0f",
+      "path": "sales/media-3772d064.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-9f1ca150",
+      "url": "https://media.veepee.com/v1/media/9f1ca150-d410-43c3-a155-7e1a4f3b412e",
+      "path": "sales/media-9f1ca150.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-0af68a0f",
+      "url": "https://media.veepee.com/v1/media/0af68a0f-f2e8-49da-b570-edcf178d9356",
+      "path": "sales/media-0af68a0f.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-4aeb6d48",
+      "url": "https://media.veepee.com/v1/media/4aeb6d48-45a0-4133-9df4-3e71399c193c",
+      "path": "sales/media-4aeb6d48.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-45cabf13",
+      "url": "https://media.veepee.com/v1/media/45cabf13-173a-4b2a-b900-05a8e1c66a43",
+      "path": "sales/media-45cabf13.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-9410a3d0",
+      "url": "https://media.veepee.com/v1/media/9410a3d0-32b8-4853-8db5-22b8a3406d49",
+      "path": "sales/media-9410a3d0.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-8c71a3d4",
+      "url": "https://media.veepee.com/v1/media/8c71a3d4-0598-4c75-afde-cbf9961c6095",
+      "path": "sales/media-8c71a3d4.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-eada7300",
+      "url": "https://media.veepee.com/v1/media/eada7300-c37e-4952-ae31-1a6f36cc5e4b",
+      "path": "sales/media-eada7300.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-415e9910",
+      "url": "https://media.veepee.com/v1/media/415e9910-49d2-47eb-87b1-03891e26759b",
+      "path": "sales/media-415e9910.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-ee3c5d6e",
+      "url": "https://media.veepee.com/v1/media/ee3c5d6e-66a6-4e9f-87ff-5f43540e04d1",
+      "path": "sales/media-ee3c5d6e.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-bd7cb1bc",
+      "url": "https://media.veepee.com/v1/media/bd7cb1bc-25cc-4d7f-a477-fbd1fb43553d",
+      "path": "sales/media-bd7cb1bc.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-f650c742",
+      "url": "https://media.veepee.com/v1/media/f650c742-e0f9-4109-949d-3bb98b81ce04",
+      "path": "sales/media-f650c742.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-8f05701a",
+      "url": "https://media.veepee.com/v1/media/8f05701a-52e6-416e-8703-11a6c3005a74",
+      "path": "sales/media-8f05701a.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-99733d1c",
+      "url": "https://media.veepee.com/v1/media/99733d1c-a005-447b-b135-d89c1b3d0185",
+      "path": "sales/media-99733d1c.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-543902d1",
+      "url": "https://media.veepee.com/v1/media/543902d1-e495-4ad7-91b1-32c08a2d0e8b",
+      "path": "sales/media-543902d1.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-8ef46ba8",
+      "url": "https://media.veepee.com/v1/media/8ef46ba8-3fea-451b-acb3-01673a6903cd",
+      "path": "sales/media-8ef46ba8.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-19c3411f",
+      "url": "https://media.veepee.com/v1/media/19c3411f-b6a6-4e51-97d3-5605d3ee788d",
+      "path": "sales/media-19c3411f.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-55fbbf52",
+      "url": "https://media.veepee.com/v1/media/55fbbf52-0125-48cb-ab3a-3e205207fb75",
+      "path": "sales/media-55fbbf52.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-9610ff03",
+      "url": "https://media.veepee.com/v1/media/9610ff03-27e7-4c74-aa4f-2b272adfd27d",
+      "path": "sales/media-9610ff03.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-17b32599",
+      "url": "https://media.veepee.com/v1/media/17b32599-128f-4f17-bd42-bd6b8f86fcb0",
+      "path": "sales/media-17b32599.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-3a30cfe8",
+      "url": "https://media.veepee.com/v1/media/3a30cfe8-79da-4040-a54d-521b2c91981c",
+      "path": "sales/media-3a30cfe8.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-2a94dbaf",
+      "url": "https://media.veepee.com/v1/media/2a94dbaf-51af-42d3-9a07-3245f79a4785",
+      "path": "sales/media-2a94dbaf.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-2eadf394",
+      "url": "https://media.veepee.com/v1/media/2eadf394-4623-4ea3-9f5b-bcfbffdbb9e9",
+      "path": "sales/media-2eadf394.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-81c840a5",
+      "url": "https://media.veepee.com/v1/media/81c840a5-77cd-4d2f-a982-24ef941bc19e",
+      "path": "sales/media-81c840a5.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-30d0ab5d",
+      "url": "https://media.veepee.com/v1/media/30d0ab5d-badc-4956-835f-6682a8afc494",
+      "path": "sales/media-30d0ab5d.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-70aff77e",
+      "url": "https://media.veepee.com/v1/media/70aff77e-6d19-4552-9446-32d4a1b3e77d",
+      "path": "sales/media-70aff77e.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-30bbf3a2",
+      "url": "https://media.veepee.com/v1/media/30bbf3a2-3c1f-4c5c-a8c7-1eecffedfa7c",
+      "path": "sales/media-30bbf3a2.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-b9c40180",
+      "url": "https://media.veepee.com/v1/media/b9c40180-65a9-4b46-befe-5c9fa4407dd9",
+      "path": "sales/media-b9c40180.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-6dbeed8b",
+      "url": "https://media.veepee.com/v1/media/6dbeed8b-ddaf-4f00-b9d0-d30c1e6c22ba",
+      "path": "sales/media-6dbeed8b.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-5742a604",
+      "url": "https://media.veepee.com/v1/media/5742a604-8676-401e-ac91-269a90779894",
+      "path": "sales/media-5742a604.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-2f5dbaee",
+      "url": "https://media.veepee.com/v1/media/2f5dbaee-bd01-4361-be00-241b9f8e55cd",
+      "path": "sales/media-2f5dbaee.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-8bf3726d",
+      "url": "https://media.veepee.com/v1/media/8bf3726d-e9fa-45ee-8880-cdae3ff90387",
+      "path": "sales/media-8bf3726d.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-06a3bcc8",
+      "url": "https://media.veepee.com/v1/media/06a3bcc8-a2a1-42f5-9cc9-39eac01f4e54",
+      "path": "sales/media-06a3bcc8.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-edad70bf",
+      "url": "https://media.veepee.com/v1/media/edad70bf-d0ec-47b7-bc4a-75b1d2b80b6c",
+      "path": "sales/media-edad70bf.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-c8724d55",
+      "url": "https://media.veepee.com/v1/media/c8724d55-a8ca-41a3-bd13-86482d3f15c3",
+      "path": "sales/media-c8724d55.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-1ab3b555",
+      "url": "https://media.veepee.com/v1/media/1ab3b555-7ef2-47f0-8af0-783d5df8c11a",
+      "path": "sales/media-1ab3b555.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-53944772",
+      "url": "https://media.veepee.com/v1/media/53944772-8e9e-4ef8-9d1c-751466a9cee0",
+      "path": "sales/media-53944772.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-5caf49b6",
+      "url": "https://media.veepee.com/v1/media/5caf49b6-7a3b-40a4-83fc-2dd1db95ed01",
+      "path": "sales/media-5caf49b6.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-2303133b",
+      "url": "https://media.veepee.com/v1/media/2303133b-e741-47ad-9b44-7b2cbb4f7681",
+      "path": "sales/media-2303133b.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-8d017d5e",
+      "url": "https://media.veepee.com/v1/media/8d017d5e-892d-4c86-b8f2-1038177c7b2d",
+      "path": "sales/media-8d017d5e.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-5cb61e0c",
+      "url": "https://media.veepee.com/v1/media/5cb61e0c-49ed-44f5-8faf-835200544927",
+      "path": "sales/media-5cb61e0c.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-35d90e26",
+      "url": "https://media.veepee.com/v1/media/35d90e26-878b-4aa4-97cb-37ed2f2aa881",
+      "path": "sales/media-35d90e26.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-0d58cdd0",
+      "url": "https://media.veepee.com/v1/media/0d58cdd0-54ad-4ead-b6b5-09e5b87f4cf5",
+      "path": "sales/media-0d58cdd0.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-23355db1",
+      "url": "https://media.veepee.com/v1/media/23355db1-2711-4527-a992-408686c02ff6",
+      "path": "sales/media-23355db1.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-9fd04733",
+      "url": "https://media.veepee.com/v1/media/9fd04733-3904-48ca-99c0-b361337d68dc",
+      "path": "backgrounds/media-9fd04733.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-operation-20732",
+      "url": "https://media.veepee.com/v1/media/9e97383f-abd6-472e-a267-7a2acac826d7",
+      "path": "sales/operation-20732.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-operation-20481",
+      "url": "https://media.veepee.com/v1/media/ff9799ff-2078-410a-9c72-f0b9cb5d47ca",
+      "path": "sales/operation-20481.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-operation-19534",
+      "url": "https://media.veepee.com/v1/media/fd156fd7-2d29-4f51-ad6c-9f44de45e98b",
+      "path": "sales/operation-19534.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-tommy",
+      "url": "https://media.veepee.com/v1/media/0b10be85-ff92-42ac-8110-ccde86b52a97",
+      "path": "sales/tommy.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-staub",
+      "url": "https://media.veepee.com/v1/media/09c0bdba-4f87-42aa-ad4a-bdfb6f734d2d",
+      "path": "sales/staub.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "media-4149aa3d",
+      "url": "https://media.veepee.com/v1/media/4149aa3d-127e-4433-be87-0ac58fa63caa",
+      "path": "backgrounds/media-4149aa3d.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-19534",
+      "url": "https://media.veepee.com/v1/media/fd156fd7-2d29-4f51-ad6c-9f44de45e98b",
+      "path": "sales/op-19534.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Captured via Playwright session"
+    },
+    {
+      "id": "sale-les-tropeziennes-par-m-belarbi",
+      "url": "https://media.veepee.com/v1/media/df0c4bf6-7c87-412e-8e95-ba023bee2ef3",
+      "path": "sales/les-tropeziennes-par-m-belarbi.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-buenos",
+      "url": "https://media.veepee.com/v1/media/171e3bc5-1215-43f9-9a33-e6f34e6e3b6e",
+      "path": "sales/buenos.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-maison",
+      "url": "https://media.veepee.com/v1/media/40ebd63f-e60f-4046-95b6-a83e9c4a823b",
+      "path": "sales/maison.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-20683",
+      "url": "https://media.veepee.com/v1/media/ce14062e-3747-4eb5-8f62-8a52991c7160",
+      "path": "sales/op-20683.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-figaret",
+      "url": "https://media.veepee.com/v1/media/06b21c75-bf36-4afe-8149-fd1f528000f5",
+      "path": "sales/figaret.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-20345",
+      "url": "https://media.veepee.com/v1/media/45aa290d-85bc-4e17-af8a-e1ae585217b6",
+      "path": "sales/op-20345.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-lou",
+      "url": "https://media.veepee.com/v1/media/a39741c8-8e8f-4141-bc66-572031b1b3a5",
+      "path": "sales/lou.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-shots",
+      "url": "https://media.veepee.com/v1/media/1c9ce218-1aa5-43cc-aa69-c2b6bd4f0a36",
+      "path": "sales/shots.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-italian",
+      "url": "https://media.veepee.com/v1/media/c1d4a847-9eaa-464b-ab8c-1d388baf0624",
+      "path": "sales/italian.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-212209",
+      "url": "https://media.veepee.com/v1/media/f0ec6a5e-f45a-4650-b47a-26a2984be734",
+      "path": "sales/op-212209.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-cornilleau",
+      "url": "https://media.veepee.com/v1/media/0ab21d12-a5e0-47a8-a173-24889fddc55d",
+      "path": "sales/cornilleau.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-193370",
+      "url": "https://media.veepee.com/v1/media/a1e0cd40-9fcc-4192-ba50-7452c0c64435",
+      "path": "sales/op-193370.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-swiss",
+      "url": "https://media.veepee.com/v1/media/ac84347f-330a-4d5f-a6da-eb1f82f479a4",
+      "path": "sales/swiss.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-united",
+      "url": "https://media.veepee.com/v1/media/19fe7444-7b8e-4e29-801b-7d890c1503c5",
+      "path": "sales/united.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-212559",
+      "url": "https://media.veepee.com/v1/media/7aad6b58-6ba7-4aaf-9770-ba13a4c52572",
+      "path": "sales/op-212559.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-212421",
+      "url": "https://media.veepee.com/v1/media/7f364a6a-cd99-468d-9f42-16fd62a2f920",
+      "path": "sales/op-212421.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-19945",
+      "url": "https://media.veepee.com/v1/media/10244344-5b00-4056-97e3-a3597a3c83a9",
+      "path": "sales/op-19945.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-bjorg",
+      "url": "https://media.veepee.com/v1/media/34259d58-f210-4082-9135-3870581b7ce2",
+      "path": "sales/bjorg.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-parks",
+      "url": "https://media.veepee.com/v1/media/973b19f2-fe96-4e25-939d-9feb2c2f69c2",
+      "path": "sales/parks.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-211539",
+      "url": "https://media.veepee.com/v1/media/b87f6888-8aec-4a51-bfe0-6a2810974f90",
+      "path": "sales/op-211539.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-212229",
+      "url": "https://media.veepee.com/v1/media/844e2a0d-5432-4010-acc1-c5755946bda2",
+      "path": "sales/op-212229.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-211813",
+      "url": "https://media.veepee.com/v1/media/2c26744c-a565-4de3-9cf2-7c9d0897bbde",
+      "path": "sales/op-211813.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-wenko",
+      "url": "https://media.veepee.com/v1/media/e63affe9-bdb3-463b-b808-2a09f8a54e75",
+      "path": "sales/wenko.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-marciano",
+      "url": "https://media.veepee.com/v1/media/c9e1438d-fd1d-42b4-b4d8-e8558366d091",
+      "path": "sales/marciano.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-nilfisk",
+      "url": "https://media.veepee.com/v1/media/0c4b6cfd-81bc-4e59-8269-dbcfe51b0118",
+      "path": "sales/nilfisk.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-211913",
+      "url": "https://media.veepee.com/v1/media/577408a1-043f-4610-9105-08a7f03a1ff1",
+      "path": "sales/op-211913.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-211915",
+      "url": "https://media.veepee.com/v1/media/708098d9-9d07-4726-b426-a1b9f0c8fa7e",
+      "path": "sales/op-211915.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-egypte",
+      "url": "https://media.veepee.com/v1/media/5cf97159-6cd1-461d-86a3-2422ff55150f",
+      "path": "sales/egypte.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-plages",
+      "url": "https://media.veepee.com/v1/media/ff572bc9-aaa1-4e13-b4c8-6570cd47708d",
+      "path": "sales/plages.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-ile",
+      "url": "https://media.veepee.com/v1/media/78a902a8-ada5-4c8b-8e14-328a17611ed9",
+      "path": "sales/ile.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-canopia",
+      "url": "https://media.veepee.com/v1/media/f978b443-cd38-47ad-8d00-6ce4e6278b9f",
+      "path": "sales/canopia.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-tunisie",
+      "url": "https://media.veepee.com/v1/media/ef56a334-02eb-41ac-9b69-e3a99fc5491b",
+      "path": "sales/tunisie.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-212562",
+      "url": "https://media.veepee.com/v1/media/27ae039e-77d1-4b5c-9ed4-b535b8db13f8",
+      "path": "sales/op-212562.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-chervo",
+      "url": "https://media.veepee.com/v1/media/884cb445-b153-41c8-b474-6d5786aaa4df",
+      "path": "sales/chervo.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-211729",
+      "url": "https://media.veepee.com/v1/media/0bc78c6b-a9a3-453a-b182-a5e3a8c7e4eb",
+      "path": "sales/op-211729.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-france",
+      "url": "https://media.veepee.com/v1/media/74591aa8-c054-4db1-916a-c1dbc0f8d9a3",
+      "path": "sales/france.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-accor",
+      "url": "https://media.veepee.com/v1/media/6145e999-b61b-47b6-ba1f-585afee48581",
+      "path": "sales/accor.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-salvatore",
+      "url": "https://media.veepee.com/v1/media/199f8fc5-66a5-4003-8546-454039365aa1",
+      "path": "sales/salvatore.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-20738",
+      "url": "https://media.veepee.com/v1/media/1da51fd3-5939-4b30-a1b9-9c56ee9d1ccb",
+      "path": "sales/op-20738.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Captured via Playwright session"
+    },
+    {
+      "id": "sale-op-20526",
+      "url": "https://media.veepee.com/v1/media/7aa094c0-b14e-48a0-8412-4244404edeba",
+      "path": "sales/op-20526.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Captured via Playwright session"
+    },
+    {
+      "id": "sale-op-20651",
+      "url": "https://media.veepee.com/v1/media/d12d82ab-3724-4b09-974f-2a510913a9a1",
+      "path": "sales/op-20651.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Captured via Playwright session"
+    },
+    {
+      "id": "sale-op-903484",
+      "url": "https://media.veepee.com/v1/media/0b10be85-ff92-42ac-8110-ccde86b52a97",
+      "path": "sales/op-903484.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Captured via Playwright session"
+    },
+    {
+      "id": "sale-op-880049",
+      "url": "https://media.veepee.com/v1/media/06b21c75-bf36-4afe-8149-fd1f528000f5",
+      "path": "sales/op-880049.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Captured via Playwright session"
+    },
+    {
+      "id": "sale-op-905843",
+      "url": "https://media.veepee.com/v1/media/40ebd63f-e60f-4046-95b6-a83e9c4a823b",
+      "path": "sales/op-905843.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Captured via Playwright session"
+    },
+    {
+      "id": "sale-op-905795",
+      "url": "https://media.veepee.com/v1/media/19fe7444-7b8e-4e29-801b-7d890c1503c5",
+      "path": "sales/op-905795.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Captured via Playwright session"
+    },
+    {
+      "id": "sale-op-901391",
+      "url": "https://media.veepee.com/v1/media/09c0bdba-4f87-42aa-ad4a-bdfb6f734d2d",
+      "path": "sales/op-901391.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Captured via Playwright session"
+    },
+    {
+      "id": "sale-op-907731",
+      "url": "https://media.veepee.com/v1/media/6145e999-b61b-47b6-ba1f-585afee48581",
+      "path": "sales/op-907731.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "Captured via Playwright session"
+    },
+    {
+      "id": "sale-l-or",
+      "url": "https://media.veepee.com/v1/media/b5da56b3-ec90-4672-bc89-5384e1fe00f3",
+      "path": "sales/l-or.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-alain",
+      "url": "https://media.veepee.com/v1/media/36440391-5c31-4e40-bac3-9889bef4d8a9",
+      "path": "sales/alain.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-211452",
+      "url": "https://media.veepee.com/v1/media/c2328299-3609-46fa-b4ec-32870712da85",
+      "path": "sales/op-211452.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-pom-potes",
+      "url": "https://media.veepee.com/v1/media/e478da85-1dab-4f4d-897d-06be03152018",
+      "path": "sales/pom-potes.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-epycure",
+      "url": "https://media.veepee.com/v1/media/78b5b49a-4d37-4980-923d-65fefa27d8ca",
+      "path": "sales/epycure.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-rummo",
+      "url": "https://media.veepee.com/v1/media/d9fa473f-d11f-4cf9-9f6f-e113ac752d80",
+      "path": "sales/rummo.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-kalios",
+      "url": "https://media.veepee.com/v1/media/9d39091c-b691-40c2-a5d4-05fe265a800e",
+      "path": "sales/kalios.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-confiseries",
+      "url": "https://media.veepee.com/v1/media/d72f05ee-294b-45d1-a32b-ceb66bb1907b",
+      "path": "sales/confiseries.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-vins",
+      "url": "https://media.veepee.com/v1/media/e9ebb18c-478d-4d98-9bc6-ee493eab79c6",
+      "path": "sales/vins.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-de",
+      "url": "https://media.veepee.com/v1/media/b93a58a6-46dd-48ac-be48-1b94709652d4",
+      "path": "sales/de.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-110052",
+      "url": "https://media.veepee.com/v1/media/bc23d60b-3cff-4f1f-ac5f-7bdc71216219",
+      "path": "sales/op-110052.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-110061",
+      "url": "https://media.veepee.com/v1/media/02b7f57d-5ed1-4813-acde-da6f77b9d893",
+      "path": "sales/op-110061.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-110055",
+      "url": "https://media.veepee.com/v1/media/9b374836-4cd9-428c-9388-d2cc1fa6d1e0",
+      "path": "sales/op-110055.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-211569",
+      "url": "https://media.veepee.com/v1/media/b1753217-147c-45ea-a1c3-a16f8c3bd841",
+      "path": "sales/op-211569.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-211573",
+      "url": "https://media.veepee.com/v1/media/a054268a-80ac-4e22-a946-42d40e35d54f",
+      "path": "sales/op-211573.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-211381",
+      "url": "https://media.veepee.com/v1/media/7042172e-46ec-4cea-9403-3f250c952a08",
+      "path": "sales/op-211381.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-207022",
+      "url": "https://media.veepee.com/v1/media/5c7c2a7d-8c1b-44ff-958a-8d8f324b3265",
+      "path": "sales/op-207022.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-196669",
+      "url": "https://media.veepee.com/v1/media/f71aa5da-cd55-4110-9d91-aa67ad03a322",
+      "path": "sales/op-196669.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-lalalab",
+      "url": "https://media.veepee.com/v1/media/7c56085b-e372-43fc-9c09-7f68b790e3b4",
+      "path": "sales/lalalab.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-aquaboulevard",
+      "url": "https://media.veepee.com/v1/media/7360e15b-d81c-4e8e-bc35-0d159a6a4344",
+      "path": "sales/aquaboulevard.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-apple-smartphones",
+      "url": "https://media.veepee.com/v1/media/2ea217c8-ef1d-4dcc-8054-43d6581e6dee",
+      "path": "sales/apple-smartphones.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-170726",
+      "url": "https://media.veepee.com/v1/media/10d03381-5db1-42cb-af2e-620ac54b7283",
+      "path": "sales/op-170726.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    },
+    {
+      "id": "sale-op-200470",
+      "url": "https://media.veepee.com/v1/media/49601bbc-19e8-4238-8587-55bb9e13fb75",
+      "path": "sales/op-200470.jpg",
+      "referer": "https://www.veepee.fr/",
+      "note": "crawl-full-site"
+    }
+  ]
+}

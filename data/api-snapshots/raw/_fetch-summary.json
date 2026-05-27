@@ -1,0 +1,26 @@
+{
+  "fetchedAt": "2026-05-27T03:42:05.443Z",
+  "results": [
+    {
+      "name": "home-html",
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 22274,
+      "outPath": "/Users/kusuri_mizuki/myProject/veepee/data/api-snapshots/raw/home-html.html"
+    },
+    {
+      "name": "home-default",
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 22298,
+      "outPath": "/Users/kusuri_mizuki/myProject/veepee/data/api-snapshots/raw/home-default.html"
+    },
+    {
+      "name": "find-search",
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 22274,
+      "outPath": "/Users/kusuri_mizuki/myProject/veepee/data/api-snapshots/raw/find-search.html"
+    }
+  ]
+}

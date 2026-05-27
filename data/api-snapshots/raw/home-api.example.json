@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "title": "Ça va vous plaire",
+    "subtitle": "Coup de foudre inévitable.",
+    "guestVisibleRatio": 0.1
+  },
+  "operations": [
+    {
+      "operationId": "883107",
+      "brandName": "Re-turn",
+      "subtitle": "Seconde main certifiée",
+      "bannerImageUrl": "https://media.veepee.com/v1/media/example-retturn-banner?width=1200&height=600",
+      "categoryTab": "home",
+      "status": "live",
+      "tags": [{ "type": "NEW", "label": "Nouveau", "position": "topLeft" }]
+    }
+  ],
+  "valuePropositions": [
+    {
+      "title": "On s'habitue vite aux prix doux",
+      "description": "Chez Veepee, les plus grandes marques affichent jusqu'à -70% toute l'année."
+    }
+  ]
+}

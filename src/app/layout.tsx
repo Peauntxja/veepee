@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import { StoreProvider } from "@/components/providers/StoreProvider";
+import { getLocalImage } from "@/lib/assets/localImages";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -12,6 +13,9 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Veepee - Accueil",
   description: "Ventes privées — réplique locale Veepee",
+  icons: {
+    icon: getLocalImage("veepee-favicon"),
+  },
 };
 
 export default function RootLayout({

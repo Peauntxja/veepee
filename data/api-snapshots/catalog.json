@@ -1,0 +1,823 @@
+{
+  "meta": {
+    "source": "veepee.fr hub pages (public copy) + category sales mock + cursor-ide-browser live crawl veepee.fr + crawl-full-site.mjs (playwright + chrome) + crawl-full-site.mjs (playwright + chrome) + crawl-full-site.mjs (playwright + chrome) + crawl-full-site.mjs (playwright + chrome) + crawl-full-site.mjs (playwright + chrome) + crawl-full-site.mjs (playwright + chrome)",
+    "fetchedAt": "2026-05-27T05:49:44.028Z"
+  },
+  "hubs": {
+    "maison": {
+      "title": "Notre catalogue maison à prix doux",
+      "subtitle": "",
+      "description": "",
+      "backgroundLocalId": "media-e185f253",
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    },
+    "mode": {
+      "title": "Un nouveau dressing tous les jours sur Veepee",
+      "subtitle": "",
+      "description": "",
+      "backgroundLocalId": "media-1656113a",
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    },
+    "vin": {
+      "title": "Epicerie gourmande et produits frais : le Veepee au goût du jour",
+      "subtitle": "La gourmandise à l'état pur, livrée directement chez vous",
+      "description": "La gourmandise à l'état pur, livrée directement chez vous",
+      "backgroundLocalId": "media-174177c0",
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    },
+    "voyage": {
+      "title": "Ventes privées de voyages : weekends et vacances à prix doux toute l'année !",
+      "subtitle": "",
+      "description": "",
+      "backgroundLocalId": "media-f7777785",
+      "valuePropositions": [
+        {
+          "title": "Les plus belles destinations voyage à prix doux",
+          "description": ""
+        },
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    },
+    "loisir": {
+      "title": "Notre catalogue high-tech et loisir",
+      "subtitle": "",
+      "description": "",
+      "backgroundLocalId": "media-d5240761",
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    },
+    "enfant": {
+      "title": "La mode joue aussi dans la cour des petits",
+      "subtitle": "",
+      "description": "",
+      "backgroundLocalId": "media-cd708971",
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    },
+    "beaute": {
+      "title": "Notre catalogue beauté",
+      "subtitle": "",
+      "description": "",
+      "backgroundLocalId": "media-fb323349",
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    },
+    "sport": {
+      "title": "Ventes privées sport et sportswear : trouver sa tenue sport sans effort !",
+      "subtitle": "",
+      "description": "",
+      "backgroundLocalId": "media-525670e8",
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    },
+    "chaussures": {
+      "title": "Ventes privées chaussures : repartez du bon pied au meilleur prix !",
+      "subtitle": "",
+      "description": "",
+      "backgroundLocalId": "media-ccac9786",
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    },
+    "rosedeals": {
+      "title": "Les Rosedeals votre nouveau super pouvoir d'achat",
+      "subtitle": "Parlons cash, parlons cashback.",
+      "description": "Parlons cash, parlons cashback.",
+      "backgroundLocalId": "media-9fd04733",
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    },
+    "the-place": {
+      "title": "Ça va vous plaire",
+      "subtitle": "",
+      "description": "",
+      "backgroundLocalId": "media-736aa90b",
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        },
+        {
+          "title": "Les surprises, c’est notre quotidien",
+          "description": "Et la toute première vous attendaprès votre inscription chez nous"
+        }
+      ]
+    }
+  },
+  "operations": [
+    {
+      "operationId": "884201",
+      "brandName": "NAZAR HOME",
+      "subtitle": "Décoration tendance",
+      "bannerLocalId": "sale-nazar",
+      "bannerImageUrl": "/assets/images/sales/nazar.jpg",
+      "categoryTab": "maison",
+      "status": "live",
+      "discountLabel": "-50%",
+      "href": "/gr/h/maison"
+    },
+    {
+      "operationId": "884202",
+      "brandName": "Veepee Camp",
+      "subtitle": "Spring Camp — jusqu'à -80%",
+      "bannerLocalId": "sale-camp",
+      "bannerImageUrl": "/assets/images/sales/camp.jpg",
+      "categoryTab": "maison",
+      "status": "live",
+      "discountLabel": "-80%"
+    },
+    {
+      "operationId": "884203",
+      "brandName": "Club Med",
+      "subtitle": "Séjours tout compris",
+      "bannerLocalId": "sale-clubmed",
+      "bannerImageUrl": "/assets/images/sales/clubmed.jpg",
+      "categoryTab": "voyage",
+      "status": "live",
+      "discountLabel": "-55%"
+    },
+    {
+      "operationId": "884204",
+      "brandName": "Oxybul",
+      "subtitle": "Jouets & puériculture",
+      "bannerLocalId": "sale-oxybul",
+      "bannerImageUrl": "/assets/images/sales/oxybul.jpg",
+      "categoryTab": "enfant",
+      "status": "live",
+      "discountLabel": "-45%"
+    },
+    {
+      "operationId": "884205",
+      "brandName": "Lancôme",
+      "subtitle": "Soins & parfums",
+      "bannerLocalId": "sale-lancome",
+      "bannerImageUrl": "/assets/images/sales/lancome.jpg",
+      "categoryTab": "beaute",
+      "status": "upcoming",
+      "discountLabel": "-50%"
+    },
+    {
+      "operationId": "884206",
+      "brandName": "Nike",
+      "subtitle": "Running & fitness",
+      "bannerLocalId": "sale-nike",
+      "bannerImageUrl": "/assets/images/sales/nike.jpg",
+      "categoryTab": "sport",
+      "status": "upcoming",
+      "discountLabel": "-55%"
+    },
+    {
+      "operationId": "884207",
+      "brandName": "Maje",
+      "subtitle": "Femme — collection printemps",
+      "bannerLocalId": "sale-maje",
+      "bannerImageUrl": "/assets/images/sales/maje.jpg",
+      "categoryTab": "mode",
+      "status": "upcoming",
+      "discountLabel": "-62%"
+    },
+    {
+      "operationId": "884208",
+      "brandName": "Dyson",
+      "subtitle": "Électroménager premium",
+      "bannerLocalId": "sale-dyson",
+      "bannerImageUrl": "/assets/images/sales/dyson.jpg",
+      "categoryTab": "maison",
+      "status": "upcoming",
+      "discountLabel": "-35%"
+    },
+    {
+      "operationId": "884209",
+      "brandName": "Clarks",
+      "subtitle": "Chaussures ville & confort",
+      "bannerLocalId": "sale-clarks",
+      "bannerImageUrl": "/assets/images/sales/clarks.jpg",
+      "categoryTab": "chaussures",
+      "status": "live",
+      "discountLabel": "-58%",
+      "tags": [
+        {
+          "type": "SHIPPING",
+          "label": "Expédié en 72h",
+          "position": "topRight"
+        }
+      ]
+    },
+    {
+      "operationId": "884210",
+      "brandName": "Rose Deal Selection",
+      "subtitle": "Offres limitées membres",
+      "bannerLocalId": "sale-rosedeals",
+      "bannerImageUrl": "/assets/images/sales/rosedeals.jpg",
+      "categoryTab": "rosedeals",
+      "status": "live",
+      "discountLabel": "-65%",
+      "tags": [
+        {
+          "type": "CARTE_ROSE",
+          "label": "CARTE ROSE",
+          "position": "topLeft"
+        }
+      ]
+    },
+    {
+      "operationId": "884211",
+      "brandName": "The Place",
+      "subtitle": "Mode premium curated",
+      "bannerLocalId": "sale-the-place",
+      "bannerImageUrl": "/assets/images/sales/the-place.jpg",
+      "categoryTab": "the-place",
+      "status": "upcoming",
+      "discountLabel": "-45%"
+    },
+    {
+      "operationId": "900361",
+      "brandName": "Backsun",
+      "subtitle": "Des chaussures pour profiter de vos vacances",
+      "bannerImageUrl": "/assets/images/sales/backsun.jpg",
+      "bannerLocalId": "sale-backsun",
+      "categoryTab": "the-place",
+      "status": "live",
+      "tags": [
+        {
+          "type": "SHIPPING",
+          "label": "Expédié en 72h",
+          "position": "topRight"
+        }
+      ]
+    },
+    {
+      "operationId": "896263",
+      "brandName": "Triumph",
+      "subtitle": "Lingerie féminine",
+      "bannerImageUrl": "/assets/images/sales/triumph.jpg",
+      "bannerLocalId": "sale-triumph",
+      "categoryTab": "mode",
+      "status": "live"
+    },
+    {
+      "operationId": "900893",
+      "brandName": "Marco",
+      "subtitle": "Bonelli Chaussures et accessoires pour hommes et femmes",
+      "bannerImageUrl": "/assets/images/sales/marco.jpg",
+      "bannerLocalId": "sale-marco",
+      "categoryTab": "chaussures",
+      "status": "live"
+    },
+    {
+      "operationId": "903937",
+      "brandName": "Petit",
+      "subtitle": "Bateau Prêt-à-porter pour bébés, enfants et femmes",
+      "bannerImageUrl": "/assets/images/sales/petit.jpg",
+      "bannerLocalId": "sale-petit",
+      "categoryTab": "mode",
+      "status": "live"
+    },
+    {
+      "operationId": "907343",
+      "brandName": "Les",
+      "subtitle": "Tropeziennes par M.Belarbi Une référence intemporelle depuis plus de 40 ans",
+      "bannerImageUrl": "/assets/images/sales/les.jpg",
+      "bannerLocalId": "sale-les",
+      "categoryTab": "the-place",
+      "status": "live"
+    },
+    {
+      "operationId": "211987",
+      "brandName": "Operation 211987",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/operation-211987.jpg",
+      "bannerLocalId": "sale-operation-211987",
+      "categoryTab": "maison",
+      "status": "live"
+    },
+    {
+      "operationId": "211988",
+      "brandName": "Operation 211988",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/operation-211988.jpg",
+      "bannerLocalId": "sale-operation-211988",
+      "categoryTab": "maison",
+      "status": "live"
+    },
+    {
+      "operationId": "903808",
+      "brandName": "Séjours",
+      "subtitle": "avec Parcs Aquatiques",
+      "bannerImageUrl": "/assets/images/sales/sejours.jpg",
+      "bannerLocalId": "sale-sejours",
+      "categoryTab": "voyage",
+      "status": "live"
+    },
+    {
+      "operationId": "895253",
+      "brandName": "Kid",
+      "subtitle": "Friendly",
+      "bannerImageUrl": "/assets/images/sales/kid.jpg",
+      "bannerLocalId": "sale-kid",
+      "categoryTab": "voyage",
+      "status": "live"
+    },
+    {
+      "operationId": "191617",
+      "brandName": "Operation 191617",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/operation-191617.jpg",
+      "bannerLocalId": "sale-operation-191617",
+      "categoryTab": "voyage",
+      "status": "live"
+    },
+    {
+      "operationId": "903809",
+      "brandName": "Adult",
+      "subtitle": "only",
+      "bannerImageUrl": "/assets/images/sales/adult.jpg",
+      "bannerLocalId": "sale-adult",
+      "categoryTab": "voyage",
+      "status": "live"
+    },
+    {
+      "operationId": "901952",
+      "brandName": "Primigi",
+      "subtitle": "Chaussures et vêtements pour filles et garçons.",
+      "bannerImageUrl": "/assets/images/sales/primigi.jpg",
+      "bannerLocalId": "sale-primigi",
+      "categoryTab": "enfant",
+      "status": "live"
+    },
+    {
+      "operationId": "901054",
+      "brandName": "Tartine",
+      "subtitle": "et Chocolat Prêt-à-porter bébé et enfant",
+      "bannerImageUrl": "/assets/images/sales/tartine.jpg",
+      "bannerLocalId": "sale-tartine",
+      "categoryTab": "enfant",
+      "status": "live"
+    },
+    {
+      "operationId": "903490",
+      "brandName": "Carryboo",
+      "subtitle": "Protections saines et soins doux pour mamans et bébés.",
+      "bannerImageUrl": "/assets/images/sales/carryboo.jpg",
+      "bannerLocalId": "sale-carryboo",
+      "categoryTab": "enfant",
+      "status": "live"
+    },
+    {
+      "operationId": "902353",
+      "brandName": "Bebé",
+      "subtitle": "a bordo",
+      "bannerImageUrl": "/assets/images/sales/bebe.jpg",
+      "bannerLocalId": "sale-bebe",
+      "categoryTab": "enfant",
+      "status": "live"
+    },
+    {
+      "operationId": "899409",
+      "brandName": "Billowy",
+      "subtitle": "Sabots et pantoufles pour cet hiver",
+      "bannerImageUrl": "/assets/images/sales/billowy.jpg",
+      "bannerLocalId": "sale-billowy",
+      "categoryTab": "the-place",
+      "status": "live"
+    },
+    {
+      "operationId": "904034",
+      "brandName": "Redskins",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/redskins.jpg",
+      "bannerLocalId": "sale-redskins",
+      "categoryTab": "chaussures",
+      "status": "live"
+    },
+    {
+      "operationId": "906166",
+      "brandName": "Cosmétique",
+      "subtitle": "coréenne La meilleure sélection de soins cosmétiques coréens",
+      "bannerImageUrl": "/assets/images/sales/cosmetique.jpg",
+      "bannerLocalId": "sale-cosmetique",
+      "categoryTab": "beaute",
+      "status": "live"
+    },
+    {
+      "operationId": "210614",
+      "brandName": "Operation 210614",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/operation-210614.jpg",
+      "bannerLocalId": "sale-operation-210614",
+      "categoryTab": "beaute",
+      "status": "live"
+    },
+    {
+      "operationId": "900960",
+      "brandName": "Arena",
+      "subtitle": "Arena n'est pas seulement pour la piscine: découvrez la nouvelle collection de vêtements de plage!",
+      "bannerImageUrl": "/assets/images/sales/arena.jpg",
+      "bannerLocalId": "sale-arena",
+      "categoryTab": "sport",
+      "status": "live"
+    },
+    {
+      "operationId": "903575",
+      "brandName": "Hurley",
+      "subtitle": "Néoprènes, vêtements et accessoires",
+      "bannerImageUrl": "/assets/images/sales/hurley.jpg",
+      "bannerLocalId": "sale-hurley",
+      "categoryTab": "sport",
+      "status": "live"
+    },
+    {
+      "operationId": "901169",
+      "brandName": "Siroko",
+      "subtitle": "Vêtements de sport pour homme et femme",
+      "bannerImageUrl": "/assets/images/sales/siroko.jpg",
+      "bannerLocalId": "sale-siroko",
+      "categoryTab": "sport",
+      "status": "live"
+    },
+    {
+      "operationId": "901313",
+      "brandName": "Lonsdale",
+      "subtitle": "Vêtements et équipement de boxe et de MMA",
+      "bannerImageUrl": "/assets/images/sales/lonsdale.jpg",
+      "bannerLocalId": "sale-lonsdale",
+      "categoryTab": "sport",
+      "status": "live"
+    },
+    {
+      "operationId": "20732",
+      "brandName": "Operation 20732",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/operation-20732.jpg",
+      "bannerLocalId": "sale-operation-20732",
+      "categoryTab": "rosedeals",
+      "status": "live"
+    },
+    {
+      "operationId": "20481",
+      "brandName": "Operation 20481",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/operation-20481.jpg",
+      "bannerLocalId": "sale-operation-20481",
+      "categoryTab": "rosedeals",
+      "status": "live"
+    },
+    {
+      "operationId": "19534",
+      "brandName": "Operation 19534",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/operation-19534.jpg",
+      "bannerLocalId": "sale-operation-19534",
+      "categoryTab": "the-place",
+      "status": "live"
+    },
+    {
+      "operationId": "907320",
+      "brandName": "Happy",
+      "subtitle": "Hours Femme, homme et enfant",
+      "bannerImageUrl": "/assets/images/sales/happy.jpg",
+      "bannerLocalId": "sale-happy",
+      "categoryTab": "the-place",
+      "status": "live",
+      "discountLabel": "-80%"
+    },
+    {
+      "operationId": "901391",
+      "brandName": "Staub",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/staub.jpg",
+      "bannerLocalId": "sale-staub",
+      "categoryTab": "the-place",
+      "status": "live"
+    },
+    {
+      "operationId": "162057",
+      "brandName": "Operation 162057",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/operation-162057.jpg",
+      "bannerLocalId": "sale-operation-162057",
+      "categoryTab": "enfant",
+      "status": "live"
+    },
+    {
+      "operationId": "906038",
+      "brandName": "Cattier",
+      "subtitle": "Cosmétiques naturels",
+      "bannerImageUrl": "/assets/images/sales/cattier.jpg",
+      "bannerLocalId": "sale-cattier",
+      "categoryTab": "beaute",
+      "status": "live"
+    },
+    {
+      "operationId": "900964",
+      "brandName": "Hot",
+      "subtitle": "Buttered Vêtements pour homme et femme",
+      "bannerImageUrl": "/assets/images/sales/hot.jpg",
+      "bannerLocalId": "sale-hot",
+      "categoryTab": "sport",
+      "status": "live"
+    },
+    {
+      "operationId": "903484",
+      "brandName": "Tommy",
+      "subtitle": "Hilfiger",
+      "bannerImageUrl": "/assets/images/sales/tommy.jpg",
+      "bannerLocalId": "sale-tommy",
+      "categoryTab": "the-place",
+      "status": "live"
+    },
+    {
+      "operationId": "901343",
+      "brandName": "L’Or,",
+      "subtitle": "Tassimo et plus de marques L'OR, Tassimo, Senseo, un café pour chaque moment de la journée…",
+      "bannerImageUrl": "/assets/images/sales/l-or.jpg",
+      "bannerLocalId": "sale-l-or",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "901915",
+      "brandName": "Alain",
+      "subtitle": "Milliat Jus et nectars de fruit, pétillants, concentrés et confitures",
+      "bannerImageUrl": "/assets/images/sales/alain.jpg",
+      "bannerLocalId": "sale-alain",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "211452",
+      "brandName": "Operation 211452",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-211452.jpg",
+      "bannerLocalId": "sale-op-211452",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "902384",
+      "brandName": "Pom'potes,",
+      "subtitle": "Materne et Récré O'lé Gourdes et compotes fruitées",
+      "bannerImageUrl": "/assets/images/sales/pom-potes.jpg",
+      "bannerLocalId": "sale-pom-potes",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "903307",
+      "brandName": "EPYCURE",
+      "subtitle": "Cures pour silhouette, poids et bien-être",
+      "bannerImageUrl": "/assets/images/sales/epycure.jpg",
+      "bannerLocalId": "sale-epycure",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "898711",
+      "brandName": "Rummo",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/rummo.jpg",
+      "bannerLocalId": "sale-rummo",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "902583",
+      "brandName": "Kalios",
+      "subtitle": "Huiles d'olive grecques, olives, mézés, miels...",
+      "bannerImageUrl": "/assets/images/sales/kalios.jpg",
+      "bannerLocalId": "sale-kalios",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "902385",
+      "brandName": "Confiseries",
+      "subtitle": "Haribo Faites le plein de vos bonbons préférés, à partager (ou pas) !",
+      "bannerImageUrl": "/assets/images/sales/confiseries.jpg",
+      "bannerLocalId": "sale-confiseries",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "906547",
+      "brandName": "Les",
+      "subtitle": "apéritifs italiens d'été Des apéritifs italiens incontournables...",
+      "bannerImageUrl": "/assets/images/sales/les.jpg",
+      "bannerLocalId": "sale-les",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "902490",
+      "brandName": "Les",
+      "subtitle": "belles cuvées du bordelais Haut-Médoc, Margaux, Saint-Estèphe...",
+      "bannerImageUrl": "/assets/images/sales/les.jpg",
+      "bannerLocalId": "sale-les",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "902604",
+      "brandName": "Vins",
+      "subtitle": "d'exception Des millésimes d'exception de grands châteaux et domaines...",
+      "bannerImageUrl": "/assets/images/sales/vins.jpg",
+      "bannerLocalId": "sale-vins",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "906562",
+      "brandName": "De",
+      "subtitle": "brut en blanc : notre sélection Découvrez une sélection de Champagne pour toutes les occasions !",
+      "bannerImageUrl": "/assets/images/sales/de.jpg",
+      "bannerLocalId": "sale-de",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "110052",
+      "brandName": "Operation 110052",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-110052.jpg",
+      "bannerLocalId": "sale-op-110052",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "110061",
+      "brandName": "Operation 110061",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-110061.jpg",
+      "bannerLocalId": "sale-op-110061",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "110055",
+      "brandName": "Operation 110055",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-110055.jpg",
+      "bannerLocalId": "sale-op-110055",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "211813",
+      "brandName": "Operation 211813",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-211813.jpg",
+      "bannerLocalId": "sale-op-211813",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "211915",
+      "brandName": "Operation 211915",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-211915.jpg",
+      "bannerLocalId": "sale-op-211915",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "211569",
+      "brandName": "Operation 211569",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-211569.jpg",
+      "bannerLocalId": "sale-op-211569",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "211573",
+      "brandName": "Operation 211573",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-211573.jpg",
+      "bannerLocalId": "sale-op-211573",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "211381",
+      "brandName": "Operation 211381",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-211381.jpg",
+      "bannerLocalId": "sale-op-211381",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "207022",
+      "brandName": "Operation 207022",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-207022.jpg",
+      "bannerLocalId": "sale-op-207022",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "196669",
+      "brandName": "Operation 196669",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-196669.jpg",
+      "bannerLocalId": "sale-op-196669",
+      "categoryTab": "vin",
+      "status": "live"
+    },
+    {
+      "operationId": "907010",
+      "brandName": "Lalalab",
+      "subtitle": "Imprimez vos émotions...",
+      "bannerImageUrl": "/assets/images/sales/lalalab.jpg",
+      "bannerLocalId": "sale-lalalab",
+      "categoryTab": "loisir",
+      "status": "live"
+    },
+    {
+      "operationId": "901738",
+      "brandName": "Aquaboulevard",
+      "subtitle": "Bienvenue dans le plus grand parc aquatique urbain d’Europe !",
+      "bannerImageUrl": "/assets/images/sales/aquaboulevard.jpg",
+      "bannerLocalId": "sale-aquaboulevard",
+      "categoryTab": "loisir",
+      "status": "live"
+    },
+    {
+      "operationId": "902887",
+      "brandName": "Apple Smartphones,",
+      "subtitle": "tablettes et ordinateurs reconditionnés",
+      "bannerImageUrl": "/assets/images/sales/apple-smartphones.jpg",
+      "bannerLocalId": "sale-apple-smartphones",
+      "categoryTab": "loisir",
+      "status": "live"
+    },
+    {
+      "operationId": "170726",
+      "brandName": "Operation 170726",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-170726.jpg",
+      "bannerLocalId": "sale-op-170726",
+      "categoryTab": "loisir",
+      "status": "live"
+    },
+    {
+      "operationId": "200470",
+      "brandName": "Operation 200470",
+      "subtitle": "",
+      "bannerImageUrl": "/assets/images/sales/op-200470.jpg",
+      "bannerLocalId": "sale-op-200470",
+      "categoryTab": "loisir",
+      "status": "live"
+    },
+    {
+      "operationId": "902625",
+      "brandName": "Cornilleau",
+      "subtitle": "Tables de ping pong et accessoires",
+      "bannerImageUrl": "/assets/images/sales/cornilleau.jpg",
+      "bannerLocalId": "sale-cornilleau",
+      "categoryTab": "loisir",
+      "status": "live"
+    }
+  ]
+}

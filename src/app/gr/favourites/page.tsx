@@ -1,6 +1,7 @@
 import { SiteShell } from "@/components/layout/SiteShell";
 import { AccountShell } from "@/components/account/AccountShell";
 import { SafeImg } from "@/components/common/SafeImg";
+import { getLocalImage } from "@/lib/assets/localImages";
 
 export default function FavouritesPage() {
   return (
@@ -29,7 +30,8 @@ export default function FavouritesPage() {
           <div className="mt-8 text-center">
             <div className="relative mx-auto aspect-[16/10] w-full max-w-xl overflow-hidden rounded bg-gray-100">
               <SafeImg
-                src="/mock/image?seed=favourites&w=900&h=560&text=Veepee"
+                src={getLocalImage("account-empty")}
+                fallbackSrc="/mock/image?seed=favourites&w=900&h=560&text=Veepee"
                 alt="Marques favorites"
                 className="absolute inset-0 h-full w-full object-cover"
               />

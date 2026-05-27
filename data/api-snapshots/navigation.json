@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "source": "local CATEGORY_TABS aligned with next.config redirects",
+    "fetchedAt": "2026-05-27T06:00:00.000Z"
+  },
+  "tabs": [
+    { "id": "home", "label": "Accueil", "href": "/gr/home" },
+    { "id": "mode", "label": "Mode", "href": "/gr/h/mode" },
+    { "id": "voyage", "label": "Voyage", "href": "/gr/h/voyage" },
+    { "id": "maison", "label": "Maison", "href": "/gr/h/maison" },
+    { "id": "enfant", "label": "Enfant", "href": "/gr/h/enfant" },
+    { "id": "chaussures", "label": "Chaussures", "href": "/gr/h/chaussures" },
+    { "id": "beaute", "label": "Beauté", "href": "/gr/h/beaute" },
+    { "id": "sport", "label": "Sport", "href": "/gr/h/sport" },
+    { "id": "vin", "label": "Vin et Epicerie", "href": "/gr/h/vin" },
+    { "id": "loisir", "label": "Loisir", "href": "/gr/h/loisir" },
+    { "id": "rosedeals", "label": "Rosedeals", "href": "/gr/h/rosedeals" },
+    { "id": "the-place", "label": "The Place", "href": "/gr/h/the-place" }
+  ]
+}

@@ -10,6 +10,7 @@ export function CategoryTabs() {
   return (
     <nav className="hidden items-center gap-6 lg:flex" aria-label="Catégories">
       {CATEGORY_TABS.map((tab) => {
+        if (!tab.href) return null;
         const isActive =
           pathname === tab.href || pathname.startsWith(`${tab.href}/`);
         return (
@@ -39,6 +40,7 @@ export function MobileCategoryMenu() {
       aria-label="Catégories mobile"
     >
       {CATEGORY_TABS.map((tab) => {
+        if (!tab.href) return null;
         const isActive =
           pathname === tab.href || pathname.startsWith(`${tab.href}/`);
         return (

@@ -13,27 +13,23 @@ type SaleCardProps = {
 export function SaleCard({ sale, blurred = false, onLockedClick }: SaleCardProps) {
   const href = sale.href ?? "/gr/h/maison";
   const content = (
-    <article
-      className={`group relative overflow-hidden bg-black/20 shadow-lg ${
-        blurred ? "pointer-events-none" : ""
-      }`}
-    >
+    <article className="group relative overflow-hidden bg-black/20 shadow-lg">
       <div className="relative aspect-[2/1] w-full">
         <SafeImg
           src={sale.bannerUrl}
           alt={sale.brand}
           className={`absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105 ${
-            blurred ? "blur-md" : ""
+            blurred ? "blur-md scale-105" : ""
           }`}
         />
         {(sale.topLeftTag || sale.isPinkCard) && (
-          <span className="absolute left-3 top-3 bg-veepee-pink px-3 py-1 text-[11px] font-bold uppercase text-white">
+          <span className="absolute left-3 top-3 z-10 bg-veepee-pink px-3 py-1 text-[11px] font-bold uppercase text-white">
             {sale.topLeftTag ?? "CARTE ROSE"}
           </span>
         )}
         {sale.topRightTag && (
           <span
-            className={`absolute right-3 top-3 px-3 py-1 text-[11px] font-semibold ${
+            className={`absolute right-3 top-3 z-10 px-3 py-1 text-[11px] font-semibold ${
               sale.topRightTag.toLowerCase().includes("expédié")
                 ? "border border-veepee-pink bg-white/95 text-veepee-pink"
                 : "bg-black/70 text-white"
@@ -43,9 +39,19 @@ export function SaleCard({ sale, blurred = false, onLockedClick }: SaleCardProps
           </span>
         )}
         {sale.status === "upcoming" && (
-          <span className="absolute right-3 top-3 bg-black px-3 py-1 text-xs font-bold text-white">
+          <span className="absolute right-3 top-3 z-10 bg-black px-3 py-1 text-xs font-bold text-white">
             Bientôt · 19h
           </span>
+        )}
+        {blurred && (
+          <div className="absolute inset-0 z-[5] flex flex-col items-center justify-center bg-black/25">
+            <span className="flex h-12 w-12 items-center justify-center rounded-full bg-white/90 text-xl">
+              🔒
+            </span>
+            <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-white">
+              Réservé aux membres
+            </p>
+          </div>
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
       </div>

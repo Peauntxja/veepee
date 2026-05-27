@@ -1,16 +1,36 @@
 "use client";
 
+import { useMemo } from "react";
 import Link from "next/link";
 import { SafeImg } from "@/components/common/SafeImg";
-import { useCartStore, groupCartLinesByBrand } from "@/lib/stores/useCartStore";
+import { getProductById } from "@/lib/mock/products";
+import { useCartStore, groupCartLinesByBrand, type CartLine } from "@/lib/stores/useCartStore";
 import { formatPrice } from "@/lib/utils/formatPrice";
 
 export function CartContent() {
-  const lines = useCartStore((state) => state.getLines());
-  const totalPrice = useCartStore((state) => state.getTotalPrice());
+  const items = useCartStore((state) => state.items);
   const updateQuantity = useCartStore((state) => state.updateQuantity);
   const removeItem = useCartStore((state) => state.removeItem);
   const clearCart = useCartStore((state) => state.clearCart);
+
+  const lines = useMemo(() => {
+    return Object.entries(items)
+      .map(([productId, quantity]) => {
+        const product = getProductById(productId);
+        if (!product) {
+          return null;
+        }
+        return { product, quantity };
+      })
+      .filter((line): line is CartLine => line !== null);
+  }, [items]);
+
+  const totalPrice = useMemo(
+    () => lines.reduce((sum, line) => sum + line.product.price * line.quantity, 0),
+    [lines],
+  );
+  const promoRemaining = Math.max(0, 40 - totalPrice);
+
   const groupedLines = groupCartLinesByBrand(lines);
 
   if (lines.length === 0) {
@@ -41,6 +61,12 @@ export function CartContent() {
       <p className="mt-2 text-sm text-veepee-muted">
         Chaque marque est expédiée séparément avec ses propres frais de livraison.
       </p>
+      {promoRemaining > 0 ? (
+        <p className="mt-3 text-sm text-veepee-muted">
+          Plus que {formatPrice(promoRemaining).replace(/\s/g, "")} d&apos;achat Veepee pour
+          profiter de la promotion.
+        </p>
+      ) : null}
 
       <div className="mt-8 grid gap-8 lg:grid-cols-3">
         <div className="space-y-8 lg:col-span-2">
@@ -66,7 +92,7 @@ export function CartContent() {
                     <div className="flex flex-1 flex-col justify-between">
                       <div>
                         <Link
-                          href={`/gr/p/maison/${product.slug}/${product.id}`}
+                          href={`/gr/p/${product.categoryId}/${product.slug}/${product.id}`}
                           className="text-sm font-medium hover:text-veepee-pink"
                         >
                           {product.title}

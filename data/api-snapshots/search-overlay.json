@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "source": "cursor-ide-browser live crawl veepee.fr",
+    "fetchedAt": "2026-05-27T03:55:00.000Z"
+  },
+  "memberTrends": [
+    {
+      "id": "trend-playtex",
+      "title": "Playtex",
+      "subtitle": "Marque",
+      "href": "/gr/search?q=Playtex",
+      "icon": "butterfly"
+    },
+    {
+      "id": "trend-samsung",
+      "title": "Samsung",
+      "subtitle": "Marque",
+      "href": "/gr/search?q=Samsung",
+      "icon": "butterfly"
+    },
+    {
+      "id": "trend-corse",
+      "title": "Corse",
+      "subtitle": "Voyage",
+      "href": "/gr/voyage/default",
+      "icon": "arch"
+    },
+    {
+      "id": "trend-robes",
+      "title": "Robes et combinaisons",
+      "subtitle": "dans Mode femme",
+      "href": "/gr/h/mode",
+      "icon": "grid"
+    }
+  ],
+  "continueShopping": {
+    "id": "continue-chair",
+    "title": "Chaise rembourrée",
+    "price": 489.99,
+    "originalPrice": 996,
+    "href": "/gr/p/maison/chaise-rembourree-continue-chair/continue-chair"
+  }
+}

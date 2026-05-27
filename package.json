@@ -9,7 +9,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "assets:download": "node scripts/download-images.mjs",
+    "api:fetch": "node scripts/fetch-api-data.mjs",
+    "api:import": "node scripts/import-api-snapshot.mjs",
+    "api:sync-media": "node scripts/sync-snapshot-media.mjs",
+    "crawl:import": "node scripts/import-crawl-data.mjs",
+    "crawl:veepee": "node scripts/crawl-veepee.mjs",
+    "crawl:capture-home": "node scripts/capture-home-media.mjs",
+    "crawl:export-home-images": "node scripts/export-home-images-browser.mjs",
+    "crawl:full": "node scripts/crawl-full-site.mjs",
+    "crawl:build-member-home": "node scripts/build-home-member-ops.mjs",
+    "crawl:capture-cart": "node scripts/capture-cart-api.mjs",
+    "crawl:import-har": "node scripts/import-har-cart.mjs",
+    "crawl:sale-room": "node scripts/crawl-sale-room.mjs"
   },
   "dependencies": {
     "next": "16.2.6",
@@ -24,6 +37,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
+    "playwright": "^1.60.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

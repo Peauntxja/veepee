@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { getLocalImage } from "@/lib/assets/localImages";
 import { VeepeeLogo } from "@/components/layout/VeepeeLogo";
 
 type AuthShellProps = {
@@ -30,18 +31,13 @@ export function AuthShell({ mode, children }: AuthShellProps) {
     <div
       className="min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage:
-          "url(/mock/image?seed=auth-bg&w=1600&h=900&text=" +
-          encodeURIComponent("Veepee") +
-          ")",
+        backgroundImage: `url(${getLocalImage("auth-bg")})`,
       }}
     >
       <div className="min-h-screen bg-black/30">
         <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 text-white">
           <div className="w-20" />
-          <div className="text-white">
-            <VeepeeLogo className="text-white" />
-          </div>
+          <VeepeeLogo variant="white" />
           <div className="w-20 text-right">{topRight}</div>
         </header>
 
@@ -50,4 +46,3 @@ export function AuthShell({ mode, children }: AuthShellProps) {
     </div>
   );
 }
-

@@ -5,11 +5,14 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useAuthStore } from "@/lib/stores/useAuthStore";
 import { AuthPromoPanel } from "./AuthPromoPanel";
+import { SocialAuthButtons } from "./SocialAuthButtons";
+import { usePrefillEmail } from "./usePrefillEmail";
 
 export function LoginForm() {
   const router = useRouter();
   const login = useAuthStore((state) => state.login);
-  const [email, setEmail] = useState("");
+  const prefillEmail = usePrefillEmail();
+  const [email, setEmail] = useState(prefillEmail);
   const [password, setPassword] = useState("");
   const [remember, setRemember] = useState(false);
   const [error, setError] = useState("");
@@ -32,21 +35,8 @@ export function LoginForm() {
           DÉJÀ MEMBRE VEEPEE ?
         </h1>
 
-        <div className="mt-4 flex items-center justify-center gap-4">
-          <button
-            type="button"
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-veepee-border"
-            aria-label="Google"
-          >
-            G
-          </button>
-          <button
-            type="button"
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-veepee-border"
-            aria-label="Apple"
-          >
-            
-          </button>
+        <div className="mt-4">
+          <SocialAuthButtons />
         </div>
 
         <div className="mt-4 flex items-center gap-3 text-xs text-veepee-muted">
@@ -85,7 +75,9 @@ export function LoginForm() {
               />
               Rester connecté
             </label>
-            <span>Mot de passe oublié ?</span>
+            <button type="button" className="hover:text-veepee-pink">
+              Mot de passe oublié ?
+            </button>
           </div>
           {error && <p className="text-xs text-red-600">{error}</p>}
           <button
@@ -98,9 +90,9 @@ export function LoginForm() {
       </section>
 
       <section className="bg-white px-10 py-8 shadow-2xl">
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <h2 className="text-sm font-semibold">Devenez membre de Veepee</h2>
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             <Link
               href="/gr/registration"
               className="border border-veepee-pink px-6 py-2 text-xs font-semibold text-veepee-pink hover:bg-pink-50"

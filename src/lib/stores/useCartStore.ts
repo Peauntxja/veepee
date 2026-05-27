@@ -2,6 +2,7 @@
 
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
+import { getNextReservationExpiry } from "@/lib/cart/reservation";
 import { getProductById } from "@/lib/mock/products";
 import type { Product } from "@/lib/mock/types";
 
@@ -10,36 +11,80 @@ export type CartLine = {
   quantity: number;
 };
 
+export type AddItemMeta = {
+  sizeLabel?: string;
+  promoThreshold?: number;
+  showMiniCart?: boolean;
+};
+
+type MiniCartState = {
+  productId: string;
+  sizeLabel: string;
+  promoRemaining?: number;
+};
+
 type CartState = {
   items: Record<string, number>;
-  addItem: (productId: string, quantity?: number) => void;
+  reservationExpiresAt: number | null;
+  miniCart: MiniCartState | null;
+  addItem: (productId: string, quantity?: number, meta?: AddItemMeta) => void;
   removeItem: (productId: string) => void;
   updateQuantity: (productId: string, quantity: number) => void;
   clearCart: () => void;
+  hideMiniCart: () => void;
   getLines: () => CartLine[];
   getTotalItems: () => number;
   getTotalPrice: () => number;
 };
 
+function computeCartTotal(items: Record<string, number>): number {
+  return Object.entries(items).reduce((sum, [productId, quantity]) => {
+    const product = getProductById(productId);
+    return product ? sum + product.price * quantity : sum;
+  }, 0);
+}
+
 export const useCartStore = create<CartState>()(
   persist(
     (set, get) => ({
       items: {},
+      reservationExpiresAt: null,
+      miniCart: null,
 
-      addItem: (productId, quantity = 1) => {
+      addItem: (productId, quantity = 1, meta) => {
         const current = get().items[productId] ?? 0;
+        const nextItems = {
+          ...get().items,
+          [productId]: current + quantity,
+        };
+        const total = computeCartTotal(nextItems);
+        const showMiniCart = meta?.showMiniCart !== false;
+
         set({
-          items: {
-            ...get().items,
-            [productId]: current + quantity,
-          },
+          items: nextItems,
+          reservationExpiresAt: getNextReservationExpiry(get().reservationExpiresAt),
+          miniCart: showMiniCart
+            ? {
+                productId,
+                sizeLabel: meta?.sizeLabel ?? "Taille unique",
+                promoRemaining:
+                  meta?.promoThreshold !== undefined
+                    ? Math.max(0, meta.promoThreshold - total)
+                    : undefined,
+              }
+            : get().miniCart,
         });
       },
 
       removeItem: (productId) => {
         const nextItems = { ...get().items };
         delete nextItems[productId];
-        set({ items: nextItems });
+        const hasItems = Object.keys(nextItems).length > 0;
+        set({
+          items: nextItems,
+          reservationExpiresAt: hasItems ? get().reservationExpiresAt : null,
+          miniCart: get().miniCart?.productId === productId ? null : get().miniCart,
+        });
       },
 
       updateQuantity: (productId, quantity) => {
@@ -55,7 +100,14 @@ export const useCartStore = create<CartState>()(
         });
       },
 
-      clearCart: () => set({ items: {} }),
+      clearCart: () =>
+        set({
+          items: {},
+          reservationExpiresAt: null,
+          miniCart: null,
+        }),
+
+      hideMiniCart: () => set({ miniCart: null }),
 
       getLines: () => {
         return Object.entries(get().items)
@@ -73,13 +125,15 @@ export const useCartStore = create<CartState>()(
         return Object.values(get().items).reduce((sum, qty) => sum + qty, 0);
       },
 
-      getTotalPrice: () => {
-        return get()
-          .getLines()
-          .reduce((sum, line) => sum + line.product.price * line.quantity, 0);
-      },
+      getTotalPrice: () => computeCartTotal(get().items),
     }),
-    { name: "veepee-cart" },
+    {
+      name: "veepee-cart",
+      partialize: (state) => ({
+        items: state.items,
+        reservationExpiresAt: state.reservationExpiresAt,
+      }),
+    },
   ),
 );
 

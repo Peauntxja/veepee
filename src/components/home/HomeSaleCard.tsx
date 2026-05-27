@@ -1,0 +1,81 @@
+"use client";
+
+import Link from "next/link";
+import { SafeImg } from "@/components/common/SafeImg";
+import type { SaleEvent } from "@/lib/mock/types";
+
+type HomeSaleCardProps = {
+  sale: SaleEvent;
+  blurred?: boolean;
+  onLockedClick?: () => void;
+};
+
+export function HomeSaleCard({ sale, blurred = false, onLockedClick }: HomeSaleCardProps) {
+  const href = sale.href ?? "/gr/h/maison";
+  const isAdvertisement = sale.topRightTag?.toLowerCase().includes("publicité");
+
+  const card = (
+    <article className="group relative overflow-hidden rounded-md bg-black/10 shadow-[0_4px_20px_rgba(0,0,0,0.18)]">
+      <div className="relative aspect-[760/257] w-full max-md:aspect-[2.05/1]">
+        <SafeImg
+          src={sale.bannerUrl}
+          alt={sale.brand}
+          className={`absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.015] ${
+            blurred ? "scale-[1.02] blur-[6px] brightness-[0.92] saturate-[0.85]" : ""
+          }`}
+        />
+        {blurred && (
+          <div className="absolute inset-0 z-[5] bg-black/10" aria-hidden="true" />
+        )}
+        {(sale.topLeftTag || sale.isPinkCard) && (
+          <span className="absolute left-0 top-0 z-10 bg-veepee-pink px-2.5 py-1 text-[9px] font-bold uppercase tracking-wide text-white">
+            {sale.topLeftTag ?? "CARTE ROSE"}
+          </span>
+        )}
+        {sale.topRightTag && (
+          <span
+            className={`absolute right-0 top-0 z-10 px-2.5 py-1 text-[9px] font-semibold uppercase tracking-wide ${
+              sale.topRightTag.toLowerCase().includes("expédié")
+                ? "border border-veepee-pink bg-white text-veepee-pink"
+                : "bg-black/70 text-white"
+            }`}
+          >
+            {sale.topRightTag}
+          </span>
+        )}
+        {sale.status === "upcoming" && !sale.topRightTag && (
+          <span className="absolute right-0 top-0 z-10 bg-black px-2.5 py-1 text-[9px] font-bold uppercase text-white">
+            Bientôt · 19h
+          </span>
+        )}
+        {!blurred && !isAdvertisement && (
+          <span
+            className="absolute bottom-3 right-3 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-white text-lg font-light leading-none text-veepee-pink shadow-[0_2px_8px_rgba(0,0,0,0.15)]"
+            aria-hidden="true"
+          >
+            +
+          </span>
+        )}
+      </div>
+    </article>
+  );
+
+  if (blurred) {
+    return (
+      <button
+        type="button"
+        className="w-full cursor-pointer text-left"
+        onClick={onLockedClick}
+        aria-label={`Vente ${sale.brand} — réservée aux membres`}
+      >
+        {card}
+      </button>
+    );
+  }
+
+  return (
+    <Link href={href} className="block">
+      {card}
+    </Link>
+  );
+}

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useAuthStore } from "@/lib/stores/useAuthStore";
+import { getLocalImage } from "@/lib/assets/localImages";
 import { CartContent } from "./CartContent";
 
 export function CartGate() {
@@ -12,10 +13,7 @@ export function CartGate() {
       <div
         className="min-h-screen bg-cover bg-center"
         style={{
-          backgroundImage:
-            "url(/mock/image?seed=cart-404&w=1600&h=900&text=" +
-            encodeURIComponent("Oops") +
-            ")",
+          backgroundImage: `url(${getLocalImage("cart-404")})`,
         }}
       >
         <div className="min-h-screen bg-white/60">
@@ -44,4 +42,3 @@ export function CartGate() {
 
   return <CartContent />;
 }
-

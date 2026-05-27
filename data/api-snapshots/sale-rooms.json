@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "source": "veepee.fr /gr/catalog/903484/24707502 (screenshot + cart-api.template) — demo offline",
+    "fetchedAt": "2026-05-27T06:00:00.000Z"
+  },
+  "operationCatalogMap": {
+    "903484": "24707502"
+  },
+  "rooms": {
+    "903484:24707502": {
+      "operationId": "903484",
+      "catalogId": "24707502",
+      "brandName": "Tommy Hilfiger",
+      "subtitle": "Tommy Jeans",
+      "categoryTab": "mode",
+      "bannerLocalId": "sale-op-903484",
+      "sidebar": [
+        { "id": "femme", "label": "Femme", "active": true },
+        { "id": "chaussures", "label": "Chaussures et accessoires" },
+        { "id": "homme", "label": "Homme" },
+        { "id": "enfant", "label": "Enfant" }
+      ],
+      "promoThreshold": 40,
+      "products": [
+        {
+          "id": "th-rose-tee-xs",
+          "brand": "Tommy Hilfiger",
+          "name": "Tommy Jeans - T-shirt - 100% coton - rose",
+          "description": "Tommy Jeans - T-shirt - 100% coton - rose",
+          "imageLocalId": "product-01",
+          "sidebarId": "femme",
+          "pricing": {
+            "price": 12.99,
+            "retailPrice": 34.9,
+            "discount": 63
+          },
+          "defaultSize": "Modèle XS (EU) - XS (FR)",
+          "sizeOptions": [
+            { "id": "xs", "name": "XS (EU) - XS (FR)", "stockLabel": "Disponible" },
+            { "id": "s", "name": "S (EU) - S (FR)", "stockLabel": "Disponible" },
+            { "id": "m", "name": "M (EU) - M (FR)", "stockLabel": "Bientôt épuisé" }
+          ]
+        },
+        {
+          "id": "th-white-tee",
+          "brand": "Tommy Hilfiger",
+          "name": "Tommy Jeans - T-shirt - 100% coton - blanc",
+          "description": "Tommy Jeans - T-shirt - 100% coton - blanc",
+          "imageLocalId": "product-02",
+          "sidebarId": "femme",
+          "pricing": {
+            "price": 12.99,
+            "retailPrice": 34.9,
+            "discount": 63
+          },
+          "defaultSize": "Modèle M (EU) - M (FR)",
+          "sizeOptions": [
+            { "id": "s", "name": "S (EU) - S (FR)", "stockLabel": "Disponible" },
+            { "id": "m", "name": "M (EU) - M (FR)", "stockLabel": "Disponible" }
+          ]
+        },
+        {
+          "id": "th-navy-polo",
+          "brand": "Tommy Hilfiger",
+          "name": "Tommy Hilfiger - Polo - marine",
+          "description": "Tommy Hilfiger - Polo - marine",
+          "imageLocalId": "product-03",
+          "sidebarId": "homme",
+          "pricing": {
+            "price": 29.99,
+            "retailPrice": 79.9,
+            "discount": 62
+          },
+          "defaultSize": "Modèle L (EU) - L (FR)",
+          "sizeOptions": [
+            { "id": "m", "name": "M (EU) - M (FR)", "stockLabel": "Disponible" },
+            { "id": "l", "name": "L (EU) - L (FR)", "stockLabel": "Disponible" }
+          ]
+        },
+        {
+          "id": "th-denim-jacket",
+          "brand": "Tommy Hilfiger",
+          "name": "Tommy Jeans - Veste en denim",
+          "description": "Tommy Jeans - Veste en denim",
+          "imageLocalId": "product-04",
+          "sidebarId": "homme",
+          "pricing": {
+            "price": 49.99,
+            "retailPrice": 129.9,
+            "discount": 62
+          },
+          "defaultSize": "Modèle M (EU) - M (FR)",
+          "sizeOptions": [
+            { "id": "s", "name": "S (EU) - S (FR)", "stockLabel": "Disponible" },
+            { "id": "m", "name": "M (EU) - M (FR)", "stockLabel": "Disponible" }
+          ]
+        },
+        {
+          "id": "th-slim-chino",
+          "brand": "Tommy Hilfiger",
+          "name": "Tommy Hilfiger - Chino slim - beige",
+          "description": "Tommy Hilfiger - Chino slim - beige",
+          "imageLocalId": "product-05",
+          "sidebarId": "chaussures",
+          "pricing": {
+            "price": 34.99,
+            "retailPrice": 89.9,
+            "discount": 61
+          },
+          "defaultSize": "Modèle 32",
+          "sizeOptions": [
+            { "id": "30", "name": "30", "stockLabel": "Disponible" },
+            { "id": "32", "name": "32", "stockLabel": "Disponible" }
+          ]
+        },
+        {
+          "id": "th-cap-logo",
+          "brand": "Tommy Hilfiger",
+          "name": "Tommy Hilfiger - Casquette logo",
+          "description": "Tommy Hilfiger - Casquette logo",
+          "imageLocalId": "product-06",
+          "sidebarId": "chaussures",
+          "pricing": {
+            "price": 14.99,
+            "retailPrice": 35,
+            "discount": 57
+          },
+          "defaultSize": "Taille unique",
+          "sizeOptions": [
+            { "id": "tu", "name": "Taille unique", "stockLabel": "Disponible" }
+          ]
+        }
+      ]
+    }
+  }
+}

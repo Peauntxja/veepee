@@ -7,6 +7,7 @@ type SafeImgProps = {
   alt: string;
   className?: string;
   draggable?: boolean;
+  fallbackSrc?: string;
 };
 
 export function SafeImg({
@@ -14,10 +15,12 @@ export function SafeImg({
   alt,
   className = "",
   draggable = false,
+  fallbackSrc,
 }: SafeImgProps) {
+  const [currentSrc, setCurrentSrc] = useState(src);
   const [failed, setFailed] = useState(false);
 
-  if (failed || !src) {
+  if (failed || !currentSrc) {
     return (
       <div
         aria-label={alt}
@@ -30,14 +33,18 @@ export function SafeImg({
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={src}
+      src={currentSrc}
       alt={alt}
       draggable={draggable}
-      onError={() => setFailed(true)}
+      onError={() => {
+        if (fallbackSrc && currentSrc !== fallbackSrc) {
+          setCurrentSrc(fallbackSrc);
+          return;
+        }
+        setFailed(true);
+      }}
       className={className}
       loading="lazy"
-      referrerPolicy="no-referrer"
     />
   );
 }
-

@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "source": "Apify veepee-product-item-scraper sample (Massimo Dutti) — structure API réelle",
+    "fetchedAt": "2026-05-27T00:00:00.000Z",
+    "totalCount": 15297
+  },
+  "products": [
+    {
+      "url": "https://www.veepee.fr/gr/product/892201/89835153",
+      "id": "89835153",
+      "saleId": "892201",
+      "catalogId": "23569140",
+      "brand": "Massimo dutti",
+      "name": "Pull - gris",
+      "description": "Pull - gris",
+      "isLocked": true,
+      "displayMode": 1,
+      "saleSource": 1,
+      "pricing": {
+        "currency": {
+          "symbol": "€",
+          "code": "EUR"
+        },
+        "price": {
+          "value": 19.99,
+          "postfix": ""
+        },
+        "retailPrice": {
+          "value": 69.95,
+          "postfix": "",
+          "tooltip": {
+            "description": "Prix conseillé par le fournisseur en France en 2024"
+          }
+        },
+        "discount": 71
+      },
+      "medias": [
+        {
+          "thumb": "https://media.veepee.com/v1/media/f6287ac4-b541-4539-bbdf-d71c6abbe1f0?width=200&height=200",
+          "url": "https://media.veepee.com/v1/media/f6287ac4-b541-4539-bbdf-d71c6abbe1f0?width=700&height=700",
+          "type": 0,
+          "zoomable": true
+        },
+        {
+          "thumb": "https://media.veepee.com/v1/media/cb73def6-2333-444a-abff-9fa62e03f70b?width=200&height=200",
+          "url": "https://media.veepee.com/v1/media/cb73def6-2333-444a-abff-9fa62e03f70b?width=700&height=700",
+          "type": 0,
+          "zoomable": true
+        },
+        {
+          "thumb": "https://media.veepee.com/v1/media/27471409-aa45-4c33-b1bd-7f0c284040e7?width=200&height=200",
+          "url": "https://media.veepee.com/v1/media/27471409-aa45-4c33-b1bd-7f0c284040e7?width=700&height=700",
+          "type": 0,
+          "zoomable": true
+        },
+        {
+          "thumb": "https://media.veepee.com/v1/media/e1bd24d4-1452-4a95-b0f1-4040264d81e3?width=200&height=200",
+          "url": "https://media.veepee.com/v1/media/e1bd24d4-1452-4a95-b0f1-4040264d81e3?width=700&height=700",
+          "type": 0,
+          "zoomable": true
+        },
+        {
+          "thumb": "https://media.veepee.com/v1/media/fa521f9e-f1ea-441c-b466-3eaf483f320c?width=200&height=200",
+          "url": "https://media.veepee.com/v1/media/fa521f9e-f1ea-441c-b466-3eaf483f320c?width=700&height=700",
+          "type": 0,
+          "zoomable": true
+        }
+      ],
+      "models": [
+        {
+          "id": "58888429",
+          "name": "S",
+          "stockLabel": "Bientôt épuisé",
+          "quantity": 2
+        },
+        {
+          "id": "58888430",
+          "name": "M",
+          "stockLabel": "Disponible",
+          "quantity": 12
+        },
+        {
+          "id": "58888431",
+          "name": "L",
+          "stockLabel": "Disponible",
+          "quantity": 8
+        },
+        {
+          "id": "58888432",
+          "name": "XL",
+          "stockLabel": "Bientôt épuisé",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

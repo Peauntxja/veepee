@@ -1,0 +1,667 @@
+{
+  "meta": {
+    "source": "crawl-full-site.mjs (playwright + chrome)",
+    "fetchedAt": "2026-05-27T05:49:44.028Z",
+    "pages": [
+      "vin",
+      "loisir"
+    ],
+    "mediaDownloaded": 30
+  },
+  "navigation": null,
+  "home": null,
+  "hubs": {
+    "vin": {
+      "title": "Epicerie gourmande et produits frais : le Veepee au goût du jour",
+      "subtitle": "La gourmandise à l'état pur, livrée directement chez vous",
+      "description": "La gourmandise à l'état pur, livrée directement chez vous",
+      "backgroundLocalId": "media-174177c0",
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    },
+    "loisir": {
+      "title": "Notre catalogue high-tech et loisir",
+      "subtitle": "",
+      "description": "",
+      "backgroundLocalId": "media-d5240761",
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    }
+  },
+  "categoryOperations": {
+    "vin": [
+      {
+        "operationId": "901343",
+        "brandName": "L’Or,",
+        "subtitle": "Tassimo et plus de marques L'OR, Tassimo, Senseo, un café pour chaque moment de la journée…",
+        "bannerImageUrl": "/assets/images/sales/l-or.jpg",
+        "bannerLocalId": "sale-l-or",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "901915",
+        "brandName": "Alain",
+        "subtitle": "Milliat Jus et nectars de fruit, pétillants, concentrés et confitures",
+        "bannerImageUrl": "/assets/images/sales/alain.jpg",
+        "bannerLocalId": "sale-alain",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "211452",
+        "brandName": "Operation 211452",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-211452.jpg",
+        "bannerLocalId": "sale-op-211452",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "902384",
+        "brandName": "Pom'potes,",
+        "subtitle": "Materne et Récré O'lé Gourdes et compotes fruitées",
+        "bannerImageUrl": "/assets/images/sales/pom-potes.jpg",
+        "bannerLocalId": "sale-pom-potes",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "903307",
+        "brandName": "EPYCURE",
+        "subtitle": "Cures pour silhouette, poids et bien-être",
+        "bannerImageUrl": "/assets/images/sales/epycure.jpg",
+        "bannerLocalId": "sale-epycure",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "898711",
+        "brandName": "Rummo",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/rummo.jpg",
+        "bannerLocalId": "sale-rummo",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "902583",
+        "brandName": "Kalios",
+        "subtitle": "Huiles d'olive grecques, olives, mézés, miels...",
+        "bannerImageUrl": "/assets/images/sales/kalios.jpg",
+        "bannerLocalId": "sale-kalios",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "902385",
+        "brandName": "Confiseries",
+        "subtitle": "Haribo Faites le plein de vos bonbons préférés, à partager (ou pas) !",
+        "bannerImageUrl": "/assets/images/sales/confiseries.jpg",
+        "bannerLocalId": "sale-confiseries",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "906547",
+        "brandName": "Les",
+        "subtitle": "apéritifs italiens d'été Des apéritifs italiens incontournables...",
+        "bannerImageUrl": "/assets/images/sales/les.jpg",
+        "bannerLocalId": "sale-les",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "902490",
+        "brandName": "Les",
+        "subtitle": "belles cuvées du bordelais Haut-Médoc, Margaux, Saint-Estèphe...",
+        "bannerImageUrl": "/assets/images/sales/les.jpg",
+        "bannerLocalId": "sale-les",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "902604",
+        "brandName": "Vins",
+        "subtitle": "d'exception Des millésimes d'exception de grands châteaux et domaines...",
+        "bannerImageUrl": "/assets/images/sales/vins.jpg",
+        "bannerLocalId": "sale-vins",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "906562",
+        "brandName": "De",
+        "subtitle": "brut en blanc : notre sélection Découvrez une sélection de Champagne pour toutes les occasions !",
+        "bannerImageUrl": "/assets/images/sales/de.jpg",
+        "bannerLocalId": "sale-de",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "110052",
+        "brandName": "Operation 110052",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-110052.jpg",
+        "bannerLocalId": "sale-op-110052",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "110061",
+        "brandName": "Operation 110061",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-110061.jpg",
+        "bannerLocalId": "sale-op-110061",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "110055",
+        "brandName": "Operation 110055",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-110055.jpg",
+        "bannerLocalId": "sale-op-110055",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "211813",
+        "brandName": "Operation 211813",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-211813.jpg",
+        "bannerLocalId": "sale-op-211813",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "211915",
+        "brandName": "Operation 211915",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-211915.jpg",
+        "bannerLocalId": "sale-op-211915",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "211569",
+        "brandName": "Operation 211569",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-211569.jpg",
+        "bannerLocalId": "sale-op-211569",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "211573",
+        "brandName": "Operation 211573",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-211573.jpg",
+        "bannerLocalId": "sale-op-211573",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "211381",
+        "brandName": "Operation 211381",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-211381.jpg",
+        "bannerLocalId": "sale-op-211381",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "207022",
+        "brandName": "Operation 207022",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-207022.jpg",
+        "bannerLocalId": "sale-op-207022",
+        "categoryTab": "vin",
+        "status": "live"
+      },
+      {
+        "operationId": "196669",
+        "brandName": "Operation 196669",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-196669.jpg",
+        "bannerLocalId": "sale-op-196669",
+        "categoryTab": "vin",
+        "status": "live"
+      }
+    ],
+    "loisir": [
+      {
+        "operationId": "907010",
+        "brandName": "Lalalab",
+        "subtitle": "Imprimez vos émotions...",
+        "bannerImageUrl": "/assets/images/sales/lalalab.jpg",
+        "bannerLocalId": "sale-lalalab",
+        "categoryTab": "loisir",
+        "status": "live"
+      },
+      {
+        "operationId": "901738",
+        "brandName": "Aquaboulevard",
+        "subtitle": "Bienvenue dans le plus grand parc aquatique urbain d’Europe !",
+        "bannerImageUrl": "/assets/images/sales/aquaboulevard.jpg",
+        "bannerLocalId": "sale-aquaboulevard",
+        "categoryTab": "loisir",
+        "status": "live"
+      },
+      {
+        "operationId": "902887",
+        "brandName": "Apple Smartphones,",
+        "subtitle": "tablettes et ordinateurs reconditionnés",
+        "bannerImageUrl": "/assets/images/sales/apple-smartphones.jpg",
+        "bannerLocalId": "sale-apple-smartphones",
+        "categoryTab": "loisir",
+        "status": "live"
+      },
+      {
+        "operationId": "170726",
+        "brandName": "Operation 170726",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-170726.jpg",
+        "bannerLocalId": "sale-op-170726",
+        "categoryTab": "loisir",
+        "status": "live"
+      },
+      {
+        "operationId": "200470",
+        "brandName": "Operation 200470",
+        "subtitle": "",
+        "bannerImageUrl": "/assets/images/sales/op-200470.jpg",
+        "bannerLocalId": "sale-op-200470",
+        "categoryTab": "loisir",
+        "status": "live"
+      },
+      {
+        "operationId": "902625",
+        "brandName": "Cornilleau",
+        "subtitle": "Tables de ping pong et accessoires",
+        "bannerImageUrl": "/assets/images/sales/cornilleau.jpg",
+        "bannerLocalId": "sale-cornilleau",
+        "categoryTab": "loisir",
+        "status": "live"
+      }
+    ]
+  },
+  "raw": {
+    "vin": {
+      "url": "https://www.veepee.fr/gr/h/vin-et-epicerie",
+      "title": "Epicerie gourmande et ventes privées produits frais",
+      "h1": "Epicerie gourmande et produits frais : le Veepee au goût du jour",
+      "subtitle": "La gourmandise à l'état pur, livrée directement chez vous",
+      "description": "",
+      "backgroundImageUrl": "https://media.veepee.com/v1/media/174177c0-97bb-4fcd-bedb-9440b659e1a0",
+      "banners": [
+        {
+          "testId": "banner-link-901343",
+          "operationId": "901343",
+          "alt": "L’Or, Tassimo et plus de marques L'OR, Tassimo, Senseo, un café pour chaque moment de la journée…",
+          "src": "https://media.veepee.com/v1/media/b5da56b3-ec90-4672-bc89-5384e1fe00f3",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-901915",
+          "operationId": "901915",
+          "alt": "Alain Milliat Jus et nectars de fruit, pétillants, concentrés et confitures",
+          "src": "https://media.veepee.com/v1/media/36440391-5c31-4e40-bac3-9889bef4d8a9",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-211452",
+          "operationId": "211452",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/c2328299-3609-46fa-b4ec-32870712da85",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-902384",
+          "operationId": "902384",
+          "alt": "Pom'potes, Materne et Récré O'lé Gourdes et compotes fruitées",
+          "src": "https://media.veepee.com/v1/media/e478da85-1dab-4f4d-897d-06be03152018",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-903307",
+          "operationId": "903307",
+          "alt": "EPYCURE Cures pour silhouette, poids et bien-être",
+          "src": "https://media.veepee.com/v1/media/78b5b49a-4d37-4980-923d-65fefa27d8ca",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-898711",
+          "operationId": "898711",
+          "alt": "Rummo",
+          "src": "https://media.veepee.com/v1/media/d9fa473f-d11f-4cf9-9f6f-e113ac752d80",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-902583",
+          "operationId": "902583",
+          "alt": "Kalios Huiles d'olive grecques, olives, mézés, miels...",
+          "src": "https://media.veepee.com/v1/media/9d39091c-b691-40c2-a5d4-05fe265a800e",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-902385",
+          "operationId": "902385",
+          "alt": "Confiseries Haribo Faites le plein de vos bonbons préférés, à partager (ou pas) !",
+          "src": "https://media.veepee.com/v1/media/d72f05ee-294b-45d1-a32b-ceb66bb1907b?picto=1fc62422-2eef-49d5-b7f5-684f6d1c5ac9&x=347&y=10",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-906547",
+          "operationId": "906547",
+          "alt": "Les apéritifs italiens d'été Des apéritifs italiens incontournables...",
+          "src": "https://media.veepee.com/v1/media/1d429410-bde1-407b-bdac-baea56bf6aeb",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-902490",
+          "operationId": "902490",
+          "alt": "Les belles cuvées du bordelais Haut-Médoc, Margaux, Saint-Estèphe...",
+          "src": "https://media.veepee.com/v1/media/354ead95-a940-42b7-8129-2723c033eadc",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-902604",
+          "operationId": "902604",
+          "alt": "Vins d'exception Des millésimes d'exception de grands châteaux et domaines...",
+          "src": "https://media.veepee.com/v1/media/e9ebb18c-478d-4d98-9bc6-ee493eab79c6",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-906562",
+          "operationId": "906562",
+          "alt": "De brut en blanc : notre sélection Découvrez une sélection de Champagne pour toutes les occasions !",
+          "src": "https://media.veepee.com/v1/media/b93a58a6-46dd-48ac-be48-1b94709652d4",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-110052",
+          "operationId": "110052",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/bc23d60b-3cff-4f1f-ac5f-7bdc71216219",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-110061",
+          "operationId": "110061",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/02b7f57d-5ed1-4813-acde-da6f77b9d893",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-110055",
+          "operationId": "110055",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/9b374836-4cd9-428c-9388-d2cc1fa6d1e0",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-211813",
+          "operationId": "211813",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/2c26744c-a565-4de3-9cf2-7c9d0897bbde",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-211915",
+          "operationId": "211915",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/708098d9-9d07-4726-b426-a1b9f0c8fa7e",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-211569",
+          "operationId": "211569",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/b1753217-147c-45ea-a1c3-a16f8c3bd841",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-211573",
+          "operationId": "211573",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/a054268a-80ac-4e22-a946-42d40e35d54f",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-211381",
+          "operationId": "211381",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/7042172e-46ec-4cea-9403-3f250c952a08",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-207022",
+          "operationId": "207022",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/5c7c2a7d-8c1b-44ff-958a-8d8f324b3265",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-196669",
+          "operationId": "196669",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/f71aa5da-cd55-4110-9d91-aa67ad03a322",
+          "href": ""
+        }
+      ],
+      "navigationTabs": [
+        {
+          "text": "Accueil",
+          "href": "/gr/home/default"
+        },
+        {
+          "text": "Mode",
+          "href": "/gr/h/mode"
+        },
+        {
+          "text": "Voyage",
+          "href": "/gr/voyage/default"
+        },
+        {
+          "text": "Maison",
+          "href": "/gr/h/maison"
+        },
+        {
+          "text": "Enfant",
+          "href": "/gr/h/mode-enfant"
+        },
+        {
+          "text": "Chaussures",
+          "href": "/gr/h/mode-chaussures"
+        },
+        {
+          "text": "Beauté",
+          "href": "/gr/h/beaute-et-bien-etre"
+        },
+        {
+          "text": "Sport",
+          "href": "/gr/h/mode-sportswear"
+        },
+        {
+          "text": "Vin et Epicerie",
+          "href": "/gr/h/vin-et-epicerie"
+        },
+        {
+          "text": "Loisir",
+          "href": "/gr/h/loisirs"
+        },
+        {
+          "text": "Rosedeals",
+          "href": "/gr/h/rosedeals-coupons"
+        },
+        {
+          "text": "The Place",
+          "href": "/gr/home/brandsplace"
+        },
+        {
+          "text": "Accueil",
+          "href": "/gr/h/default"
+        }
+      ],
+      "mediaUrls": [
+        "https://media.veepee.com/v1/media/b5da56b3-ec90-4672-bc89-5384e1fe00f3",
+        "https://media.veepee.com/v1/media/36440391-5c31-4e40-bac3-9889bef4d8a9",
+        "https://media.veepee.com/v1/media/c2328299-3609-46fa-b4ec-32870712da85",
+        "https://media.veepee.com/v1/media/e478da85-1dab-4f4d-897d-06be03152018",
+        "https://media.veepee.com/v1/media/78b5b49a-4d37-4980-923d-65fefa27d8ca",
+        "https://media.veepee.com/v1/media/d9fa473f-d11f-4cf9-9f6f-e113ac752d80",
+        "https://media.veepee.com/v1/media/9d39091c-b691-40c2-a5d4-05fe265a800e",
+        "https://media.veepee.com/v1/media/d72f05ee-294b-45d1-a32b-ceb66bb1907b",
+        "https://media.veepee.com/v1/media/1d429410-bde1-407b-bdac-baea56bf6aeb",
+        "https://media.veepee.com/v1/media/354ead95-a940-42b7-8129-2723c033eadc",
+        "https://media.veepee.com/v1/media/e9ebb18c-478d-4d98-9bc6-ee493eab79c6",
+        "https://media.veepee.com/v1/media/b93a58a6-46dd-48ac-be48-1b94709652d4",
+        "https://media.veepee.com/v1/media/bc23d60b-3cff-4f1f-ac5f-7bdc71216219",
+        "https://media.veepee.com/v1/media/02b7f57d-5ed1-4813-acde-da6f77b9d893",
+        "https://media.veepee.com/v1/media/9b374836-4cd9-428c-9388-d2cc1fa6d1e0",
+        "https://media.veepee.com/v1/media/2c26744c-a565-4de3-9cf2-7c9d0897bbde",
+        "https://media.veepee.com/v1/media/708098d9-9d07-4726-b426-a1b9f0c8fa7e",
+        "https://media.veepee.com/v1/media/b1753217-147c-45ea-a1c3-a16f8c3bd841",
+        "https://media.veepee.com/v1/media/a054268a-80ac-4e22-a946-42d40e35d54f",
+        "https://media.veepee.com/v1/media/7042172e-46ec-4cea-9403-3f250c952a08",
+        "https://media.veepee.com/v1/media/5c7c2a7d-8c1b-44ff-958a-8d8f324b3265",
+        "https://media.veepee.com/v1/media/f71aa5da-cd55-4110-9d91-aa67ad03a322"
+      ],
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    },
+    "loisir": {
+      "url": "https://www.veepee.fr/gr/h/loisirs",
+      "title": "Toute l'offre Loisirs sur Veepee à prix doux toute l'année !",
+      "h1": "Notre catalogue high-tech et loisir",
+      "subtitle": "",
+      "description": "",
+      "backgroundImageUrl": "https://media.veepee.com/v1/media/d5240761-2a62-4d09-9df7-742f61d31c33",
+      "banners": [
+        {
+          "testId": "banner-link-907010",
+          "operationId": "907010",
+          "alt": "Lalalab Imprimez vos émotions...",
+          "src": "https://media.veepee.com/v1/media/7c56085b-e372-43fc-9c09-7f68b790e3b4",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-901738",
+          "operationId": "901738",
+          "alt": "Aquaboulevard Bienvenue dans le plus grand parc aquatique urbain d’Europe !",
+          "src": "https://media.veepee.com/v1/media/7360e15b-d81c-4e8e-bc35-0d159a6a4344",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-902887",
+          "operationId": "902887",
+          "alt": "Apple Smartphones,  tablettes et ordinateurs reconditionnés",
+          "src": "https://media.veepee.com/v1/media/2ea217c8-ef1d-4dcc-8054-43d6581e6dee",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-170726",
+          "operationId": "170726",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/10d03381-5db1-42cb-af2e-620ac54b7283",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-200470",
+          "operationId": "200470",
+          "alt": "",
+          "src": "https://media.veepee.com/v1/media/49601bbc-19e8-4238-8587-55bb9e13fb75",
+          "href": ""
+        },
+        {
+          "testId": "banner-link-902625",
+          "operationId": "902625",
+          "alt": "Cornilleau Tables de ping pong et accessoires",
+          "src": "https://media.veepee.com/v1/media/0ab21d12-a5e0-47a8-a173-24889fddc55d",
+          "href": ""
+        }
+      ],
+      "navigationTabs": [
+        {
+          "text": "Accueil",
+          "href": "/gr/home/default"
+        },
+        {
+          "text": "Mode",
+          "href": "/gr/h/mode"
+        },
+        {
+          "text": "Voyage",
+          "href": "/gr/voyage/default"
+        },
+        {
+          "text": "Maison",
+          "href": "/gr/h/maison"
+        },
+        {
+          "text": "Enfant",
+          "href": "/gr/h/mode-enfant"
+        },
+        {
+          "text": "Chaussures",
+          "href": "/gr/h/mode-chaussures"
+        },
+        {
+          "text": "Beauté",
+          "href": "/gr/h/beaute-et-bien-etre"
+        },
+        {
+          "text": "Sport",
+          "href": "/gr/h/mode-sportswear"
+        },
+        {
+          "text": "Vin et Epicerie",
+          "href": "/gr/h/vin-et-epicerie"
+        },
+        {
+          "text": "Loisir",
+          "href": "/gr/h/loisirs"
+        },
+        {
+          "text": "Rosedeals",
+          "href": "/gr/h/rosedeals-coupons"
+        },
+        {
+          "text": "The Place",
+          "href": "/gr/home/brandsplace"
+        },
+        {
+          "text": "Accueil",
+          "href": "/gr/h/default"
+        }
+      ],
+      "mediaUrls": [
+        "https://media.veepee.com/v1/media/7c56085b-e372-43fc-9c09-7f68b790e3b4",
+        "https://media.veepee.com/v1/media/7360e15b-d81c-4e8e-bc35-0d159a6a4344",
+        "https://media.veepee.com/v1/media/2ea217c8-ef1d-4dcc-8054-43d6581e6dee",
+        "https://media.veepee.com/v1/media/10d03381-5db1-42cb-af2e-620ac54b7283",
+        "https://media.veepee.com/v1/media/49601bbc-19e8-4238-8587-55bb9e13fb75",
+        "https://media.veepee.com/v1/media/0ab21d12-a5e0-47a8-a173-24889fddc55d"
+      ],
+      "valuePropositions": [
+        {
+          "title": "On s'habitue vite aux prix doux",
+          "description": "Chez Veepee, les plus grandes marquesaffichent jusqu’à -70% toute l’année."
+        }
+      ]
+    }
+  }
+}

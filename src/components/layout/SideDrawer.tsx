@@ -8,6 +8,15 @@ type SideDrawerProps = {
   onClose: () => void;
 };
 
+const NAV_ITEMS = [
+  { href: "/gr/my-account", label: "Mon compte" },
+  { href: "/gr/my-orders", label: "Mes commandes" },
+  { href: "/gr/favourites", label: "Marques favorites" },
+  { href: "/gr/preferences", label: "Préférences de communication" },
+  { href: "/gr/le-club", label: "Le Club" },
+  { href: "/gr/home", label: "Aide et contact" },
+];
+
 export function SideDrawer({ open, onClose }: SideDrawerProps) {
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
   const email = useAuthStore((state) => state.email);
@@ -45,24 +54,16 @@ export function SideDrawer({ open, onClose }: SideDrawerProps) {
         </div>
 
         <nav className="mt-6 space-y-3 text-sm">
-          <Link href="/gr/home" className="block hover:text-veepee-pink">
-            Mon compte
-          </Link>
-          <Link href="/gr/my-orders" className="block hover:text-veepee-pink">
-            Mes commandes
-          </Link>
-          <Link href="/gr/favourites" className="block hover:text-veepee-pink">
-            Marques favorites
-          </Link>
-          <Link href="/gr/home" className="block hover:text-veepee-pink">
-            Préférences de communication
-          </Link>
-          <Link href="/gr/home" className="block hover:text-veepee-pink">
-            Le Club
-          </Link>
-          <Link href="/gr/home" className="block hover:text-veepee-pink">
-            Aide et contact
-          </Link>
+          {NAV_ITEMS.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              onClick={onClose}
+              className="block hover:text-veepee-pink"
+            >
+              {item.label}
+            </Link>
+          ))}
         </nav>
 
         <div className="mt-8 border-t border-veepee-border pt-6">
@@ -80,6 +81,7 @@ export function SideDrawer({ open, onClose }: SideDrawerProps) {
           ) : (
             <Link
               href="/gr/authentication"
+              onClick={onClose}
               className="text-sm font-semibold text-veepee-pink hover:underline"
             >
               S&apos;identifier
@@ -90,4 +92,3 @@ export function SideDrawer({ open, onClose }: SideDrawerProps) {
     </div>
   );
 }
-
