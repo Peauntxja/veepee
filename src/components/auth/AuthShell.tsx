@@ -30,7 +30,10 @@ export function AuthShell({ mode, children }: AuthShellProps) {
     <div
       className="min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage: "url(https://picsum.photos/seed/veepee-auth/1600/900)",
+        backgroundImage:
+          "url(/mock/image?seed=auth-bg&w=1600&h=900&text=" +
+          encodeURIComponent("Veepee") +
+          ")",
       }}
     >
       <div className="min-h-screen bg-black/30">

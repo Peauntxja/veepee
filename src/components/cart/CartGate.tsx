@@ -12,7 +12,10 @@ export function CartGate() {
       <div
         className="min-h-screen bg-cover bg-center"
         style={{
-          backgroundImage: "url(https://picsum.photos/seed/veepee-cart/1600/900)",
+          backgroundImage:
+            "url(/mock/image?seed=cart-404&w=1600&h=900&text=" +
+            encodeURIComponent("Oops") +
+            ")",
         }}
       >
         <div className="min-h-screen bg-white/60">

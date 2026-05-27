@@ -5,7 +5,10 @@ export default function HomePage() {
     <div
       className="min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage: "url(https://picsum.photos/seed/veepee-home/1600/900)",
+        backgroundImage:
+          "url(/mock/image?seed=home-hero&w=1600&h=900&text=" +
+          encodeURIComponent("Veepee") +
+          ")",
       }}
     >
       <div className="min-h-screen bg-black/25 backdrop-blur-[1px]">

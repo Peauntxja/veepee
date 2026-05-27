@@ -48,6 +48,7 @@ function buildProduct(index: number): Product {
   const discountPercent = 30 + (index % 5) * 5;
   const price = Math.round(originalPrice * (1 - discountPercent / 100) * 100) / 100;
   const id = `prod-${index + 1}`;
+  const seed = `${brand}-${title}-${id}`;
 
   return {
     id,
@@ -56,7 +57,9 @@ function buildProduct(index: number): Product {
     title: `${title} ${index + 1}`,
     price,
     originalPrice,
-    imageUrl: `https://picsum.photos/seed/${id}/400/500`,
+    imageUrl: `/mock/image?seed=${encodeURIComponent(seed)}&w=400&h=500&text=${encodeURIComponent(
+      brand,
+    )}`,
     categoryId: "maison",
     colors: [COLORS[index % COLORS.length], COLORS[(index + 2) % COLORS.length]],
     sizes: index % 3 === 0 ? SIZES : undefined,

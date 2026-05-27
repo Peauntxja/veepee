@@ -13,7 +13,9 @@ export const SALES: SaleEvent[] = [
     id: "sale-1",
     brand: "Carte Rose",
     title: "Offres exclusives du moment",
-    bannerUrl: "https://picsum.photos/seed/carterose/800/400",
+    bannerUrl:
+      "/mock/image?seed=carte-rose&w=800&h=400&text=" +
+      encodeURIComponent("CARTE ROSE"),
     discountLabel: "-70%",
     categoryTab: "mode",
     opensAt: todayMorning.toISOString(),
@@ -25,7 +27,8 @@ export const SALES: SaleEvent[] = [
     id: "sale-2",
     brand: "Re-turn",
     title: "Vos retours à prix plus doux",
-    bannerUrl: "https://picsum.photos/seed/return/800/400",
+    bannerUrl:
+      "/mock/image?seed=re-turn&w=800&h=400&text=" + encodeURIComponent("Re-turn"),
     discountLabel: "-50%",
     categoryTab: "mode",
     opensAt: todayMorning.toISOString(),
@@ -37,7 +40,9 @@ export const SALES: SaleEvent[] = [
     id: "sale-3",
     brand: "Zadig & Voltaire",
     title: "Coup de foudre inévitable",
-    bannerUrl: "https://picsum.photos/seed/zadig/800/400",
+    bannerUrl:
+      "/mock/image?seed=zadig&w=800&h=400&text=" +
+      encodeURIComponent("ZADIG & VOLTAIRE"),
     discountLabel: "-65%",
     categoryTab: "mode",
     opensAt: todayMorning.toISOString(),
@@ -48,7 +53,9 @@ export const SALES: SaleEvent[] = [
     id: "sale-4",
     brand: "The Kooples",
     title: "Style parisien",
-    bannerUrl: "https://picsum.photos/seed/kooples/800/400",
+    bannerUrl:
+      "/mock/image?seed=kooples&w=800&h=400&text=" +
+      encodeURIComponent("THE KOOPLES"),
     discountLabel: "-60%",
     categoryTab: "mode",
     opensAt: todayMorning.toISOString(),
@@ -59,7 +66,9 @@ export const SALES: SaleEvent[] = [
     id: "sale-5",
     brand: "RECA BEDDING",
     title: "Literie premium",
-    bannerUrl: "https://picsum.photos/seed/reca/800/400",
+    bannerUrl:
+      "/mock/image?seed=reca&w=800&h=400&text=" +
+      encodeURIComponent("RECA BEDDING"),
     discountLabel: "-49%",
     categoryTab: "maison",
     opensAt: todayMorning.toISOString(),
@@ -71,7 +80,8 @@ export const SALES: SaleEvent[] = [
     id: "sale-6",
     brand: "KOCOON",
     title: "Mobilier design",
-    bannerUrl: "https://picsum.photos/seed/kocoon/800/400",
+    bannerUrl:
+      "/mock/image?seed=kocoon&w=800&h=400&text=" + encodeURIComponent("KOCOON"),
     discountLabel: "-40%",
     categoryTab: "maison",
     opensAt: todayMorning.toISOString(),
@@ -83,7 +93,9 @@ export const SALES: SaleEvent[] = [
     id: "sale-7",
     brand: "NAZAR HOME",
     title: "Décoration tendance",
-    bannerUrl: "https://picsum.photos/seed/nazar/800/400",
+    bannerUrl:
+      "/mock/image?seed=nazar&w=800&h=400&text=" +
+      encodeURIComponent("NAZAR HOME"),
     discountLabel: "-50%",
     categoryTab: "maison",
     opensAt: todayMorning.toISOString(),
@@ -95,7 +107,9 @@ export const SALES: SaleEvent[] = [
     id: "sale-8",
     brand: "Veepee Camp",
     title: "Spring Camp — jusqu'à -80%",
-    bannerUrl: "https://picsum.photos/seed/camp/800/400",
+    bannerUrl:
+      "/mock/image?seed=camp&w=800&h=400&text=" +
+      encodeURIComponent("VEEPEE CAMP"),
     discountLabel: "-80%",
     categoryTab: "maison",
     opensAt: todayMorning.toISOString(),
@@ -106,7 +120,9 @@ export const SALES: SaleEvent[] = [
     id: "sale-9",
     brand: "Club Med",
     title: "Séjours tout compris",
-    bannerUrl: "https://picsum.photos/seed/clubmed/800/400",
+    bannerUrl:
+      "/mock/image?seed=clubmed&w=800&h=400&text=" +
+      encodeURIComponent("CLUB MED"),
     discountLabel: "-55%",
     categoryTab: "voyage",
     opensAt: todayMorning.toISOString(),
@@ -117,7 +133,8 @@ export const SALES: SaleEvent[] = [
     id: "sale-10",
     brand: "Oxybul",
     title: "Jouets & puériculture",
-    bannerUrl: "https://picsum.photos/seed/oxybul/800/400",
+    bannerUrl:
+      "/mock/image?seed=oxybul&w=800&h=400&text=" + encodeURIComponent("OXYBUL"),
     discountLabel: "-45%",
     categoryTab: "enfant",
     opensAt: todayMorning.toISOString(),
@@ -128,7 +145,9 @@ export const SALES: SaleEvent[] = [
     id: "sale-11",
     brand: "Lancôme",
     title: "Soins & parfums",
-    bannerUrl: "https://picsum.photos/seed/lancome/800/400",
+    bannerUrl:
+      "/mock/image?seed=lancome&w=800&h=400&text=" +
+      encodeURIComponent("LANCÔME"),
     discountLabel: "-50%",
     categoryTab: "beaute",
     opensAt: todayEvening.toISOString(),
@@ -139,7 +158,8 @@ export const SALES: SaleEvent[] = [
     id: "sale-12",
     brand: "Nike",
     title: "Running & fitness",
-    bannerUrl: "https://picsum.photos/seed/nike/800/400",
+    bannerUrl:
+      "/mock/image?seed=nike&w=800&h=400&text=" + encodeURIComponent("NIKE"),
     discountLabel: "-55%",
     categoryTab: "sport",
     opensAt: todayEvening.toISOString(),
@@ -150,7 +170,8 @@ export const SALES: SaleEvent[] = [
     id: "sale-13",
     brand: "Maje",
     title: "Femme — collection printemps",
-    bannerUrl: "https://picsum.photos/seed/maje/800/400",
+    bannerUrl:
+      "/mock/image?seed=maje&w=800&h=400&text=" + encodeURIComponent("MAJE"),
     discountLabel: "-62%",
     categoryTab: "mode",
     opensAt: todayEvening.toISOString(),
@@ -161,7 +182,8 @@ export const SALES: SaleEvent[] = [
     id: "sale-14",
     brand: "Dyson",
     title: "Électroménager premium",
-    bannerUrl: "https://picsum.photos/seed/dyson/800/400",
+    bannerUrl:
+      "/mock/image?seed=dyson&w=800&h=400&text=" + encodeURIComponent("DYSON"),
     discountLabel: "-35%",
     categoryTab: "maison",
     opensAt: todayEvening.toISOString(),
