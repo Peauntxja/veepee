@@ -1,13 +1,11 @@
-import { SiteHeader } from "./SiteHeader";
 import { SiteFooter } from "./SiteFooter";
 import { BackToTop } from "./BackToTop";
-import { MobileCategoryMenu } from "./CategoryTabs";
+import { StandardHeader } from "./StandardHeader";
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <SiteHeader />
-      <MobileCategoryMenu />
+      <StandardHeader />
       <main className="flex-1">{children}</main>
       <SiteFooter />
       <BackToTop />
