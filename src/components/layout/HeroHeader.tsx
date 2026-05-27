@@ -9,6 +9,7 @@ import { VeepeeLogo } from "./VeepeeLogo";
 import { HeaderCartLink, HeaderIconLink } from "./HeaderCartLink";
 import { SearchOverlay } from "./SearchOverlay";
 import { useHeaderSearch } from "./useHeaderSearch";
+import { HEADER_EDGE_PADDING, HEADER_SEARCH_MAX_WIDTH } from "./headerLayout";
 
 type HeroHeaderProps = {
   onMenuClick?: () => void;
@@ -37,8 +38,8 @@ export function HeroHeader({ onMenuClick }: HeroHeaderProps) {
         onSubmit={submitSearch}
         topOffset="9.5rem"
       />
-      <header className="absolute inset-x-0 top-0 z-40 text-white">
-        <div className="mx-auto w-full max-w-[1120px] px-6">
+      <header className="absolute inset-x-0 top-0 z-40 w-full text-white">
+        <div className={`w-full ${HEADER_EDGE_PADDING}`}>
           {/* Ligne 1 : Menu · Logo · actions (sans recherche) */}
           <div className="relative flex items-end justify-between pt-4 pb-3">
             <button
@@ -100,9 +101,9 @@ export function HeroHeader({ onMenuClick }: HeroHeaderProps) {
             </div>
           </div>
 
-          {/* Ligne 2 : recherche centrée */}
+          {/* Ligne 2 : recherche centrée, pleine largeur */}
           <div
-            className="flex items-center rounded-full bg-white px-5 py-3 shadow-sm"
+            className={`mx-auto flex w-full ${HEADER_SEARCH_MAX_WIDTH} items-center rounded-full bg-white px-5 py-3 shadow-sm`}
             onClick={openSearch}
           >
             <svg

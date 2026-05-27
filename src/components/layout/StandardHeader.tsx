@@ -9,12 +9,14 @@ import { VeepeeLogo } from "./VeepeeLogo";
 import { HeaderCartLink, HeaderIconLink } from "./HeaderCartLink";
 import { SearchOverlay } from "./SearchOverlay";
 import { useHeaderSearch } from "./useHeaderSearch";
+import { HEADER_EDGE_PADDING } from "./headerLayout";
 
 type StandardHeaderProps = {
   onMenuClick?: () => void;
+  sticky?: boolean;
 };
 
-export function StandardHeader({ onMenuClick }: StandardHeaderProps) {
+export function StandardHeader({ onMenuClick, sticky = true }: StandardHeaderProps) {
   const pathname = usePathname();
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
   const { query, setQuery, submitSearch, handleKeyDown } = useHeaderSearch();
@@ -33,11 +35,13 @@ export function StandardHeader({ onMenuClick }: StandardHeaderProps) {
         onSubmit={submitSearch}
         topOffset="6.5rem"
       />
-      <header className="sticky top-0 z-50 border-b border-veepee-border bg-white">
-        <div className="mx-auto w-full max-w-[1120px] px-6">
+      <header
+        className={`z-50 w-full border-b border-veepee-border bg-white ${sticky ? "sticky top-0" : ""}`}
+      >
+        <div className={`w-full ${HEADER_EDGE_PADDING}`}>
           {/* Ligne 1 — Menu / recherche / logo / actions (aligné veepee.fr) */}
           <div className="relative flex items-end justify-between pb-3 pt-4">
-            <div className="flex min-w-0 flex-1 items-end gap-4 pr-4">
+            <div className="flex min-w-0 flex-1 items-end gap-4 pr-6 lg:pr-10">
               <button
                 type="button"
                 onClick={onMenuClick}
@@ -51,7 +55,7 @@ export function StandardHeader({ onMenuClick }: StandardHeaderProps) {
               </button>
 
               <div
-                className="flex min-w-0 max-w-[340px] flex-1 items-center rounded-full border border-gray-300 bg-white px-4 py-2.5"
+                className="flex min-w-0 max-w-[560px] flex-1 items-center rounded-full border border-gray-300 bg-white px-4 py-2.5 lg:max-w-[640px]"
                 onClick={openSearch}
               >
                 <svg
@@ -90,7 +94,7 @@ export function StandardHeader({ onMenuClick }: StandardHeaderProps) {
               </div>
             </div>
 
-            <div className="flex flex-1 items-end justify-end gap-4 pl-4">
+            <div className="flex flex-1 items-end justify-end gap-4 pl-6 lg:pl-10">
               {isAuthenticated ? (
                 <>
                   <HeaderIconLink
