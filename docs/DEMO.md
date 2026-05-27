@@ -5,6 +5,20 @@
 
 ---
 
+## 在线演示（Vercel）
+
+| 项目 | 内容 |
+|------|------|
+| **访问地址** | [https://veepee-seven.vercel.app/](https://veepee-seven.vercel.app/) |
+| **首页** | [https://veepee-seven.vercel.app/gr/home](https://veepee-seven.vercel.app/gr/home) |
+| **登录页** | [https://veepee-seven.vercel.app/gr/authentication](https://veepee-seven.vercel.app/gr/authentication) |
+| **演示邮箱** | `demo@veepee.fr` |
+| **演示密码** | `demo123` |
+
+打开链接即可体验，无需本地安装。登录后可浏览全部促销、加购与购物车流程。
+
+---
+
 ## 1. 快速开始
 
 ### 环境要求
@@ -238,9 +252,10 @@ npm run lint && npm run build               # 提交前验证
 
 **演示检查清单**
 
-- [ ] `npm run dev` 正常启动
+- [ ] 在线演示 [veepee-seven.vercel.app](https://veepee-seven.vercel.app/gr/home) 可访问
+- [ ] `demo@veepee.fr` / `demo123` 登录成功
+- [ ] `npm run dev` 正常启动（本地验收时）
 - [ ] 访客首页可见 Hero + 模糊墙
-- [ ] `demo@veepee.fr` 登录成功
 - [ ] 下滑后 Header 切换为白底
 - [ ] Sale Room 加购 + 倒计时
 - [ ] 购物车结算模拟成功

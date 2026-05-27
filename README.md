@@ -2,6 +2,13 @@
 
 Réplique frontend locale du site [Veepee](https://www.veepee.fr/), avec données mockées et sans backend.
 
+## 在线演示
+
+- **地址**：[https://veepee-seven.vercel.app/](https://veepee-seven.vercel.app/)
+- **账号**：`demo@veepee.fr` / `demo123`
+
+中文操作说明见 **[docs/DEMO.md](./docs/DEMO.md)**。
+
 ## Prérequis
 
 - Node.js 18.18+（推荐使用 24；仓库已提供 `.nvmrc` / `.node-version`）
