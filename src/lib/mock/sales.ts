@@ -1,0 +1,180 @@
+import type { SaleEvent } from "./types";
+
+const now = new Date();
+const todayMorning = new Date(now);
+todayMorning.setHours(7, 0, 0, 0);
+const todayEvening = new Date(now);
+todayEvening.setHours(19, 0, 0, 0);
+const tomorrowMorning = new Date(todayMorning);
+tomorrowMorning.setDate(tomorrowMorning.getDate() + 1);
+
+export const SALES: SaleEvent[] = [
+  {
+    id: "sale-1",
+    brand: "Carte Rose",
+    title: "Offres exclusives du moment",
+    bannerUrl: "https://picsum.photos/seed/carterose/800/400",
+    discountLabel: "-70%",
+    categoryTab: "mode",
+    opensAt: todayMorning.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "live",
+    isPinkCard: true,
+  },
+  {
+    id: "sale-2",
+    brand: "Re-turn",
+    title: "Vos retours à prix plus doux",
+    bannerUrl: "https://picsum.photos/seed/return/800/400",
+    discountLabel: "-50%",
+    categoryTab: "mode",
+    opensAt: todayMorning.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "live",
+    href: "/gr/h/maison",
+  },
+  {
+    id: "sale-3",
+    brand: "Zadig & Voltaire",
+    title: "Coup de foudre inévitable",
+    bannerUrl: "https://picsum.photos/seed/zadig/800/400",
+    discountLabel: "-65%",
+    categoryTab: "mode",
+    opensAt: todayMorning.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "live",
+  },
+  {
+    id: "sale-4",
+    brand: "The Kooples",
+    title: "Style parisien",
+    bannerUrl: "https://picsum.photos/seed/kooples/800/400",
+    discountLabel: "-60%",
+    categoryTab: "mode",
+    opensAt: todayMorning.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "live",
+  },
+  {
+    id: "sale-5",
+    brand: "RECA BEDDING",
+    title: "Literie premium",
+    bannerUrl: "https://picsum.photos/seed/reca/800/400",
+    discountLabel: "-49%",
+    categoryTab: "maison",
+    opensAt: todayMorning.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "live",
+    href: "/gr/p/maison/mobilier-123",
+  },
+  {
+    id: "sale-6",
+    brand: "KOCOON",
+    title: "Mobilier design",
+    bannerUrl: "https://picsum.photos/seed/kocoon/800/400",
+    discountLabel: "-40%",
+    categoryTab: "maison",
+    opensAt: todayMorning.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "live",
+    href: "/gr/p/maison/mobilier-123",
+  },
+  {
+    id: "sale-7",
+    brand: "NAZAR HOME",
+    title: "Décoration tendance",
+    bannerUrl: "https://picsum.photos/seed/nazar/800/400",
+    discountLabel: "-50%",
+    categoryTab: "maison",
+    opensAt: todayMorning.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "live",
+    href: "/gr/h/maison",
+  },
+  {
+    id: "sale-8",
+    brand: "Veepee Camp",
+    title: "Spring Camp — jusqu'à -80%",
+    bannerUrl: "https://picsum.photos/seed/camp/800/400",
+    discountLabel: "-80%",
+    categoryTab: "maison",
+    opensAt: todayMorning.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "live",
+  },
+  {
+    id: "sale-9",
+    brand: "Club Med",
+    title: "Séjours tout compris",
+    bannerUrl: "https://picsum.photos/seed/clubmed/800/400",
+    discountLabel: "-55%",
+    categoryTab: "voyage",
+    opensAt: todayMorning.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "live",
+  },
+  {
+    id: "sale-10",
+    brand: "Oxybul",
+    title: "Jouets & puériculture",
+    bannerUrl: "https://picsum.photos/seed/oxybul/800/400",
+    discountLabel: "-45%",
+    categoryTab: "enfant",
+    opensAt: todayMorning.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "live",
+  },
+  {
+    id: "sale-11",
+    brand: "Lancôme",
+    title: "Soins & parfums",
+    bannerUrl: "https://picsum.photos/seed/lancome/800/400",
+    discountLabel: "-50%",
+    categoryTab: "beaute",
+    opensAt: todayEvening.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "upcoming",
+  },
+  {
+    id: "sale-12",
+    brand: "Nike",
+    title: "Running & fitness",
+    bannerUrl: "https://picsum.photos/seed/nike/800/400",
+    discountLabel: "-55%",
+    categoryTab: "sport",
+    opensAt: todayEvening.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "upcoming",
+  },
+  {
+    id: "sale-13",
+    brand: "Maje",
+    title: "Femme — collection printemps",
+    bannerUrl: "https://picsum.photos/seed/maje/800/400",
+    discountLabel: "-62%",
+    categoryTab: "mode",
+    opensAt: todayEvening.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "upcoming",
+  },
+  {
+    id: "sale-14",
+    brand: "Dyson",
+    title: "Électroménager premium",
+    bannerUrl: "https://picsum.photos/seed/dyson/800/400",
+    discountLabel: "-35%",
+    categoryTab: "maison",
+    opensAt: todayEvening.toISOString(),
+    endsAt: tomorrowMorning.toISOString(),
+    status: "upcoming",
+  },
+];
+
+export function getSalesByCategory(categoryId: string): SaleEvent[] {
+  return SALES.filter((sale) => sale.categoryTab === categoryId);
+}
+
+export function getVisibleSalesForGuest(): SaleEvent[] {
+  const visibleCount = Math.max(2, Math.ceil(SALES.length * 0.1));
+  return SALES.slice(0, visibleCount);
+}
