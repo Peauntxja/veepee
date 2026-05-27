@@ -11,6 +11,8 @@ export type SaleEvent = {
   endsAt: string;
   status: SaleStatus;
   isPinkCard?: boolean;
+  topRightTag?: string;
+  topLeftTag?: string;
   href?: string;
 };
 

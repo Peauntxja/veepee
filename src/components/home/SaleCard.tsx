@@ -26,9 +26,20 @@ export function SaleCard({ sale, blurred = false, onLockedClick }: SaleCardProps
             blurred ? "blur-md" : ""
           }`}
         />
-        {sale.isPinkCard && (
-          <span className="absolute left-3 top-3 bg-veepee-pink px-3 py-1 text-xs font-bold uppercase text-white">
-            Carte Rose
+        {(sale.topLeftTag || sale.isPinkCard) && (
+          <span className="absolute left-3 top-3 bg-veepee-pink px-3 py-1 text-[11px] font-bold uppercase text-white">
+            {sale.topLeftTag ?? "CARTE ROSE"}
+          </span>
+        )}
+        {sale.topRightTag && (
+          <span
+            className={`absolute right-3 top-3 px-3 py-1 text-[11px] font-semibold ${
+              sale.topRightTag.toLowerCase().includes("expédié")
+                ? "border border-veepee-pink bg-white/95 text-veepee-pink"
+                : "bg-black/70 text-white"
+            }`}
+          >
+            {sale.topRightTag}
           </span>
         )}
         {sale.status === "upcoming" && (
@@ -39,11 +50,17 @@ export function SaleCard({ sale, blurred = false, onLockedClick }: SaleCardProps
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
       </div>
       <div className={`p-4 text-white ${blurred ? "blur-sm" : ""}`}>
-        <p className="text-xs font-semibold uppercase tracking-wide">
-          {sale.discountLabel}
-        </p>
-        <h3 className="mt-1 text-lg font-bold">{sale.brand}</h3>
-        <p className="text-sm opacity-90">{sale.title}</p>
+        {sale.discountLabel ? (
+          <p className="text-xs font-semibold uppercase tracking-wide">
+            {sale.discountLabel}
+          </p>
+        ) : (
+          <div className="h-4" />
+        )}
+        <h3 className="mt-1 text-base font-bold uppercase tracking-wide">
+          {sale.brand}
+        </h3>
+        <p className="text-xs opacity-90">{sale.title}</p>
       </div>
     </article>
   );

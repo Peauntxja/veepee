@@ -6,7 +6,7 @@ export default function HomePage() {
       className="min-h-screen bg-cover bg-center"
       style={{
         backgroundImage:
-          "url(/mock/image?seed=home-hero&w=1600&h=900&text=" +
+          "url(/mock/image?variant=jungle&seed=home-hero&w=1600&h=900&text=" +
           encodeURIComponent("Veepee") +
           ")",
       }}
