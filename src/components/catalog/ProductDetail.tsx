@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { SafeImg } from "@/components/common/SafeImg";
 import { getProductById } from "@/lib/mock/products";
 import { useCartStore } from "@/lib/stores/useCartStore";
 import { formatPrice } from "@/lib/utils/formatPrice";
@@ -57,13 +57,10 @@ export function ProductDetail({ productId, category }: ProductDetailProps) {
 
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="relative aspect-[4/5] bg-gray-100">
-          <Image
+          <SafeImg
             src={product.imageUrl}
             alt={product.title}
-            fill
-            className="object-cover"
-            sizes="(max-width: 1024px) 100vw, 50vw"
-            priority
+            className="absolute inset-0 h-full w-full object-cover"
           />
         </div>
 

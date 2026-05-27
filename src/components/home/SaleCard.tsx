@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
+import { SafeImg } from "@/components/common/SafeImg";
 import type { SaleEvent } from "@/lib/mock/types";
 
 type SaleCardProps = {
@@ -19,14 +19,12 @@ export function SaleCard({ sale, blurred = false, onLockedClick }: SaleCardProps
       }`}
     >
       <div className="relative aspect-[2/1] w-full">
-        <Image
+        <SafeImg
           src={sale.bannerUrl}
           alt={sale.brand}
-          fill
-          className={`object-cover transition-transform duration-300 group-hover:scale-105 ${
+          className={`absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105 ${
             blurred ? "blur-md" : ""
           }`}
-          sizes="(max-width: 768px) 100vw, 50vw"
         />
         {sale.isPinkCard && (
           <span className="absolute left-3 top-3 bg-veepee-pink px-3 py-1 text-xs font-bold uppercase text-white">

@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { SafeImg } from "@/components/common/SafeImg";
 import type { Product } from "@/lib/mock/types";
 import { formatPrice } from "@/lib/utils/formatPrice";
 import { calcDiscountPercent } from "@/lib/utils/calcDiscount";
@@ -20,12 +20,10 @@ export function ProductCard({
     <Link href={href} className="group block">
       <article>
         <div className="relative aspect-[4/5] overflow-hidden bg-gray-100">
-          <Image
+          <SafeImg
             src={product.imageUrl}
             alt={product.title}
-            fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-            sizes="(max-width: 768px) 50vw, 25vw"
+            className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
           />
           <span className="absolute left-2 top-2 bg-veepee-pink px-2 py-1 text-xs font-bold text-white">
             -{discount}%

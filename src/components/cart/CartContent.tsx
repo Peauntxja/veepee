@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
+import { SafeImg } from "@/components/common/SafeImg";
 import { useCartStore, groupCartLinesByBrand } from "@/lib/stores/useCartStore";
 import { formatPrice } from "@/lib/utils/formatPrice";
 
@@ -57,12 +57,10 @@ export function CartContent() {
                     className="flex gap-4 border-b border-veepee-border pb-4 last:border-0"
                   >
                     <div className="relative h-24 w-20 shrink-0 bg-gray-100">
-                      <Image
+                      <SafeImg
                         src={product.imageUrl}
                         alt={product.title}
-                        fill
-                        className="object-cover"
-                        sizes="80px"
+                        className="absolute inset-0 h-full w-full object-cover"
                       />
                     </div>
                     <div className="flex flex-1 flex-col justify-between">
