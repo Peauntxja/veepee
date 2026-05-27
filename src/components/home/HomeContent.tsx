@@ -8,6 +8,14 @@ import { HomeSaleCard } from "./HomeSaleCard";
 import { HomeGuestWall } from "./HomeGuestWall";
 import { ReTurnBanner } from "./ReTurnBanner";
 import { GuestGate } from "./GuestGate";
+import {
+  HOME_GUEST_SECTION,
+  HOME_HERO_INTRO,
+  HOME_HERO_SUBTITLE,
+  HOME_HERO_TITLE,
+  HOME_PAGE_BOTTOM,
+  HOME_SALE_GRID,
+} from "./homeLayout";
 
 type HomeContentProps = {
   onLockedClick?: () => void;
@@ -39,23 +47,23 @@ export function HomeContent({ onLockedClick }: HomeContentProps) {
 
   return (
     <>
-      <div className="mx-auto w-full max-w-[1120px] px-6 pb-24 pt-[188px]">
-        <header className="mb-5 text-white">
-          <h1 className="text-[34px] font-normal leading-tight tracking-tight">
-            {homeMeta.title}
-          </h1>
-          <p className="mt-0.5 text-[15px] font-normal opacity-95">
-            {homeMeta.subtitle}
-          </p>
-        </header>
+      <div className={HOME_PAGE_BOTTOM}>
+        <div className={HOME_HERO_INTRO}>
+          <header>
+            <h1 className={HOME_HERO_TITLE}>{homeMeta.title}</h1>
+            <p className={HOME_HERO_SUBTITLE}>{homeMeta.subtitle}</p>
+          </header>
 
-        <section className="mb-5 text-white">
-          <h2 className="text-lg font-bold tracking-tight">C&apos;est tout nouveau</h2>
-          <p className="mt-0.5 text-sm opacity-90">Elles ont ouvert aujourd&apos;hui.</p>
-        </section>
+          <section className={HOME_GUEST_SECTION}>
+            <h2 className="text-base font-bold tracking-tight md:text-lg">
+              C&apos;est tout nouveau
+            </h2>
+            <p className="mt-0.5 text-sm opacity-90">Elles ont ouvert aujourd&apos;hui.</p>
+          </section>
+        </div>
 
         <div className="relative">
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-[18px]">
+          <div className={HOME_SALE_GRID}>
             {homeSales.map((sale, index) => {
               const blurred = showGuestWall && index >= guestVisibleCount;
               return (
@@ -77,7 +85,7 @@ export function HomeContent({ onLockedClick }: HomeContentProps) {
 
           {showGuestWall && guestVisibleCount < homeSales.length && (
             <div className="pointer-events-none absolute inset-x-0 bottom-0 top-[38%] flex items-end justify-center bg-gradient-to-b from-transparent via-white/10 to-white/30 pb-2 pt-16">
-              <div className="pointer-events-auto w-full">
+              <div className="pointer-events-auto w-full px-4 sm:px-0">
                 <HomeGuestWall onJoinClick={openGuestGate} />
               </div>
             </div>

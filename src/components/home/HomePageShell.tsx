@@ -9,6 +9,7 @@ import { BackToTop } from "@/components/layout/BackToTop";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { useHomeHeaderScroll } from "@/components/layout/useHomeHeaderScroll";
 import { getLocalImage } from "@/lib/assets/localImages";
+import { HOME_MOBILE_JUNGLE_HEIGHT } from "@/components/home/homeLayout";
 import { HomeContent } from "./HomeContent";
 import { HomeMemberContent } from "./HomeMemberContent";
 import { HomeValueSections } from "./HomeValueSections";
@@ -34,14 +35,16 @@ export function HomePageShell() {
 
       <SideDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} />
 
-      <section className="relative">
-        <div className="pointer-events-none absolute inset-x-0 top-0 h-[min(100vh,860px)]">
+      <section className="relative bg-white">
+        <div
+          className={`pointer-events-none absolute inset-x-0 top-0 h-[min(100vh,860px)] ${HOME_MOBILE_JUNGLE_HEIGHT}`}
+        >
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url(${getLocalImage("home-jungle")})` }}
           />
           <div className="absolute inset-0 bg-black/10" />
-          <div className="absolute inset-x-0 bottom-0 h-[45vh] bg-gradient-to-t from-white via-white/85 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-white via-white/95 to-transparent max-md:h-16 md:h-[45vh] md:via-white/85" />
         </div>
 
         <div className="relative">

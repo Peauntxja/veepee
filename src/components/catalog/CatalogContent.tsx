@@ -18,6 +18,14 @@ import { HomeSaleCard } from "@/components/home/HomeSaleCard";
 import { ProductCard } from "@/components/catalog/ProductCard";
 import { FilterBar } from "@/components/catalog/FilterBar";
 import { Pagination } from "@/components/catalog/Pagination";
+import { PlpFilterSheet } from "@/components/catalog/PlpFilterSheet";
+import {
+  HUB_CATALOG_GRID,
+  HUB_SALE_GRID,
+  HUB_SECTION_PADDING,
+  HUB_SECTION_SUBTITLE,
+  HUB_SECTION_TITLE,
+} from "@/components/catalog/hubLayout";
 
 type HubContentProps = {
   category: string;
@@ -34,17 +42,17 @@ function HubHero({ category }: { category: string }) {
       style={bgUrl ? { backgroundImage: `url(${bgUrl})` } : undefined}
     >
       <div className="bg-gradient-to-b from-black/45 via-black/35 to-black/55">
-        <div className="mx-auto max-w-7xl px-4 py-14 md:py-20">
-          <h1 className="max-w-3xl text-2xl font-bold leading-tight text-white md:text-[34px] md:font-normal">
+        <div className={`py-10 md:py-20 ${HUB_SECTION_PADDING}`}>
+          <h1 className="max-w-3xl text-[26px] font-bold leading-tight text-white md:text-[34px] md:font-normal">
             {content.title}
           </h1>
           {content.subtitle ? (
-            <p className="mt-2 max-w-2xl text-base text-white/90 md:text-lg">
+            <p className="mt-2 max-w-2xl text-[15px] text-white/90 md:text-lg">
               {content.subtitle}
             </p>
           ) : null}
           {content.description ? (
-            <p className="mt-4 max-w-3xl text-sm leading-relaxed text-white/80 md:text-base">
+            <p className="mt-3 max-w-3xl text-sm leading-relaxed text-white/80 md:mt-4 md:text-base">
               {content.description}
             </p>
           ) : null}
@@ -94,24 +102,24 @@ export function HubContent({ category }: HubContentProps) {
       <HubHero category={category} />
 
       {visibleSales.length > 0 && (
-        <section className="mx-auto max-w-[1120px] px-4 py-10 md:px-6">
-          <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
-            <div>
-              <h2 className="text-xl font-bold md:text-2xl">{sectionCopy.salesTitle}</h2>
+        <section className="pb-8 md:pb-10">
+          <div className={`mb-5 pt-8 md:mb-6 md:pt-10 ${HUB_SECTION_PADDING}`}>
+            <div className="flex flex-wrap items-end justify-between gap-3">
+              <h2 className={HUB_SECTION_TITLE}>{sectionCopy.salesTitle}</h2>
+              <button
+                type="button"
+                onClick={() => setSalesFilter("all")}
+                className={`rounded-full border px-4 py-1.5 text-xs font-medium ${
+                  salesFilter === "all"
+                    ? "border-black bg-black text-white"
+                    : "border-veepee-border bg-white text-black hover:border-black"
+                }`}
+              >
+                {sectionCopy.salesFilterLabel}
+              </button>
             </div>
-            <button
-              type="button"
-              onClick={() => setSalesFilter("all")}
-              className={`rounded-full border px-4 py-1.5 text-xs font-medium ${
-                salesFilter === "all"
-                  ? "border-black bg-black text-white"
-                  : "border-veepee-border bg-white text-black hover:border-black"
-              }`}
-            >
-              {sectionCopy.salesFilterLabel}
-            </button>
           </div>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-[18px]">
+          <div className={HUB_SALE_GRID}>
             {visibleSales.map((sale) => (
               <HomeSaleCard key={sale.id} sale={sale} />
             ))}
@@ -119,12 +127,12 @@ export function HubContent({ category }: HubContentProps) {
         </section>
       )}
 
-      <section className="mx-auto max-w-[1120px] px-4 pb-10 md:px-6">
-        <div className="mb-6">
-          <h2 className="text-xl font-bold md:text-2xl">{sectionCopy.catalogTitle}</h2>
-          <p className="mt-1 text-sm text-veepee-muted">{sectionCopy.catalogSubtitle}</p>
+      <section className={`pb-8 md:pb-10 ${HUB_SECTION_PADDING}`}>
+        <div className="mb-5 md:mb-6">
+          <h2 className={HUB_SECTION_TITLE}>{sectionCopy.catalogTitle}</h2>
+          <p className={HUB_SECTION_SUBTITLE}>{sectionCopy.catalogSubtitle}</p>
         </div>
-        <div className="mb-6 flex items-center justify-between">
+        <div className="mb-5 flex flex-col gap-2 sm:mb-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm text-veepee-muted">
             Quelques articles qui pourraient vous plaire :
           </p>
@@ -137,7 +145,7 @@ export function HubContent({ category }: HubContentProps) {
             </Link>
           )}
         </div>
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6">
+        <div className={HUB_CATALOG_GRID}>
           {featuredProducts.map((product) => (
             <ProductCard key={product.id} product={product} categorySlug={category} />
           ))}
@@ -145,8 +153,8 @@ export function HubContent({ category }: HubContentProps) {
       </section>
 
       {sectionCopy.showThePlace ? (
-        <section className="mx-auto max-w-[1120px] px-4 pb-10 md:px-6">
-          <div className="flex flex-col gap-4 border border-veepee-border bg-gray-50 p-6 md:flex-row md:items-center md:justify-between">
+        <section className={`pb-8 md:pb-10 ${HUB_SECTION_PADDING}`}>
+          <div className="flex flex-col gap-4 border border-veepee-border bg-gray-50 p-5 md:flex-row md:items-center md:justify-between md:p-6">
             <div>
               <h2 className="text-lg font-bold">Découvrez The Place</h2>
               <p className="mt-1 text-sm text-veepee-muted">
@@ -163,7 +171,7 @@ export function HubContent({ category }: HubContentProps) {
         </section>
       ) : null}
 
-      <section className="mx-auto max-w-[1120px] px-4 pb-10 md:px-6">
+      <section className={`pb-8 md:pb-10 ${HUB_SECTION_PADDING}`}>
         <h2 className="text-lg font-bold">{sectionCopy.universTitle}</h2>
         <div className="mt-4 flex flex-wrap gap-2">
           {sectionCopy.universeLinks.map((link) => (
@@ -189,7 +197,7 @@ function HubValueStrip({ category }: { category: string }) {
 
   return (
     <section className="border-y border-veepee-border bg-gray-50">
-      <div className="mx-auto grid max-w-[1120px] gap-8 px-4 py-10 md:grid-cols-3">
+      <div className={`grid gap-6 py-8 md:grid-cols-3 md:gap-8 md:py-10 ${HUB_SECTION_PADDING}`}>
         {items.map((item) => (
           <div key={item.title}>
             <h3 className="text-base font-bold">{item.title}</h3>
@@ -206,6 +214,7 @@ export function PlpContent({ category }: { category: string }) {
   const brands = getUniqueBrands(allProducts);
   const colors = getUniqueColors(allProducts);
   const [page, setPage] = useState(1);
+  const [filterSheetOpen, setFilterSheetOpen] = useState(false);
   const [filters, setFilters] = useState<ProductFilters>({
     sort: "pertinence",
     brand: "",
@@ -229,9 +238,14 @@ export function PlpContent({ category }: { category: string }) {
 
   const categoryLabel = category.charAt(0).toUpperCase() + category.slice(1);
 
+  const handleFiltersChange = (next: ProductFilters) => {
+    setFilters(next);
+    setPage(1);
+  };
+
   return (
-    <div className="mx-auto max-w-6xl px-6 py-10">
-      <nav className="mb-6 text-xs text-veepee-muted">
+    <div className="mx-auto max-w-6xl px-4 py-6 md:px-6 md:py-10">
+      <nav className="mb-4 text-xs text-veepee-muted md:mb-6">
         <Link href={`/gr/h/${category}`} className="hover:text-veepee-pink">
           {categoryLabel}
         </Link>
@@ -240,7 +254,7 @@ export function PlpContent({ category }: { category: string }) {
       </nav>
 
       <div className="grid gap-8 lg:grid-cols-[260px_1fr]">
-        <aside>
+        <aside className="hidden lg:block">
           <div className="sticky top-28 rounded border border-veepee-border bg-white p-5 shadow-sm">
             <div className="flex items-center justify-between">
               <h2 className="text-sm font-bold">Filtres</h2>
@@ -255,49 +269,63 @@ export function PlpContent({ category }: { category: string }) {
                 filters={filters}
                 brands={brands}
                 colors={colors}
-                onChange={(next) => {
-                  setFilters(next);
-                  setPage(1);
-                }}
+                onChange={handleFiltersChange}
               />
             </div>
           </div>
         </aside>
 
         <section className="min-w-0">
-          <h1 className="text-2xl font-bold">{categoryLabel} — sélection du moment</h1>
+          <h1 className="text-xl font-bold md:text-2xl">{categoryLabel} — sélection du moment</h1>
           <p className="mt-2 text-sm text-veepee-muted">
             Flânez parmi notre sélection d&apos;articles à prix doux.
           </p>
 
-          <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-y border-veepee-border py-3 text-sm">
+          <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-y border-veepee-border py-3 text-sm lg:mt-6">
             <p className="text-veepee-muted">
               <span className="font-semibold text-black">{filteredProducts.length}</span>{" "}
               {filteredProducts.length <= 1 ? "article affiché" : "articles affichés"}
               {filteredProducts.length < PLP_TOTAL_COUNT && (
-                <span className="text-veepee-muted"> sur {PLP_TOTAL_COUNT.toLocaleString("fr-FR")}</span>
+                <span className="text-veepee-muted">
+                  {" "}
+                  sur {PLP_TOTAL_COUNT.toLocaleString("fr-FR")}
+                </span>
               )}
             </p>
-            <label className="flex items-center gap-2 text-xs">
-              <span className="text-veepee-muted">Trier</span>
-              <select
-                value={filters.sort}
-                onChange={(event) =>
-                  setFilters({
-                    ...filters,
-                    sort: event.target.value as ProductFilters["sort"],
-                  })
-                }
-                className="border border-veepee-border px-2 py-1"
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => setFilterSheetOpen(true)}
+                className="relative flex items-center gap-2 border border-veepee-border px-3 py-1.5 text-xs font-medium lg:hidden"
               >
-                <option value="pertinence">Pertinence</option>
-                <option value="price-asc">Prix croissant</option>
-                <option value="price-desc">Prix décroissant</option>
-              </select>
-            </label>
+                Filtres
+                {activeFilterCount > 0 ? (
+                  <span className="flex h-4 min-w-4 items-center justify-center rounded-full bg-veepee-pink px-1 text-[9px] font-bold text-white">
+                    {activeFilterCount}
+                  </span>
+                ) : null}
+              </button>
+              <label className="flex items-center gap-2 text-xs">
+                <span className="text-veepee-muted">Trier</span>
+                <select
+                  value={filters.sort}
+                  onChange={(event) =>
+                    handleFiltersChange({
+                      ...filters,
+                      sort: event.target.value as ProductFilters["sort"],
+                    })
+                  }
+                  className="border border-veepee-border px-2 py-1"
+                >
+                  <option value="pertinence">Pertinence</option>
+                  <option value="price-asc">Prix croissant</option>
+                  <option value="price-desc">Prix décroissant</option>
+                </select>
+              </label>
+            </div>
           </div>
 
-          <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+          <div className="mt-6 grid grid-cols-2 gap-3 md:mt-8 md:grid-cols-3 md:gap-4 lg:grid-cols-4">
             {visibleProducts.map((product) => (
               <ProductCard
                 key={product.id}
@@ -322,6 +350,17 @@ export function PlpContent({ category }: { category: string }) {
           />
         </section>
       </div>
+
+      <PlpFilterSheet
+        open={filterSheetOpen}
+        onClose={() => setFilterSheetOpen(false)}
+        filters={filters}
+        brands={brands}
+        colors={colors}
+        onChange={handleFiltersChange}
+        activeFilterCount={activeFilterCount}
+        resultCount={filteredProducts.length}
+      />
     </div>
   );
 }

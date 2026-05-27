@@ -5,6 +5,13 @@ import { getMemberHomeSales } from "@/lib/mock/sales";
 import { getHomePageMeta } from "@/lib/api/loadSnapshot";
 import { HomeSaleCard } from "./HomeSaleCard";
 import type { SaleEvent } from "@/lib/mock/types";
+import {
+  HOME_HERO_INTRO,
+  HOME_HERO_SUBTITLE,
+  HOME_HERO_TITLE,
+  HOME_PAGE_BOTTOM,
+  HOME_SALE_GRID,
+} from "./homeLayout";
 
 const homeMeta = getHomePageMeta();
 
@@ -33,21 +40,21 @@ export function HomeMemberContent() {
   );
 
   return (
-    <div className="mx-auto w-full max-w-[1120px] px-6 pb-24 pt-[188px]">
-      <header className="mb-5 text-white">
-        <h1 className="text-[34px] font-normal leading-tight tracking-tight">
-          {homeMeta.title}
-        </h1>
-        <p className="mt-0.5 text-[15px] font-normal opacity-95">{homeMeta.subtitle}</p>
-      </header>
+    <div className={HOME_PAGE_BOTTOM}>
+      <div className={HOME_HERO_INTRO}>
+        <header>
+          <h1 className={HOME_HERO_TITLE}>{homeMeta.title}</h1>
+          <p className={HOME_HERO_SUBTITLE}>{homeMeta.subtitle}</p>
+        </header>
+      </div>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-[18px]">
+      <div className={HOME_SALE_GRID}>
         {visibleSales.map((sale) => (
           <HomeSaleCard key={sale.id} sale={sale} />
         ))}
       </div>
 
-      <div className="pointer-events-none fixed inset-x-0 bottom-8 z-30 flex justify-center">
+      <div className="pointer-events-none fixed inset-x-0 bottom-8 z-30 hidden justify-center md:flex">
         <div className="pointer-events-auto flex flex-wrap items-center justify-center gap-2 rounded-full border border-veepee-border bg-white px-3 py-2 shadow-lg">
           {FILTERS.map((item) => (
             <button

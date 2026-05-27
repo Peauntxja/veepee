@@ -14,9 +14,26 @@ import { HEADER_EDGE_PADDING } from "./headerLayout";
 type StandardHeaderProps = {
   onMenuClick?: () => void;
   sticky?: boolean;
+  /** @deprecated mobile layout is always compact */
+  compactMobile?: boolean;
 };
 
-export function StandardHeader({ onMenuClick, sticky = true }: StandardHeaderProps) {
+const SEARCH_ICON = (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" aria-hidden="true">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M11 18a7 7 0 100-14 7 7 0 000 14z" />
+  </svg>
+);
+
+const CART_ICON = (
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+    <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0" />
+  </svg>
+);
+
+export function StandardHeader({
+  onMenuClick,
+  sticky = true,
+}: StandardHeaderProps) {
   const pathname = usePathname();
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
   const { query, setQuery, submitSearch, handleKeyDown } = useHeaderSearch();
@@ -33,13 +50,85 @@ export function StandardHeader({ onMenuClick, sticky = true }: StandardHeaderPro
         query={query}
         onQueryChange={setQuery}
         onSubmit={submitSearch}
-        topOffset="6.5rem"
+        topOffset="4.5rem"
       />
       <header
         className={`z-50 w-full border-b border-veepee-border bg-white ${sticky ? "sticky top-0" : ""}`}
       >
-        <div className={`w-full ${HEADER_EDGE_PADDING}`}>
-          {/* Ligne 1 — Menu / recherche / logo / actions (aligné veepee.fr) */}
+        {/* ——— Mobile : Menu · loupe · Logo · cloche · panier ——— */}
+        <div className={`md:hidden ${HEADER_EDGE_PADDING}`}>
+          <div className="relative flex h-[52px] items-center justify-between">
+            <div className="z-10 flex items-center gap-5">
+              <button
+                type="button"
+                onClick={onMenuClick}
+                className="flex items-center justify-center text-black"
+                aria-label="Menu"
+              >
+                <svg width="20" height="14" viewBox="0 0 18 12" fill="none" aria-hidden="true">
+                  <path d="M0 1h18M0 6h18M0 11h18" stroke="currentColor" strokeWidth="1.5" />
+                </svg>
+              </button>
+              <button
+                type="button"
+                onClick={openSearch}
+                className="flex items-center justify-center text-black"
+                aria-label="Rechercher"
+              >
+                {SEARCH_ICON}
+              </button>
+            </div>
+
+            <div className="pointer-events-none absolute inset-x-0 flex justify-center">
+              <div className="pointer-events-auto">
+                <VeepeeLogo variant="black" className="[&_img]:h-[26px]" />
+              </div>
+            </div>
+
+            <div className="z-10 flex items-center gap-4">
+              {isAuthenticated ? (
+                <HeaderIconLink
+                  href="/gr/notifications"
+                  label="Notifications"
+                  hideLabelOnMobile
+                  icon={
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+                      <path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 01-3.46 0" />
+                    </svg>
+                  }
+                />
+              ) : null}
+              <HeaderCartLink variant="standard" icon={CART_ICON} />
+            </div>
+          </div>
+
+          <div className="-mx-4 overflow-x-auto px-4 pb-2.5 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            <nav className="flex w-max min-w-full flex-nowrap items-center gap-1.5">
+              {CATEGORY_TABS.map((tab) => {
+                if (!tab.href) return null;
+                const isActive =
+                  pathname === tab.href || pathname.startsWith(`${tab.href}/`);
+                return (
+                  <Link
+                    key={tab.id}
+                    href={tab.href}
+                    className={`shrink-0 rounded-full px-3 py-1.5 text-[11px] font-medium whitespace-nowrap ${
+                      isActive
+                        ? "border border-black bg-white text-black"
+                        : "border border-gray-300 bg-white text-black"
+                    }`}
+                  >
+                    {tab.label}
+                  </Link>
+                );
+              })}
+              <span className="w-2 shrink-0" aria-hidden="true" />
+            </nav>
+          </div>
+        </div>
+
+        {/* ——— Desktop : barre complète ——— */}
+        <div className={`hidden md:block ${HEADER_EDGE_PADDING}`}>
           <div className="relative flex items-end justify-between pb-3 pt-4">
             <div className="flex min-w-0 flex-1 items-end gap-4 pr-6 lg:pr-10">
               <button
@@ -117,14 +206,7 @@ export function StandardHeader({ onMenuClick, sticky = true }: StandardHeaderPro
                   />
                 </>
               ) : null}
-              <HeaderCartLink
-                variant="standard"
-                icon={
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
-                    <path d="M6 6h15l-1.5 9h-12L6 6zM6 6L5 3H2M9 21a1 1 0 100-2 1 1 0 000 2zM18 21a1 1 0 100-2 1 1 0 000 2z" />
-                  </svg>
-                }
-              />
+              <HeaderCartLink variant="standard" icon={CART_ICON} />
               {!isAuthenticated ? (
                 <Link
                   href="/gr/authentication"
@@ -136,7 +218,6 @@ export function StandardHeader({ onMenuClick, sticky = true }: StandardHeaderPro
             </div>
           </div>
 
-          {/* Ligne 2 — navigation en une seule rangée */}
           <nav className="flex flex-nowrap items-center justify-center gap-1 overflow-x-auto pb-3 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {CATEGORY_TABS.map((tab) => {
               if (!tab.href) return null;

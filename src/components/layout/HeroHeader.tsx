@@ -9,14 +9,17 @@ import { VeepeeLogo } from "./VeepeeLogo";
 import { HeaderCartLink, HeaderIconLink } from "./HeaderCartLink";
 import { SearchOverlay } from "./SearchOverlay";
 import { useHeaderSearch } from "./useHeaderSearch";
-import { HEADER_EDGE_PADDING, HEADER_SEARCH_MAX_WIDTH } from "./headerLayout";
+import {
+  HEADER_EDGE_PADDING,
+  HEADER_SEARCH_MAX_WIDTH,
+} from "./headerLayout";
 
 type HeroHeaderProps = {
   onMenuClick?: () => void;
 };
 
 const HEADER_BOXED_CLASS =
-  "rounded border border-white/80 px-2.5 py-1.5 text-[10px] font-medium leading-none opacity-95 hover:opacity-100";
+  "hidden rounded border border-white/80 px-2.5 py-1.5 text-[10px] font-medium leading-none opacity-95 hover:opacity-100 md:inline-flex";
 
 export function HeroHeader({ onMenuClick }: HeroHeaderProps) {
   const pathname = usePathname();
@@ -36,37 +39,38 @@ export function HeroHeader({ onMenuClick }: HeroHeaderProps) {
         query={query}
         onQueryChange={setQuery}
         onSubmit={submitSearch}
-        topOffset="9.5rem"
+        topOffset="8.75rem"
       />
       <header className="absolute inset-x-0 top-0 z-40 w-full text-white">
         <div className={`w-full ${HEADER_EDGE_PADDING}`}>
-          {/* Ligne 1 : Menu · Logo · actions (sans recherche) */}
-          <div className="relative flex items-end justify-between pt-4 pb-3">
+          <div className="relative flex items-center justify-between pt-3 pb-2 md:items-end md:pt-4 md:pb-3">
             <button
               type="button"
               onClick={onMenuClick}
-              className="flex flex-col items-center gap-1 text-[10px] font-medium leading-none opacity-95 hover:opacity-100"
+              className="flex shrink-0 items-center justify-center p-0.5 opacity-95 hover:opacity-100 md:flex-col md:gap-1 md:p-0"
               aria-label="Menu"
             >
-              <svg width="18" height="12" viewBox="0 0 18 12" fill="none" aria-hidden="true">
+              <svg width="20" height="14" viewBox="0 0 18 12" fill="none" aria-hidden="true">
                 <path d="M0 1h18M0 6h18M0 11h18" stroke="currentColor" strokeWidth="1.5" />
               </svg>
-              Menu
+              <span className="hidden text-[10px] font-medium leading-none sm:inline">Menu</span>
             </button>
 
-            <div className="pointer-events-none absolute left-1/2 top-4 -translate-x-1/2">
+            <div className="pointer-events-none absolute left-1/2 top-2.5 -translate-x-1/2 md:top-4">
               <div className="pointer-events-auto">
-                <VeepeeLogo variant="white" />
+                <VeepeeLogo variant="white" className="max-md:[&_img]:h-[26px]" />
               </div>
             </div>
 
-            <div className="flex items-end gap-4 md:gap-5">
+            <div className="flex items-center gap-2 md:items-end md:gap-5">
               {isAuthenticated ? (
                 <>
                   <HeaderIconLink
                     href="/gr/notifications"
                     label="Notifications"
                     variant="hero"
+                    hideLabelOnMobile
+                    className="hidden md:flex"
                     icon={
                       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                         <path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 01-3.46 0" />
@@ -77,6 +81,8 @@ export function HeroHeader({ onMenuClick }: HeroHeaderProps) {
                     href="/gr/parrainage"
                     label="Parrainage"
                     variant="hero"
+                    hideLabelOnMobile
+                    className="hidden md:flex"
                     icon={
                       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                         <path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM19 8v6M22 11h-6" />
@@ -89,7 +95,7 @@ export function HeroHeader({ onMenuClick }: HeroHeaderProps) {
                 variant="hero"
                 icon={
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
-                    <path d="M6 6h15l-1.5 9h-12L6 6zM6 6L5 3H2M9 21a1 1 0 100-2 1 1 0 000 2zM18 21a1 1 0 100-2 1 1 0 000 2z" />
+                    <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0" />
                   </svg>
                 }
               />
@@ -101,13 +107,12 @@ export function HeroHeader({ onMenuClick }: HeroHeaderProps) {
             </div>
           </div>
 
-          {/* Ligne 2 : recherche centrée, pleine largeur */}
           <div
-            className={`mx-auto flex w-full ${HEADER_SEARCH_MAX_WIDTH} items-center rounded-full bg-white px-5 py-3 shadow-sm`}
+            className={`mx-auto flex w-full ${HEADER_SEARCH_MAX_WIDTH} items-center rounded-full bg-white px-4 py-2.5 shadow-sm md:px-5 md:py-3`}
             onClick={openSearch}
           >
             <svg
-              className="mr-3 h-4 w-4 shrink-0 text-gray-500"
+              className="mr-2.5 h-4 w-4 shrink-0 text-gray-500 md:mr-3"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -131,12 +136,13 @@ export function HeroHeader({ onMenuClick }: HeroHeaderProps) {
                 }
               }}
               placeholder="Recherchez une marque, un produit..."
-              className="w-full cursor-text bg-transparent text-sm text-gray-800 placeholder:text-gray-500 focus:outline-none"
+              className="w-full min-w-0 cursor-text bg-transparent text-[13px] text-gray-800 placeholder:text-gray-500 focus:outline-none md:text-sm"
             />
           </div>
+        </div>
 
-          {/* Ligne 3 : navigation pills */}
-          <nav className="mt-3 flex flex-nowrap items-center justify-center gap-1 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <div className="-mx-0 overflow-x-auto px-4 pb-2 [-ms-overflow-style:none] [scrollbar-width:none] sm:px-6 md:px-10 lg:px-14 xl:px-[4.5rem] [&::-webkit-scrollbar]:hidden">
+          <nav className="mt-2.5 flex w-max min-w-full flex-nowrap items-center gap-1.5 md:mt-3 md:w-full md:justify-center md:gap-1">
             {tabs.map((tab) => {
               if (!tab.href) return null;
               const isActive =
@@ -145,16 +151,17 @@ export function HeroHeader({ onMenuClick }: HeroHeaderProps) {
                 <Link
                   key={tab.id}
                   href={tab.href}
-                  className={`shrink-0 rounded-full px-2.5 py-1 text-[10px] font-medium whitespace-nowrap ${
+                  className={`shrink-0 rounded-full px-3 py-1.5 text-[11px] font-medium whitespace-nowrap md:px-2.5 md:py-1 md:text-[10px] ${
                     isActive
-                      ? "bg-white text-black shadow-sm"
-                      : "border border-white/40 bg-white/15 text-white hover:bg-white/25"
+                      ? "bg-white text-black shadow-sm md:bg-white md:text-black"
+                      : "bg-white/95 text-black md:border md:border-white/40 md:bg-white/15 md:text-white md:hover:bg-white/25"
                   }`}
                 >
                   {tab.label}
                 </Link>
               );
             })}
+            <span className="w-2 shrink-0 md:hidden" aria-hidden="true" />
           </nav>
         </div>
       </header>

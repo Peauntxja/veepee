@@ -3,6 +3,10 @@
 import Link from "next/link";
 import { SafeImg } from "@/components/common/SafeImg";
 import type { SaleEvent } from "@/lib/mock/types";
+import {
+  HOME_SALE_CARD_ASPECT,
+  HOME_SALE_CARD_IMAGE,
+} from "./homeLayout";
 
 type HomeSaleCardProps = {
   sale: SaleEvent;
@@ -12,15 +16,17 @@ type HomeSaleCardProps = {
 
 export function HomeSaleCard({ sale, blurred = false, onLockedClick }: HomeSaleCardProps) {
   const href = sale.href ?? "/gr/h/maison";
-  const isAdvertisement = sale.topRightTag?.toLowerCase().includes("publicité");
+  const isAdvertisement =
+    sale.topRightTag?.toLowerCase().includes("publicité") ||
+    sale.brand.toLowerCase().includes("fortuneo");
 
   const card = (
-    <article className="group relative overflow-hidden rounded-md bg-black/10 shadow-[0_4px_20px_rgba(0,0,0,0.18)]">
-      <div className="relative aspect-[760/257] w-full max-md:aspect-[2.05/1]">
+    <article className="group relative overflow-hidden bg-black/10 max-md:rounded-none max-md:shadow-none sm:rounded-md sm:shadow-[0_4px_20px_rgba(0,0,0,0.18)]">
+      <div className={HOME_SALE_CARD_ASPECT}>
         <SafeImg
           src={sale.bannerUrl}
           alt={sale.brand}
-          className={`absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.015] ${
+          className={`${HOME_SALE_CARD_IMAGE} transition-transform duration-500 group-hover:scale-[1.015] ${
             blurred ? "scale-[1.02] blur-[6px] brightness-[0.92] saturate-[0.85]" : ""
           }`}
         />
